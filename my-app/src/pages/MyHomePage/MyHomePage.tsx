@@ -12,7 +12,7 @@ export default function MyHomePage() {
                 </CardBody>
             </Card>
 
-            <Card align='center' bg='#81E6D9'>
+            <Card align='center' bg='#81E6D9' id='about'>
                 <CardHeader>
                     <Heading size='lg'>About Me</Heading>
                 </CardHeader>
@@ -50,18 +50,18 @@ export default function MyHomePage() {
                 <CardBody textAlign='center'>
                     <Stack divider={<StackDivider />} spacing='4'>
                         <Box>
-                            <Heading size='sm' textTransform='uppercase'>Projects</Heading>
+                            <Heading id='projects' size='sm' textTransform='uppercase'>Projects</Heading>
                             <Text pt='2' fontSize='sm'>MySousChef</Text>
                             <Text pt='2' fontSize='sm'>FitHub</Text>
                             <Text pt='2' fontSize='sm'>GA Marketplace</Text>
                             <Text pt='2' fontSize='sm'>Eras Memory Game</Text>
                         </Box>
                         <Box>
-                            <Heading size='sm' textTransform='uppercase'>Resume</Heading>
+                            <Heading id='resume' size='sm' textTransform='uppercase'>Resume</Heading>
                             <Text pt='2' fontSize='sm'>Check out my resume.</Text>
                         </Box>
                         <Box>
-                            <Heading size='sm' textTransform='uppercase'>Contact</Heading>
+                            <Heading id='contact' size='sm' textTransform='uppercase'>Contact</Heading>
                             <Text pt='2' fontSize='sm'><Link color='teal' href='https://www.linkedin.com/in/odalysruano/'>Connect on LinkedIn</Link> | Email: odalys.r.ruano@gmail.com</Text>
                         </Box>
                     </Stack>
