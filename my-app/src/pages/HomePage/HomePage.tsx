@@ -1,6 +1,12 @@
-import { Box, Card, CardHeader, CardBody, Heading, Stack, Text, StackDivider, Link } from '@chakra-ui/react'
+import { Box, Card, CardHeader, CardBody, Heading, Stack, Text, StackDivider, Link } from '@chakra-ui/react';
+import Projects, { Project } from '../../components/Projects/Projects';
 
-export default function MyHomePage() {
+export default function HomePage() {
+    const projects: Project[] = [
+        {name: "MySousChef"} as Project,
+        {name: "FitHub"} as Project
+    ]
+
     return (
         <>
             <Card align='center' bg='#FC8181'>
@@ -50,11 +56,7 @@ export default function MyHomePage() {
                 <CardBody textAlign='center'>
                     <Stack divider={<StackDivider />} spacing='4'>
                         <Box>
-                            <Heading id='projects' size='sm' textTransform='uppercase'>Projects</Heading>
-                            <Text pt='2' fontSize='sm'>MySousChef</Text>
-                            <Text pt='2' fontSize='sm'>FitHub</Text>
-                            <Text pt='2' fontSize='sm'>GA Marketplace</Text>
-                            <Text pt='2' fontSize='sm'>Eras Memory Game</Text>
+                            <Projects projects={projects} />
                         </Box>
                         <Box>
                             <Heading id='resume' size='sm' textTransform='uppercase'>Resume</Heading>
