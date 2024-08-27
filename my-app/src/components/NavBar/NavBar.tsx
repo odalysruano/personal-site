@@ -66,8 +66,6 @@ export default function NavBar() {
                                 <Box fontSize="2xl" fontWeight='bold'>Odalys Ruano</Box>
                             </HStack>
                         </Box>
-                            
-                            
                     </Flex>
                     <HStack spacing={8} alignItems={'center'}>
                         <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
