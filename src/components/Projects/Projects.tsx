@@ -2,6 +2,9 @@ import { Box, Heading, Text } from '@chakra-ui/react';
 
 export interface Project {
     name: string;
+    summary: string;
+    githubLink: string;
+    appLink?: string;
 }
 
 interface ProjectsProps {
@@ -15,6 +18,9 @@ export default function Projects({projects}: ProjectsProps) {
             {projects.map((project, index) => (
                 <Text key={index} pt='2' fontSize='sm'>
                     {project.name}
+                    {project.summary}
+                    {project.githubLink}
+                    {project.appLink}
                 </Text>
             ))}
         </Box>
