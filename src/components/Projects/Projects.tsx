@@ -21,13 +21,21 @@ export default function Projects({projects}: ProjectsProps) {
                     <Text fontSize='md' fontWeight='bold' mb='4'>
                         {project.name}
                     </Text>
-                    <Flex alignItems='center' justifyContent='center' mb='2'>
-                        <Heading fontSize='sm' fontWeight='bold' mr='2'>Tech Stack:</Heading>
-                        <Text fontSize='sm'>
+                    <Flex 
+                        alignItems='center'
+                        flexWrap='nowrap'
+                        justifyContent='center'
+                        mb='4'
+                        maxWidth='700px'
+                        mx='auto'
+                    >
+                        
+                        <Text fontSize='sm' whiteSpace='normal'>
+                            <b>Tech Stack: </b>
                             {project.techStack}
                         </Text>
                     </Flex>
-                    <Text fontSize='sm'>
+                    <Text fontSize='sm' maxWidth='800px' mb='4' mx='auto'>
                         {project.summary}
                     </Text>
                     <Stack direction='row' justifyContent='center' spacing={2} pt='2'>
