@@ -4,7 +4,7 @@ export interface Project {
     name: string;
     techStack: string;
     summary: string;
-    githubLink: string;
+    gitHubLink: string;
     appLink?: string;
 }
 
@@ -31,7 +31,7 @@ export default function Projects({projects}: ProjectsProps) {
                         {project.summary}
                     </Text>
                     <Stack direction='row' justifyContent='center' spacing={2} pt='2'>
-                        <Link href={project.githubLink} color='teal.500' isExternal>
+                        <Link href={project.gitHubLink} color='teal.500' isExternal>
                             GitHub
                         </Link>
                         <Text>|</Text>
