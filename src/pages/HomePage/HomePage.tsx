@@ -1,14 +1,8 @@
 import { Box, Center, Grid, GridItem, Heading, Image, Link, Stack, StackDivider, Text } from '@chakra-ui/react';
-import Projects, { Project } from '../../components/Projects/Projects';
+import Projects from '../../components/Projects/Projects';
+import { projects } from '../../constants/projects';
 
 export default function HomePage() {
-    const projects: Project[] = [
-        {name: "MySousChef"} as Project,
-        {name: "FitHub"} as Project,
-        {name: "GA Marketplace"} as Project,
-        {name: "Eras Memory Game"} as Project,
-    ]
-
     return (
         <>
             <Grid

@@ -29,7 +29,7 @@ const NavLink = (props: Props) => {
             href={href}>
             {children}
         </Box>
-    )
+    );
 }
 
 export default function NavBar() {
@@ -95,5 +95,5 @@ export default function NavBar() {
                 </Collapse>
             </Box>
         </>
-    )
+    );
 }
