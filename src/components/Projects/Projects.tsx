@@ -34,11 +34,13 @@ export default function Projects({projects}: ProjectsProps) {
                         <Link href={project.gitHubLink} color='teal.500' isExternal>
                             GitHub
                         </Link>
-                        <Text>|</Text>
                         {project.appLink && (
-                            <Link href={project.appLink} color='teal.500' isExternal>
-                                Live App
-                            </Link>
+                            <>
+                                <Text>|</Text>
+                                <Link href={project.appLink} color='teal.500' isExternal>
+                                    Live App
+                                </Link>
+                            </>
                         )}
                     </Stack>
                     {index < projects.length - 1 && (

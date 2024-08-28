@@ -13,7 +13,7 @@ export const projects: Project[] = [
         techStack: "Python, JavaScript, HTML, CSS, Materialize, PostgreSQL, Django",
         summary: "A fitness tracking app that helps users log their workouts and track their progress.",
         gitHubLink: "https://github.com/odalysruano/fithub-app",
-        appLink: "https://fithub.app",
+        // appLink: "https://fithub.app",
     },
     {
         name: "GA Marketplace",
