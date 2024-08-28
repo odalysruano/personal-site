@@ -1,4 +1,4 @@
-import { Box, Collapse, Flex, HStack, IconButton, Image, Stack, useDisclosure } from '@chakra-ui/react';
+import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Stack, useDisclosure } from '@chakra-ui/react';
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 
 interface Props {
@@ -17,7 +17,7 @@ const NavLink = (props: Props) => {
     const { children, href } = props
 
     return (
-        <Box
+        <Button
             as="a"
             px={2}
             py={1}
@@ -28,7 +28,7 @@ const NavLink = (props: Props) => {
             }}
             href={href}>
             {children}
-        </Box>
+        </Button>
     );
 }
 
@@ -47,10 +47,9 @@ export default function NavBar() {
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Flex alignItems={'center'} gap='5'>
                         <Box 
-                            as="a" 
+                            as='a'
                             _hover={{
                                 textDecoration: 'none',
-                                bg: '#E9D8FD',
                             }}
                             href={'/'}
                         >
@@ -64,7 +63,7 @@ export default function NavBar() {
                                     }
                                     alt='Odalys Ruano'
                                 />
-                                <Box fontSize={{ base: "xl", md: "2xl" }} fontWeight='bold'>Odalys Ruano</Box>
+                                <Box fontSize={{ base: 'xl', md: '2xl' }} fontWeight='bold'>Odalys Ruano</Box>
                             </HStack>
                         </Box>
                     </Flex>
@@ -75,9 +74,9 @@ export default function NavBar() {
                         ))}
                         </HStack>
                         <IconButton
-                            size="md"
+                            size='md'
                             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-                            aria-label="Open Menu"
+                            aria-label='Open Menu'
                             display={{ md: 'none' }}
                             onClick={onToggle}
                         />
