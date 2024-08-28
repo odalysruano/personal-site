@@ -1,4 +1,5 @@
-import { Box, Flex, HStack, Image, Stack, useDisclosure } from '@chakra-ui/react';
+import { Box, Collapse, Flex, HStack, IconButton, Image, Stack, useDisclosure } from '@chakra-ui/react';
+import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 
 interface Props {
     children: React.ReactNode
@@ -32,7 +33,7 @@ const NavLink = (props: Props) => {
 }
 
 export default function NavBar() {
-    const { isOpen } = useDisclosure()
+    const { isOpen, onToggle } = useDisclosure()
     return(
         <>
             <Box 
@@ -53,17 +54,17 @@ export default function NavBar() {
                             }}
                             href={'/'}
                         >
-                            <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
+                            <HStack as={'nav'} spacing={4}>
                                 <Image
                                     borderRadius='full'
-                                    boxSize='50px'
+                                    boxSize={{ base: '40px', md: '50px' }}
                                     objectFit='fill'
                                     src={
                                         'https://media.licdn.com/dms/image/v2/D4E03AQHPYE8JwyRy9A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709687145629?e=1730332800&v=beta&t=BS0RDcuXBt-n-mTlGkEBJrolgmq7QW9E1FdBlQfV_5A'
                                     }
                                     alt='Odalys Ruano'
                                 />
-                                <Box fontSize="2xl" fontWeight='bold'>Odalys Ruano</Box>
+                                <Box fontSize={{ base: "xl", md: "2xl" }} fontWeight='bold'>Odalys Ruano</Box>
                             </HStack>
                         </Box>
                     </Flex>
@@ -73,18 +74,25 @@ export default function NavBar() {
                             <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
                         ))}
                         </HStack>
+                        <IconButton
+                            size="md"
+                            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+                            aria-label="Open Menu"
+                            display={{ md: 'none' }}
+                            onClick={onToggle}
+                        />
                     </HStack>
                 </Flex>
 
-                {isOpen ? (
-                <Box pb={4} display={{ md: 'none' }}>
-                    <Stack as={'nav'} spacing={4}>
-                    {Links.map((link) => (
-                        <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
-                    ))}
-                    </Stack>
-                </Box>
-                ) : null}
+                <Collapse in={isOpen} animateOpacity>
+                    <Box pb={4} display={{ md: 'none' }}>
+                        <Stack as={'nav'} spacing={4}>
+                            {Links.map((link) => (
+                                <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
+                            ))}
+                        </Stack>
+                    </Box>
+                </Collapse>
             </Box>
         </>
     )
