@@ -2,6 +2,7 @@ import { Box, Center, Grid, GridItem, Heading, Image, Link, Stack, StackDivider,
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Projects from '../../components/Projects/Projects';
 import { projects } from '../../constants/projects';
+import ResumeButton from '../../components/ResumeButton/ResumeButton';
 
 export default function HomePage() {
     return (
@@ -49,8 +50,7 @@ export default function HomePage() {
                                 <Projects projects={projects} />
                             </Box>
                             <Box>
-                                <Heading id='resume' size='sm' textTransform='uppercase'>Resume</Heading>
-                                <Text pt='2' fontSize='sm'>Check out my resume.</Text>
+                                <ResumeButton />
                             </Box>
                             <Box>
                                 <Heading id='contact' size='sm' textTransform='uppercase'>Contact</Heading>
