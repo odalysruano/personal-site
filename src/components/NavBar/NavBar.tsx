@@ -4,21 +4,22 @@ import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 interface Props {
     children: React.ReactNode
     href: string
+    name: string
 }
 
 const Links = [
     {name: 'About Me', href: '#about'}, 
     {name: 'Projects', href: '#projects'}, 
-    {name: 'Resume', href: '#resume'}, 
+    {name: 'Resume', href: 'https://drive.google.com/file/d/1vfNNGV2GkSeRbGGppsKleWy00GFoZV3U/view'}, 
     {name: 'Contact', href: '#contact'}
 ]
 
 const NavLink = (props: Props) => {
-    const { children, href } = props
+    const { children, href, name } = props
 
     return (
         <Button
-            as="a"
+            as='a'
             px={2}
             py={1}
             rounded={'md'}
@@ -26,6 +27,7 @@ const NavLink = (props: Props) => {
                 textDecoration: 'none',
                 bg: '#E9D8FD',
             }}
+            target={name === 'Resume' ? '_blank': ''}
             href={href}>
             {children}
         </Button>
@@ -70,7 +72,7 @@ export default function NavBar() {
                     <HStack spacing={8} alignItems={'center'}>
                         <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
                         {Links.map((link) => (
-                            <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
+                            <NavLink key={link.name} href={link.href} name={link.name}>{link.name}</NavLink>
                         ))}
                         </HStack>
                         <IconButton
@@ -87,7 +89,7 @@ export default function NavBar() {
                     <Box pb={4} display={{ md: 'none' }}>
                         <Stack as={'nav'} spacing={4}>
                             {Links.map((link) => (
-                                <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
+                                <NavLink key={link.name} href={link.href} name={link.name}>{link.name}</NavLink>
                             ))}
                         </Stack>
                     </Box>
