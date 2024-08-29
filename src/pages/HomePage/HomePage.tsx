@@ -1,4 +1,5 @@
-import { Box, Center, Grid, GridItem, Heading, Image, Link, Stack, StackDivider, Text } from '@chakra-ui/react';
+import { Box, Center, Grid, GridItem, Heading, HStack, Icon, Image, Link, Stack, StackDivider, Text } from '@chakra-ui/react';
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Projects from '../../components/Projects/Projects';
 import { projects } from '../../constants/projects';
@@ -25,6 +26,16 @@ export default function HomePage() {
                     >
                         <Heading>Hi, I'm Odalys!</Heading>
                         <Text>I'm a full-stack software engineer.</Text>
+                    <Box mt={4}>
+                        <HStack spacing={4}>
+                            <Link href='https://www.linkedin.com/in/odalysruano/' isExternal>
+                                <Icon as={IoLogoLinkedin} boxSize={10} />
+                            </Link>
+                            <Link href='https://github.com/odalysruano' isExternal>
+                                <Icon as={IoLogoGithub} boxSize={10} />
+                            </Link>
+                        </HStack>
+                    </Box>
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={{ base: 1, md: 2 }} colSpan={{ base: 4, md: 2 }} bg='tomato'>
