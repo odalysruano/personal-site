@@ -13,7 +13,7 @@ export const projects: Project[] = [
         techStack: "Python, JavaScript, HTML, CSS, Materialize, PostgreSQL, Django, AWS CodeBuild, AWS CodePipeline, AWS EC2, AWS Elastic Beanstalk",
         summary: "A fitness tracking app that helps users log their workouts and track their progress.",
         gitHubLink: "https://github.com/odalysruano/fithub-app",
-        // appLink: "https://fithub.app",
+        appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
     },
     {
         name: "GA Marketplace",
