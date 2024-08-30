@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Heading, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Link, Stack, Text } from '@chakra-ui/react';
 
 export interface Project {
     name: string;
@@ -17,7 +17,16 @@ export default function Projects({projects}: ProjectsProps) {
         <Box>
             <Heading id='projects' mb='4' mt='4'size='lg'>Projects</Heading>
             {projects.map((project, index) => (
-                <Box key={index} pt='4'>
+                <Box 
+                    key={index} 
+                    bg='white'
+                    p={6}
+                    boxShadow='md'
+                    borderRadius='md'
+                    mb={6}
+                    mx='auto'
+                    maxWidth='800px'
+                >
                     <Text fontSize='md' fontWeight='bold' mb='4'>
                         {project.name}
                     </Text>
@@ -51,9 +60,6 @@ export default function Projects({projects}: ProjectsProps) {
                             </>
                         )}
                     </Stack>
-                    {index < projects.length - 1 && (
-                        <Divider borderColor='gray.300' width='50%' mx='auto' my='2' mt='4' />
-                    )}
                 </Box>
             ))}
         </Box>
