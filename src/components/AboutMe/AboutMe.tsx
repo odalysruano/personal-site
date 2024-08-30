@@ -1,4 +1,4 @@
-import { Box, Heading, Text } from "@chakra-ui/react"
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 export default function AboutMe() {
     return(
@@ -8,7 +8,7 @@ export default function AboutMe() {
             px={{ base: '50px', md: '200px' }} 
             py='50'
         >
-            <Heading pb='2' size='lg'>About Me</Heading>
+            <Heading mb={4} size='lg'>About Me ✨</Heading>
             <Box 
                 bg='white'
                 px='10'

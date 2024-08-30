@@ -15,7 +15,7 @@ interface ProjectsProps {
 export default function Projects({projects}: ProjectsProps) {
     return(
         <Box>
-            <Heading id='projects' mb='4' mt='4'size='lg'>Projects</Heading>
+            <Heading id='projects' mb='4' mt='4'size='lg'>Projects 💡</Heading>
             {projects.map((project, index) => (
                 <Box 
                     key={index} 

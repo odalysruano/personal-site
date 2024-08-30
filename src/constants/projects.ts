@@ -15,7 +15,7 @@ export const projects: Project[] = [
             possible.
             
             I also learned to utilize AWS services, including AWS CodeBuild, AWS CodePipeline, AWS EC2, and AWS Elastic Beanstalk, 
-            to deploy the app, ensuring reliable and scalable operation in the cloud.`,
+            to automate deployment of the app, ensuring reliable and scalable operation in the cloud.`,
         gitHubLink: "https://github.com/odalysruano/mysouschef",
         appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
     },
@@ -27,7 +27,8 @@ export const projects: Project[] = [
             Developing this full-stack Django app allowed me to perform CRUD operations on a PostgreSQL database and make 
             REST API calls seamlessly. I thoroughly enjoyed designing the frontend, leveraging Materialize CSS's pre-built 
             components and responsive grid system to craft visually appealing and mobile-friendly user interfaces. 
-            The app was deployed on AWS EC2, ensuring smooth operation and accessibility.`,
+            The app was deployed using AWS Elastic Beanstalk and the same CI/CD framework I utilized for MySousChef, ensuring smooth 
+            deployment.`,
         gitHubLink: "https://github.com/odalysruano/fithub-app",
         appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
     },

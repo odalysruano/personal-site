@@ -5,11 +5,12 @@ import Contact from '../../components/Contact/Contact';
 import Projects from '../../components/Projects/Projects';
 import { projects } from '../../constants/projects';
 import ResumeButton from '../../components/ResumeButton/ResumeButton';
+import TechStack from '../../components/TechStack/TechStack';
 
 export default function HomePage() {
     return (
         <Grid
-            templateRows={{ base: 'repeat(3, auto)', md: 'repeat(4, auto)' }}
+            templateRows={{ base: 'repeat(4, auto)', md: 'repeat(5, auto)' }}
             templateColumns='repeat(4, 1fr)'
             gap={4}
             p={4}
@@ -53,6 +54,9 @@ export default function HomePage() {
             </GridItem>
             <GridItem colSpan={4} bg='#FC8F77'>
                 <AboutMe />
+            </GridItem>
+            <GridItem colSpan={4} bg='#FCE9A3'>
+                <TechStack />
             </GridItem>
             <GridItem colSpan={4} bg='#FAC589'>
                 <Box textAlign='center' p={4}>
