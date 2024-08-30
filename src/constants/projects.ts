@@ -4,28 +4,55 @@ export const projects: Project[] = [
     {
         name: "MySousChef",
         techStack: "JavaScript, HTML, CSS, Material UI, RapidAPI, MongoDB/Mongoose, Express, React, Node, AWS CodeBuild, AWS CodePipeline, AWS EC2, AWS Elastic Beanstalk",
-        summary: "MySousChef is your digital kitchen companion, designed to simplify meal planning and cooking. This intuitive app allows you to inventory your pantry items and effortlessly discover recipes you can create with ingredients you already have. Featuring a user-friendly dashboard named My Kitchen, MySousChef showcases a wide array of recipes added by a community of cooking enthusiasts, including you! Explore your Pantry to keep track of your ingredients and utilize the recipe ingredient matcher to find recipes tailored to your available supplies. Whether you're a beginner or an experienced cook, MySousChef transforms your cooking experience by ensuring you make the most out of your kitchen pantry.",
+        summary: 
+            `I designed MySousChef to be your digital kitchen companion, helping to simplify meal planning and cooking. 
+            This intuitive app allows you to inventory your pantry items and effortlessly discover recipes you can create 
+            with ingredients you already have at home.
+
+            To enhance the app's functionality, I integrated an external REST API from Rapid API, enabling users to search 
+            for ingredients to add to "My Pantry". Additionally, I thoroughly enjoyed leveraging the Material UI React.js 
+            component library to design a sleek and responsive front-end interface, making the user experience as seamless as 
+            possible.
+            
+            I also learned to utilize AWS services, including AWS CodeBuild, AWS CodePipeline, AWS EC2, and AWS Elastic Beanstalk, 
+            to deploy the app, ensuring reliable and scalable operation in the cloud.`,
         gitHubLink: "https://github.com/odalysruano/mysouschef",
         appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
     },
     {
         name: "FitHub",
         techStack: "Python, JavaScript, HTML, CSS, Materialize, PostgreSQL, Django, AWS CodeBuild, AWS CodePipeline, AWS EC2, AWS Elastic Beanstalk",
-        summary: "A fitness tracking app that helps users log their workouts and track their progress.",
+        summary: 
+            `I created FitHub, a fitness app designed to track fitness goals, exercise routines, and home equipment inventory. 
+            Developing this full-stack Django app allowed me to perform CRUD operations on a PostgreSQL database and make 
+            REST API calls seamlessly. I thoroughly enjoyed designing the frontend, leveraging Materialize CSS's pre-built 
+            components and responsive grid system to craft visually appealing and mobile-friendly user interfaces. 
+            The app was deployed on AWS EC2, ensuring smooth operation and accessibility.`,
         gitHubLink: "https://github.com/odalysruano/fithub-app",
         appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
     },
     {
         name: "GA Marketplace",
         techStack: "JavaScript, HTML, CSS, EJS, MongoDB/Mongoose, Express.js, Passport.js, Heroku",
-        summary: "An e-commerce platform where users can buy and sell products from various categories.",
+        summary: 
+            `In collaboration with a team of four developers I developed GA Marketplace, an online platform where users can 
+            sell clothing from their personal 'shop' or buy from others. I took on a backend engineer role; designing the 
+            model schemas and overall page structure, utilizing three data entities, and implementing OAuth authentication. 
+            I also took on the role of GitHub manager, ensuring the project stayed on track and performing code reviews to 
+            maintain quality. Overall, I authored backend APIs, contributing 16 commits and adding 1,687 lines of code, making 
+            the most significant contributions to the project.`,
         gitHubLink: "https://github.com/odalysruano/ga-marketplace",
         appLink: "https://arcane-meadow-90413-3bd59a11fb6a.herokuapp.com/",
     },
     {
         name: "Eras Memory Game",
         techStack: "JavaScript, HTML, CSS",
-        summary: "A fun and interactive memory game that challenges users to match pairs of cards.",
+        summary: 
+            `I created the Eras Memory Game, a Taylor Swift concert tour-inspired version of the classic 'Memory' matching game. 
+            Players are challenged to uncover all matching pairs of cards within 60 seconds. Each card features album cover art 
+            from Taylor Swift's 10 albums, with re-recorded albums showcasing the 'Taylor's Version' covers. I engineered the 
+            game logic to include matching mechanics, time constraints, and state transitions, adding an exciting layer of challenge 
+            for the player. The game's design celebrates the 'Eras Tour,' blending creativity with engaging gameplay.`,
         gitHubLink: "https://github.com/odalysruano/eras-memory-game",
         appLink: "https://odalysruano.github.io/eras-memory-game/",
     },
