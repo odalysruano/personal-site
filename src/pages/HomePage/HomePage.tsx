@@ -42,9 +42,9 @@ export default function HomePage() {
             <GridItem rowSpan={{ base: 1, md: 2 }} colSpan={{ base: 4, md: 2 }} bg='tomato'>
                 <Center>
                     <Image
-                        boxSize={{ base: '200px', md: '400px' }}
+                        boxSize={{ base: '250px', md: '400px' }}
                         objectFit='cover'
-                        p='50px'
+                        p={{ base: '30px', md: '50px' }}
                         src={
                             'https://media.licdn.com/dms/image/v2/D4E03AQHPYE8JwyRy9A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709687145629?e=1730332800&v=beta&t=BS0RDcuXBt-n-mTlGkEBJrolgmq7QW9E1FdBlQfV_5A'
                         }
