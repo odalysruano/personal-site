@@ -4,10 +4,11 @@ import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import './App.css';
 import HomePage from '../HomePage/HomePage';
+import theme from '../../theme';
 
 function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<HomePage />} />

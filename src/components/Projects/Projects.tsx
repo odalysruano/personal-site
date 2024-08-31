@@ -15,7 +15,7 @@ interface ProjectsProps {
 export default function Projects({projects}: ProjectsProps) {
     return(
         <Box id='projects' scrollMarginTop='85px'>
-            <Heading mb='4' mt='4'size='lg'>Projects 💡</Heading>
+            <Heading mb='4' mt='4'size='xl'>Projects 💡</Heading>
             {projects.map((project, index) => (
                 <Box 
                     key={index} 
@@ -27,7 +27,7 @@ export default function Projects({projects}: ProjectsProps) {
                     mx='auto'
                     maxWidth='800px'
                 >
-                    <Text fontSize='md' fontWeight='bold' mb='4'>
+                    <Text fontSize='lg' fontWeight='bold' mb='4'>
                         {project.name}
                     </Text>
                     <Flex 
@@ -39,12 +39,12 @@ export default function Projects({projects}: ProjectsProps) {
                         mx='auto'
                     >
                         
-                        <Text fontSize='sm' whiteSpace='normal'>
+                        <Text fontSize='md' whiteSpace='normal'>
                             <b>Tech Stack: </b>
                             {project.techStack}
                         </Text>
                     </Flex>
-                    <Text fontSize='sm' maxWidth='800px' mb='4' mx='auto'>
+                    <Text fontSize='md' maxWidth='800px' mb='4' mx='auto'>
                         {project.summary}
                     </Text>
                     <Stack direction='row' justifyContent='center' spacing={2} pt='2'>

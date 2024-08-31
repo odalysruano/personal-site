@@ -5,7 +5,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 export default function Contact() {
     return(
         <Box textAlign='center'>
-            <Heading id='contact' size='sm' textTransform='uppercase'>Contact</Heading>
+            <Heading id='contact' size='lg' textTransform='uppercase'>Contact</Heading>
             <Text maxWidth='800px' mx='auto' pt='2'>
                 Interested in connecting? Whether you'd like to learn more about my journey, discuss potential job opportunities, or simply network, I'd love to hear from you. Feel free to reach out!
             </Text>

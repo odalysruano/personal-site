@@ -9,7 +9,7 @@ export default function TechStack() {
             px={{ base: '50px', md: '200px' }} 
             py='5'
         >
-            <Heading mb='4' mt='4'size='lg'>What I Build With 🛠️</Heading>
+            <Heading mb='4' mt='4'size='xl'>What I Build With 🛠️</Heading>
             <Box 
                 bg='white'
                 p={8}

@@ -9,7 +9,7 @@ export default function AboutMe() {
             py='50'
             scrollMarginTop='80px'
         >
-            <Heading mb={4} size='lg'>About Me ✨</Heading>
+            <Heading mb={4} size='xl'>About Me ✨</Heading>
             <Box 
                 bg='white'
                 px='10'
