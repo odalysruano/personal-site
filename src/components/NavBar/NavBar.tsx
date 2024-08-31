@@ -2,9 +2,10 @@ import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Stack, useDiscl
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 
 interface Props {
-    children: React.ReactNode
-    href: string
-    name: string
+    children: React.ReactNode;
+    href: string;
+    name: string;
+    onClick?: () => void;
 }
 
 const Links = [
@@ -15,7 +16,23 @@ const Links = [
 ]
 
 const NavLink = (props: Props) => {
-    const { children, href, name } = props
+    const { children, href, name, onClick } = props;
+
+    const handleClick = (event: React.MouseEvent) => {
+        if (onClick) {
+            onClick();
+        }
+
+        if (href.startsWith('#')) {
+            event.preventDefault();
+            setTimeout(() => {
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }, 200);
+        }
+    };
 
     return (
         <Button
@@ -28,15 +45,24 @@ const NavLink = (props: Props) => {
                 textDecoration: 'none',
                 bg: '#E9D8FD',
             }}
-            target={name === 'Resume' ? '_blank': ''}
-            href={href}>
+            target={name === 'Resume' ? '_blank' : ''}
+            href={href}
+            onClick={handleClick} 
+        >
             {children}
         </Button>
     );
 }
 
 export default function NavBar() {
-    const { isOpen, onToggle } = useDisclosure()
+    const { isOpen, onToggle } = useDisclosure();
+
+    const handleLinkClick = () => {
+        if (isOpen) {
+            onToggle();
+        }
+    };
+
     return(
         <Box 
             bg='#FCEDCF' 
@@ -89,7 +115,14 @@ export default function NavBar() {
                 <Box pb={4} display={{ md: 'none' }}>
                     <Stack as={'nav'} spacing={4}>
                         {Links.map((link) => (
-                            <NavLink key={link.name} href={link.href} name={link.name}>{link.name}</NavLink>
+                            <NavLink 
+                                key={link.name} 
+                                href={link.href} 
+                                name={link.name}
+                                onClick={handleLinkClick}
+                            >
+                                {link.name}
+                            </NavLink>
                         ))}
                     </Stack>
                 </Box>
