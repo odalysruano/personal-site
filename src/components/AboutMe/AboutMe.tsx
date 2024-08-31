@@ -30,6 +30,9 @@ export default function AboutMe() {
                     In 2018, I graduated <b>NYU Stern</b> with a B.S. in Business, and concentrations in Marketing and Sustainable Business.
                 </Text>
                 <Text pt='2' fontSize='md'>
+                    In 2021, I was selected to be a part of the <b>Yale School of Management</b> Emerging Leaders Seminar in Entrepreneurship and Innovation.
+                </Text>
+                <Text pt='2' fontSize='md'>
                     I spent 4+ years doing <b>Customer Success</b> work with B2B tech clients at a marketing agency and, later, with clients across industries at <b>Justworks</b> (HR Tech).
                 </Text>
                 <Text pt='2' fontSize='md'>
