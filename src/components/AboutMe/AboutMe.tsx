@@ -7,6 +7,7 @@ export default function AboutMe() {
             id='about' 
             px={{ base: '50px', md: '200px' }} 
             py='50'
+            scrollMarginTop='80px'
         >
             <Heading mb={4} size='lg'>About Me ✨</Heading>
             <Box 
