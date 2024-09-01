@@ -18,7 +18,7 @@ export default function AboutMe() {
                 borderRadius='md'
                 mx='auto'
                 maxWidth='1000px'
-                textAlign='center'
+                textAlign={{ base: 'left', md: 'center' }}
             >
                 <Text fontSize='md'>
                     Hi! My name is <b>Odalys</b> (pronounced Oh-Dallas).
