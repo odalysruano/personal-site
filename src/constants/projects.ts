@@ -33,6 +33,21 @@ export const projects: Project[] = [
         appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
     },
     {
+        name: "Personal Website",
+        techStack: "Typescript, React, ChakraUI, HTML, CSS, AWS Route 53, AWS S3, AWS CodePipeline",
+        summary: 
+            `OdalysRuano.com (the site you're on now!) is a personal portfolio website I developed to showcase my career journey 
+            and experience as a full-stack software engineer.
+            
+            I utilized the Chakra UI framework, learning its comprehensive component library to design a modern, responsive interface. 
+            The entire site is built using TypeScript and React, allowing for strong type safety and scalable front-end development. 
+
+            In addition to the current sections, I plan to expand the site by adding more personal pages, such as a reading list 
+            and a travel photography section, to reflect my broader interests. The site is hosted using AWS services, with Route 53 
+            managing domain routing, S3 providing static site hosting, and CodePipeline automating the deployment process.`,
+        gitHubLink: "https://github.com/odalysruano/personal-site",
+    },
+    {
         name: "GA Marketplace",
         techStack: "JavaScript, HTML, CSS, EJS, MongoDB/Mongoose, Express.js, Passport.js, Heroku",
         summary: 
