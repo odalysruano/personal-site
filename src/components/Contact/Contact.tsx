@@ -7,7 +7,7 @@ export default function Contact() {
         <Box textAlign='center'>
             <Heading id='contact' size='lg' textTransform='uppercase'>Contact</Heading>
             <Text maxWidth='800px' mx='auto' pt='2'>
-                Interested in connecting? Whether you'd like to learn more about my journey, discuss potential job opportunities, or simply network, I'd love to hear from you. Feel free to reach out!
+                Interested in connecting? Whether you&apos;d like to learn more about my journey, discuss potential job opportunities, or simply network, I&apos;d love to hear from you. Feel free to reach out!
             </Text>
             <Text pt='2'>Email: odalys.r.ruano@gmail.com</Text>
             <HStack justifyContent='center' pt='2' spacing={4}>

@@ -42,7 +42,7 @@ export default function AboutMe() {
                     In 2024, I challenged myself and pivoted my career. I completed a coding bootcamp with <b>General Assembly</b> in April 2024.
                 </Text>
                 <Text pt='2' fontSize='md'>
-                    Now, I'm seeking a <b>full-stack software engineering opportunity</b> at a company where I will <b>ship products</b> and offer a <b>customer-centric</b> point of view.
+                    Now, I&apos;m seeking a <b>full-stack software engineering opportunity</b> at a company where I will <b>ship products</b> and offer a <b>customer-centric</b> point of view.
                 </Text>
                 <Text pt='2' fontSize='md'>
                     I <b>aspire to</b> continually grow my skills and experience, with the goal of one day <b>leading an engineering team</b>. I believe that by honing my technical expertise and understanding the nuances of <b>collaboration and leadership</b>, I can guide and <b>inspire others</b> to achieve great things together.

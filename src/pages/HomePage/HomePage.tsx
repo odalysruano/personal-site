@@ -25,8 +25,8 @@ export default function HomePage() {
                     textAlign='center'
                     p={4}
                 >
-                    <Heading size='3xl'>Hi, I'm Odalys!</Heading>
-                    <Text fontSize='3xl' pt='4'>I'm a full-stack software engineer.</Text>
+                    <Heading size='3xl'>Hi, I&apos;m Odalys!</Heading>
+                    <Text fontSize='3xl' pt='4'>I&apos;m a full-stack software engineer.</Text>
                     <Box mt={4}>
                         <HStack spacing={4}>
                             <Link href='https://www.linkedin.com/in/odalysruano/' isExternal>
