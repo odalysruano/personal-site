@@ -71,5 +71,6 @@ export const projects: Project[] = [
             for the player. The game's design celebrates the 'Eras Tour,' blending creativity with engaging gameplay.`,
         gitHubLink: "https://github.com/odalysruano/eras-memory-game",
         appLink: "https://odalysruano.github.io/eras-memory-game/",
+        media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/ERAS+MEMORY+GAME.mp4",
     },
 ]

@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Link, Stack, Text } from '@chakra-ui/react';
+import VideoPlayer from '../VideoPlayer/VideoPlayer';
 
 export interface Project {
     name: string;
@@ -6,6 +7,7 @@ export interface Project {
     summary: string;
     gitHubLink: string;
     appLink?: string;
+    media?: string;
 }
 
 interface ProjectsProps {
@@ -59,6 +61,9 @@ export default function Projects({projects}: ProjectsProps) {
                             </>
                         )}
                     </Stack>
+                    {project.media && (
+                        <VideoPlayer src={project.media} />
+                    )}
                 </Box>
             ))}
         </Box>
