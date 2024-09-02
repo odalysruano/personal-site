@@ -5,9 +5,9 @@ export default function Footer() {
         <Box
             bg='#FCEDCF'
             px={4}
-            boxShadow="md"
+            boxShadow='md'
         >
-            <Flex h={10} alignItems={'center'} justifyContent={'flex-end'}>
+            <Flex h={10} alignItems='center' justifyContent='flex-end'>
                 <Text>© 2024 Odalys Ruano. All Rights Reserved.</Text>
             </Flex>
         </Box>

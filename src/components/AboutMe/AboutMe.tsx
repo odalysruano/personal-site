@@ -20,7 +20,7 @@ export default function AboutMe() {
                 maxWidth='1000px'
                 textAlign={{ base: 'left', md: 'center' }}
             >
-                <Text fontSize='md'>
+                <Text pt='2' fontSize='md'>
                     Hi! My name is <b>Odalys</b> (pronounced Oh-Dallas).
                 </Text>
                 <Text pt='2' fontSize='md'>

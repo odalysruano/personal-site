@@ -17,12 +17,12 @@ export default function HomePage() {
         >
             <GridItem rowSpan={{ base: 1, md: 2 }} colSpan={{ base: 4, md: 2 }} bg='#FC6A80'>
                 <Box 
-                    display="flex" 
-                    flexDirection="column" 
-                    alignItems="center" 
-                    justifyContent="center" 
-                    h="100%" 
-                    textAlign="center" 
+                    display='flex'
+                    flexDirection='column'
+                    alignItems='center'
+                    justifyContent='center'
+                    h='100%'
+                    textAlign='center'
                     p={4}
                 >
                     <Heading size='3xl'>Hi, I'm Odalys!</Heading>

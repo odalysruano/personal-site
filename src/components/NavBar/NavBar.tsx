@@ -12,7 +12,7 @@ const Links = [
     {name: 'About Me', href: '#about'}, 
     {name: 'Projects', href: '#projects'}, 
     {name: 'Resume', href: 'https://drive.google.com/file/d/1vfNNGV2GkSeRbGGppsKleWy00GFoZV3U/view'}, 
-    {name: 'Contact', href: '#contact'}
+    {name: 'Contact', href: '#contact'},
 ]
 
 const NavLink = (props: Props) => {
@@ -70,18 +70,18 @@ export default function NavBar() {
             position='sticky'
             top='0'
             zIndex='1000'
-            boxShadow="md"
+            boxShadow='md'
         >
-            <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-                <Flex alignItems={'center'} gap='5'>
+            <Flex h={16} alignItems='center' justifyContent='space-between'>
+                <Flex alignItems='center' gap='5'>
                     <Box 
                         as='a'
                         _hover={{
                             textDecoration: 'none',
                         }}
-                        href={'/'}
+                        href='/'
                     >
-                        <HStack as={'nav'} spacing={4}>
+                        <HStack as='nav' spacing={4}>
                             <Image
                                 borderRadius='full'
                                 boxSize={{ base: '40px', md: '50px' }}
@@ -95,8 +95,8 @@ export default function NavBar() {
                         </HStack>
                     </Box>
                 </Flex>
-                <HStack spacing={8} alignItems={'center'}>
-                    <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
+                <HStack spacing={8} alignItems='center'>
+                    <HStack as='nav' spacing={4} display={{ base: 'none', md: 'flex' }}>
                     {Links.map((link) => (
                         <NavLink key={link.name} href={link.href} name={link.name}>{link.name}</NavLink>
                     ))}
@@ -113,7 +113,7 @@ export default function NavBar() {
 
             <Collapse in={isOpen} animateOpacity>
                 <Box pb={4} display={{ md: 'none' }}>
-                    <Stack as={'nav'} spacing={4}>
+                    <Stack as='nav' spacing={4}>
                         {Links.map((link) => (
                             <NavLink 
                                 key={link.name} 

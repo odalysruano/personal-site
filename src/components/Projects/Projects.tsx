@@ -38,7 +38,6 @@ export default function Projects({projects}: ProjectsProps) {
                         maxWidth='700px'
                         mx='auto'
                     >
-                        
                         <Text fontSize='md' whiteSpace='normal'>
                             <b>Tech Stack: </b>
                             {project.techStack}

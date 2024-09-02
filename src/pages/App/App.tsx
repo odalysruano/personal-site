@@ -1,10 +1,10 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
-import NavBar from '../../components/NavBar/NavBar';
-import './App.css';
 import HomePage from '../HomePage/HomePage';
+import NavBar from '../../components/NavBar/NavBar';
 import theme from '../../theme';
+import './App.css';
 
 function App() {
   return (
