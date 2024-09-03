@@ -18,6 +18,7 @@ export const projects: Project[] = [
             to automate deployment of the app, ensuring reliable and scalable operation in the cloud.`,
         gitHubLink: "https://github.com/odalysruano/mysouschef",
         appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
+        media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/MySousChef.mp4",
     },
     {
         name: "FitHub",
