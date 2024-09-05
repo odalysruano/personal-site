@@ -6,7 +6,7 @@ export default function ResumeButton() {
         <Button 
             as='a'
             bg='#81E6D9'
-            href='https://drive.google.com/file/d/1vfNNGV2GkSeRbGGppsKleWy00GFoZV3U/view?usp=sharing'
+            href='https://drive.google.com/file/d/1kW24ZQ65YGhimybm711ilLqxcx4rVbsO/view?usp=sharing'
             leftIcon={<DownloadIcon />}
             target='_blank'
             variant='solid'

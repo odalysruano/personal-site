@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface VideoPlayerProps {
     src: string;
@@ -8,8 +8,25 @@ interface VideoPlayerProps {
 export default function VideoPlayer({ src }: VideoPlayerProps) {
     const videoRef = useRef<HTMLVideoElement | null>(null);
     const lastPauseTime = useRef<number | null>(null);
+    const [isMobile, setIsMobile] = useState(false);
+
+    // Check if the screen size corresponds to a mobile device
+    useEffect(() => {
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth <= 768); // You can adjust this threshold as needed
+        };
+
+        checkIsMobile();
+        window.addEventListener('resize', checkIsMobile);
+
+        return () => {
+            window.removeEventListener('resize', checkIsMobile);
+        };
+    }, []);
 
     useEffect(() => {
+        if (isMobile) return; // Disable autoplay on mobile
+
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -42,7 +59,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
                 observer.unobserve(videoRef.current);
             }
         };
-    }, []);
+    }, [isMobile]);
 
     return (
         <Box mt={4} mx='auto' maxW='800px'>
@@ -53,7 +70,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
                 height='auto'
                 loop
                 muted
-                controls={false}
+                controls={isMobile ? true : false} // Enable controls on mobile for manual play
             />
         </Box>
     );
