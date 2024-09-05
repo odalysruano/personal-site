@@ -32,7 +32,7 @@ export const projects: Project[] = [
             The app was deployed using AWS Elastic Beanstalk and the same CI/CD framework I utilized for MySousChef, ensuring smooth 
             deployment.`,
         gitHubLink: "https://github.com/odalysruano/fithub-app",
-        appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
+        appLink: "http://fithub.us-east-1.elasticbeanstalk.com/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/FitHub.mp4",
         poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/fithub-thumbnail.png",
     },
