@@ -27,7 +27,7 @@ export default function AboutMe() {
                     I was born and raised in Westchester, NY, and I have lived in <b>New York City</b> for 10+ years.
                 </Text>
                 <Text pt='2' fontSize='md'>
-                    In 2018, I graduated <b>NYU Stern</b> with a B.S. in Business, and concentrations in Marketing and Sustainable Business.
+                    In 2018, I graduated from <b>NYU Stern</b> with a B.S. in Business, and concentrations in Marketing and Sustainable Business.
                 </Text>
                 <Text pt='2' fontSize='md'>
                     In 2021, I was selected to be a part of the <b>Yale School of Management</b> Emerging Leaders Seminar in Entrepreneurship and Innovation.
