@@ -3,9 +3,10 @@ import { useEffect, useRef, useState } from 'react';
 
 interface VideoPlayerProps {
     src: string;
+    poster?: string;
 }
 
-export default function VideoPlayer({ src }: VideoPlayerProps) {
+export default function VideoPlayer({ src, poster }: VideoPlayerProps) {
     const videoRef = useRef<HTMLVideoElement | null>(null);
     const lastPauseTime = useRef<number | null>(null);
     const [isMobile, setIsMobile] = useState(false);
@@ -13,7 +14,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
     // Check if the screen size corresponds to a mobile device
     useEffect(() => {
         const checkIsMobile = () => {
-            setIsMobile(window.innerWidth <= 768); // You can adjust this threshold as needed
+            setIsMobile(window.innerWidth <= 768); // Adjust this threshold as needed
         };
 
         checkIsMobile();
@@ -71,6 +72,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
                 loop
                 muted
                 controls={isMobile ? true : false} // Enable controls on mobile for manual play
+                poster={isMobile && poster ? poster : undefined} // Use poster only for mobile
             />
         </Box>
     );

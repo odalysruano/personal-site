@@ -8,6 +8,7 @@ export interface Project {
     gitHubLink: string;
     appLink?: string;
     media?: string;
+    poster?: string;
 }
 
 interface ProjectsProps {
@@ -62,7 +63,7 @@ export default function Projects({projects}: ProjectsProps) {
                         )}
                     </Stack>
                     {project.media && (
-                        <VideoPlayer src={project.media} />
+                        <VideoPlayer src={project.media} poster={project.poster} />
                     )}
                 </Box>
             ))}

@@ -19,10 +19,11 @@ export const projects: Project[] = [
         gitHubLink: "https://github.com/odalysruano/mysouschef",
         appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/MySousChef.mp4",
+        poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/myssouschef-thumbnail.png",
     },
     {
         name: "FitHub",
-        techStack: "Python, JavaScript, HTML, CSS, Materialize, PostgreSQL, Django, AWS CodeBuild, AWS CodePipeline, AWS EC2, AWS Elastic Beanstalk",
+        techStack: "Python, JavaScript, HTML, CSS, Materialize, PostgreSQL, Django, AWS CodeBuild, AWS CodePipeline, AWS EC2, AWS Elastic Beanstalk, AWS S3",
         summary: 
             `I created FitHub, a fitness app designed to track fitness goals, exercise routines, and home equipment inventory. 
             Developing this full-stack Django app allowed me to perform CRUD operations on a PostgreSQL database and make 
@@ -33,6 +34,7 @@ export const projects: Project[] = [
         gitHubLink: "https://github.com/odalysruano/fithub-app",
         appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/FitHub.mp4",
+        poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/fithub-thumbnail.png",
     },
     {
         name: "Personal Website",
@@ -74,5 +76,6 @@ export const projects: Project[] = [
         gitHubLink: "https://github.com/odalysruano/eras-memory-game",
         appLink: "https://odalysruano.github.io/eras-memory-game/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/ERAS+MEMORY+GAME.mp4",
+        poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/erasmemory-thumbnail.png",
     },
 ]
