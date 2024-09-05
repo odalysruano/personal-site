@@ -32,6 +32,7 @@ export const projects: Project[] = [
             deployment.`,
         gitHubLink: "https://github.com/odalysruano/fithub-app",
         appLink: "http://fithub-app.us-east-1.elasticbeanstalk.com/",
+        media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/FitHub.mp4",
     },
     {
         name: "Personal Website",
