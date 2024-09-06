@@ -11,7 +11,7 @@ interface Props {
 const Links = [
     {name: 'About Me', href: '#about'}, 
     {name: 'Projects', href: '#projects'}, 
-    {name: 'Resume', href: 'https://drive.google.com/file/d/1veRjkMbbHupxPfsY03SLyr6fBMfOrnJH/view?usp=sharing'}, 
+    {name: 'Resume', href: 'https://drive.google.com/file/d/1rKGamG9KabGKRMNc0fNrmIKE2Proa9OR/view?usp=sharing'}, 
     {name: 'Contact', href: '#contact'},
 ]
 

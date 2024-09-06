@@ -26,8 +26,8 @@ export default function TechStack() {
                 <Text><b>UI Frameworks:</b> Bootstrap, Materialize, Material UI, Chakra UI</Text>
                 <Text><b>Databases:</b> AWS RDS (PostgreSQL), MongoDB (NoSQL)</Text>
                 <Text><b>CI/CD:</b> AWS CodeBuild, AWS CodePipeline</Text>
-                <Text><b>Cloud:</b> AWS EC2, AWS Elastic Beanstalk, AWS IAM, AWS S3, AWS Route 53</Text>
-                <Text><b>Other:</b> REST APIs, JSON, Git, Jira, Confluence, Salesforce, Trello, Airtable, JWT, OAuth</Text>
+                <Text><b>Cloud:</b> AWS EC2, AWS Elastic Beanstalk, AWS IAM, AWS S3, AWS Route 53, AWS CloudFront, AWS Certificate Manager</Text>
+                <Text><b>Other:</b> REST APIs, JSON, Git, Jira, Confluence, Salesforce, Trello, Airtable, JWT, OAuth, SSL Certificates</Text>
             </Box>
         </Box>
     );

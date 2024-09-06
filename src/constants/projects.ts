@@ -38,7 +38,7 @@ export const projects: Project[] = [
     },
     {
         name: "Personal Website",
-        techStack: "Typescript, React, ChakraUI, HTML, CSS, AWS Route 53, AWS S3, AWS CodePipeline",
+        techStack: "Typescript, React, ChakraUI, HTML, CSS, AWS Route 53, AWS S3, AWS CodePipeline, AWS CloudFront, AWS Certificate Manager (ACM)",
         summary: 
             `OdalysRuano.com (the site you're on now!) is a personal portfolio website I developed to showcase my career journey 
             and experience as a full-stack software engineer.
@@ -48,7 +48,8 @@ export const projects: Project[] = [
 
             In addition to the current sections, I plan to expand the site by adding more personal pages, such as a reading list 
             and a travel photography section, to reflect my broader interests. The site is hosted using AWS services, with Route 53 
-            managing domain routing, S3 providing static site hosting, and CodePipeline automating the deployment process.`,
+            managing domain routing, ACM managing the SSL certificate, CloudFront handling traffic, S3 providing static site hosting, 
+            and CodePipeline automating the deployment process.`,
         gitHubLink: "https://github.com/odalysruano/personal-site",
     },
     {
