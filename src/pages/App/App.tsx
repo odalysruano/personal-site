@@ -1,4 +1,4 @@
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
@@ -10,12 +10,16 @@ import './App.css';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <NavBar></NavBar>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/reading" element={<ReadingPage />} />
-      </Routes>
-      <Footer></Footer>
+      <Box minHeight="100vh" display="flex" flexDirection="column">
+        <NavBar />
+        <Box flex ="1">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/reading" element={<ReadingPage />} />
+          </Routes>
+        </Box>
+        <Footer />
+      </Box>
     </ChakraProvider>
   );
 }
