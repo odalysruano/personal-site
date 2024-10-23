@@ -1,5 +1,6 @@
 import { Box, Center, Grid, GridItem, Heading, HStack, Icon, Image, Link, Stack, StackDivider, Text } from '@chakra-ui/react';
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { useEffect } from 'react';
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Contact from '../../components/Contact/Contact';
 import Projects from '../../components/Projects/Projects';
@@ -8,6 +9,19 @@ import ResumeButton from '../../components/ResumeButton/ResumeButton';
 import TechStack from '../../components/TechStack/TechStack';
 
 export default function HomePage() {
+    useEffect(() => {
+        const scrollTarget = localStorage.getItem('scrollTarget');
+        if (scrollTarget) {
+            const targetElement = document.querySelector(scrollTarget);
+            if (targetElement) {
+                setTimeout(() => {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 200);
+            }
+            localStorage.removeItem('scrollTarget');
+        }
+    }, []);
+
     return (
         <Grid
             templateRows={{ base: 'repeat(4, auto)', md: 'repeat(5, auto)' }}

@@ -30,12 +30,17 @@ const NavLink = (props: Props) => {
 
         if (href.startsWith('#')) {
             event.preventDefault();
-            setTimeout(() => {
+            const isOnHomePage = window.location.pathname === '/';
+
+            if (!isOnHomePage) {
+                localStorage.setItem('scrollTarget', href);
+                window.location.href = '/';
+            } else {
                 const target = document.querySelector(href);
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
-            }, 200);
+            }
         }
     };
 
