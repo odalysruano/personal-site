@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
 import NavBar from '../../components/NavBar/NavBar';
 import ReadingPage from '../ReadingPage/ReadingPage';
+import * as Data24 from '../../constants/readingPage24';
 import theme from '../../theme';
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
         <Box flex ="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/reading" element={<ReadingPage />} />
+            <Route path="/reading" element={<ReadingPage year={Data24.year24} summary={Data24.summary24} bookList={Data24.bookList24} audiobookList={Data24.audiobookList24} />} />
           </Routes>
         </Box>
         <Footer />
