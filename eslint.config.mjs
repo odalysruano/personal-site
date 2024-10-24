@@ -18,6 +18,7 @@ export default [
     rules: {
       "react/jsx-uses-react": "off",
       "react/react-in-jsx-scope": "off", // Disable the rule globally for React 17+
+      "react/prop-types": "off", // Disable prop-types validation for TypeScript
       // Add any other custom rules here
     },
   },

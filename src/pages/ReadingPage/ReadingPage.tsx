@@ -3,13 +3,15 @@ import { BookInfo, BookList } from '../../components/BookList/BookList';
 import ReadingSummary from '../../components/ReadingSummary/ReadingSummary';
 
 interface ReadingPageProps {
-    year: string;
-    summary: string
-    bookList: BookInfo[];
-    audiobookList: BookInfo[];
+    props: {
+        year: string;
+        summary: string
+        bookList: BookInfo[];
+        audiobookList: BookInfo[];
+    };
 }
 
-export default function ReadingPage({ year, summary, bookList, audiobookList }: ReadingPageProps) {
+export default function ReadingPage({ props }: ReadingPageProps) {
     return (
         <Box minHeight='100vh' display='flex' flexDirection='column'>
             <Grid
@@ -20,7 +22,7 @@ export default function ReadingPage({ year, summary, bookList, audiobookList }: 
                 flex='1'
             >
                 <GridItem colSpan={4} bg='#FC6A80'>
-                    <ReadingSummary year={year} summary={summary} />
+                    <ReadingSummary year={props.year} summary={props.summary} />
                 </GridItem>
                 <GridItem colSpan={4} bg='#FC8F77'>
                     <Box textAlign='center' py='50px'>
@@ -28,7 +30,7 @@ export default function ReadingPage({ year, summary, bookList, audiobookList }: 
                     </Box>
                 </GridItem>
                 <GridItem colSpan={4} bg='#FCE9A3'>
-                    <BookList bookList={bookList} audiobookList={audiobookList} />
+                    <BookList bookList={props.bookList} audiobookList={props.audiobookList} />
                 </GridItem>
                 <GridItem colSpan={4} bg='#FAC589'>
                     <Box textAlign='center' py='50px'>
