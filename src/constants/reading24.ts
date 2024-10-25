@@ -126,11 +126,27 @@ const audiobookList = [
     },
 ];
 
+const bookPhotos = [
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/beautifulworld.jpeg',
+        altText: 'Beautiful World, Where Are You',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/oncemorewithfeeling.jpeg',
+        altText: 'Once More With Feeling',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/adelaide.jpeg',
+        altText: 'Adelaide',
+    },
+];
+
 // should be of ReadingPageProps type
 // see /src/pages/ReadingPage/ReadingPage.tsx
 export default {
     year, 
     summary, 
     bookList, 
-    audiobookList
+    audiobookList,
+    bookPhotos,
 };
