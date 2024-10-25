@@ -1,8 +1,8 @@
 const year = '2024';
 
 const summary= `I set a goal to read 36 books in 2024. I've always had a love for books. Reading books, 
-                    collecting them, sharing my reviews with anyone who will listen to me recount the feelings that 
-                    come up while building a new world in your imagination when starting a new book.`;
+                collecting them, sharing my reviews with anyone who will listen to me recount the feelings that 
+                come up while building a new world in your imagination when starting a new book.`;
 
 const bookList = [
     {
@@ -34,7 +34,7 @@ const bookList = [
         author: 'Emily Henry',
     },
     {
-        title: 'The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now',
+        title: 'The Defining Decade',
         author: 'Meg Jay',
     },
     {
@@ -138,6 +138,98 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/adelaide.jpeg',
         altText: 'Adelaide',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/housemaidsecret.jpeg',
+        altText: `The Housemaid's Secret`,
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/tomorrow.jpeg',
+        altText: 'Tomorrow, and Tomorrow, and Tomorrow',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thelightwelost.jpeg',
+        altText: 'The Light We Lost',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/happyplace.jpeg',
+        altText: 'Happy Place',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thedefiningdecade.jpeg',
+        altText: 'The Defining Decade',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/allthedangerousthings.jpeg',
+        altText: 'All the Dangerous Things',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/suchafunage.jpeg',
+        altText: 'Such a Fun Age',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/myyearofrest.jpeg',
+        altText: 'My Year of Rest and Relaxation',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/theperfectmarriage.jpeg',
+        altText: 'The Perfect Marriage',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/meetmeatthelake.jpeg',
+        altText: 'Meet Me at the Lake',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thedinnerlist.jpeg',
+        altText: 'The Dinner List',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/haveitoldyouthisalready.jpeg',
+        altText: 'Have I Told You This Already?',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/badsummerpeople.jpeg',
+        altText: 'Bad Summer People',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thepaperpalace.jpeg',
+        altText: 'The Paper Palace',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/tomlake.jpeg',
+        altText: 'Tom Lake',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/sametimenextsummer.jpeg',
+        altText: 'Same Time Next Summer',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/cryinginhmart.jpeg',
+        altText: 'Crying in H Mart',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thissummerwillbedifferent.jpeg',
+        altText: 'This Summer Will Be Different',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thealgebraofwealth.jpeg',
+        altText: 'The Algebra of Wealth: A Simple Formula for Financial Security',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/themostfunweeverhad.jpeg',
+        altText: 'The Most Fun We Ever Had',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/harrypotterandthesorcerersstone.jpeg',
+        altText: `Harry Potter and the Sorcerer's Stone`,
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/wrongplacewrongtime.jpeg',
+        altText: 'Wrong Place Wrong Time',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/centralparkwest.jpeg',
+        altText: 'Central Park West: A Crime Novel',
     },
 ];
 
