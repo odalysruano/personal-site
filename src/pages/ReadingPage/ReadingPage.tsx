@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, Heading } from '@chakra-ui/react';
+import { Box, Grid, GridItem } from '@chakra-ui/react';
 import { BookInfo, BookList } from '../../components/BookList/BookList';
 import ReadingSummary from '../../components/ReadingSummary/ReadingSummary';
 import { BookPhotoInfo, BookPhotos } from '../../components/BookPhotos/BookPhotos';
@@ -17,7 +17,7 @@ export default function ReadingPage({ props }: ReadingPageProps) {
     return (
         <Box minHeight='100vh' display='flex' flexDirection='column'>
             <Grid
-                templateRows={{ base: 'repeat(4, auto)', md: 'repeat(5, auto)' }}
+                templateRows={{ base: 'repeat(3, auto)', md: 'repeat(3, auto)' }}
                 templateColumns='repeat(4, 1fr)'
                 gap={4}
                 p={4}
@@ -31,11 +31,6 @@ export default function ReadingPage({ props }: ReadingPageProps) {
                 </GridItem>
                 <GridItem colSpan={4} bg='#FCE9A3'>
                     <BookList bookList={props.bookList} audiobookList={props.audiobookList} />
-                </GridItem>
-                <GridItem colSpan={4} bg='#FAC589'>
-                    <Box textAlign='center' py='50px'>
-                        <Heading size='xl'>TBR</Heading>
-                    </Box>
                 </GridItem>
             </Grid>
         </Box>
