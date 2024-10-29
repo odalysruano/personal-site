@@ -43,6 +43,10 @@ const bookList = [
         author: 'Jill Santopolo',
     },
     {
+        title: 'The Fear Book: Facing Fear Once and for All',
+        author: 'Cheri Huber',
+    },
+    {
         title: 'Happy Place',
         author: 'Emily Henry',
     },
