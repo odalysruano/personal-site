@@ -2,7 +2,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 
 interface ReadingSummaryProps {
     year: string;
-    summary: string;
+    summary: string[];
 }
 
 export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
@@ -24,7 +24,11 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                 maxWidth='1000px'
                 textAlign={{ base: 'left', md: 'center' }}
             >
-                <Text pt='2' fontSize='md'>{summary}</Text>
+                {summary.map((paragraph, index) => (
+                    <Text key={index} pt='2' fontSize='md' mb={4}>
+                        {paragraph}
+                    </Text>
+                ))}
             </Box>
         </Box>
     );

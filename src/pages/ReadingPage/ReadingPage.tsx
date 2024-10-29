@@ -6,7 +6,7 @@ import { BookPhotoInfo, BookPhotos } from '../../components/BookPhotos/BookPhoto
 interface ReadingPageProps {
     props: {
         year: string;
-        summary: string
+        summary: string[];
         bookList: BookInfo[];
         audiobookList: BookInfo[];
         bookPhotos: BookPhotoInfo[];

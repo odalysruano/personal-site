@@ -1,8 +1,21 @@
 const year = '2024';
 
-const summary= `I set a goal to read 36 books in 2024. I've always had a love for books. Reading books, 
-                collecting them, sharing my reviews with anyone who will listen to me recount the feelings that 
-                come up while building a new world in your imagination when starting a new book.`;
+const summary = `
+    My reading goal for 2024 is to complete 36 books, aiming for around three each month. I didn't track my reading last year, but 
+    I'm fairly certain I read fewer than 15 books in 2023—so setting this year's goal of 36 feels especially exciting. 2023 was a 
+    challenging year, marked by deep career reflections and, ultimately, the decision to quit my job. While navigating that period, 
+    I began considering how important it would be to reconnect with hobbies that bring me joy in the upcoming year. 
+    Reading has always been a source of comfort, so in setting my 2024 goals, I leaned into it as a way to nurture that joy.
+
+    I love the tactile act of turning pages, though you'll notice some audiobooks listed at the end of the page. Audiobooks are new 
+    to me this year; while they're not my preferred way to experience a book, they're perfect for walks—especially if the book is 
+    read by its author. I take bookish photos of each book I read, adding them to an Instagram highlight for my own tracking, and 
+    thought I'd include those photos here too.
+
+    Growing up, I've always loved books—reading, collecting, sharing reviews with anyone who'll listen, and escaping into new worlds. 
+    I'm grateful to have found the time and space to devote to reading in 2024. Below is my 2024 reading list, featuring the books 
+    I've completed so far this year, in the order I've read them.
+`.trim().split('\n\n');
 
 const bookList = [
     {
@@ -108,6 +121,10 @@ const bookList = [
     {
         title: 'Central Park West: A Crime Novel',
         author: 'James Comey',
+    },
+    {
+        title: 'The Measure',
+        author: 'Nikki Erlick',
     },
 ];
 
