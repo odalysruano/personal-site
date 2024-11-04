@@ -130,6 +130,10 @@ const bookList = [
         title: 'The Measure',
         author: 'Nikki Erlick',
     },
+    {
+        title: 'Harry Potter and the Chamber of Secrets',
+        author: 'J. K. Rowling',
+    },
 ];
 
 const audiobookList = [
@@ -144,6 +148,10 @@ const audiobookList = [
     {
         title: 'The Third Gilmore Girl: A Memoir',
         author: 'Kelly Bishop',
+    },
+    {
+        title: 'The Power of Now: A Guide to Spiritual Enlightenment',
+        author: 'Eckhart Tolle',
     },
 ];
 
