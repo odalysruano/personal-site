@@ -96,7 +96,7 @@ export default function NavBar() {
                                 boxSize={{ base: '40px', md: '50px' }}
                                 objectFit='fill'
                                 src={
-                                    'https://media.licdn.com/dms/image/v2/D4E03AQHPYE8JwyRy9A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709687145629?e=1730332800&v=beta&t=BS0RDcuXBt-n-mTlGkEBJrolgmq7QW9E1FdBlQfV_5A'
+                                    'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/profile+pic.jpeg'
                                 }
                                 alt='Odalys Ruano'
                             />
