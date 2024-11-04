@@ -29,6 +29,8 @@ Mobile - Nav:
 - AWS Route 53
 - AWS S3
 - AWS CodePipeline
+- AWS CloudFront
+- AWS Certificate Manager
 
 ## Getting Started
 Link to App: http://odalysruano.com/
