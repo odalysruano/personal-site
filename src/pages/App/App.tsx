@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
 import NavBar from '../../components/NavBar/NavBar';
+import NotFoundPage from '../NotFoundPage/NotFoundPage';
 import ReadingPage from '../ReadingPage/ReadingPage';
 import reading24 from '../../constants/reading24';
 import theme from '../../theme';
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/reading" element={<ReadingPage props={reading24} />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Box>
         <Footer />
