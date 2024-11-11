@@ -134,6 +134,14 @@ const bookList = [
         title: 'Harry Potter and the Chamber of Secrets',
         author: 'J. K. Rowling',
     },
+    {
+        title: 'Shopgirl: A Novella',
+        author: 'Steve Martin',
+    },
+    {
+        title: 'Days at the Morisaki Bookshop',
+        author: 'Satoshi Yagisawa',
+    },
 ];
 
 const audiobookList = [
@@ -259,6 +267,22 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/centralparkwest.jpeg',
         altText: 'Central Park West: A Crime Novel',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/themeasure.jpeg',
+        altText: 'The Measure',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/chamberofsecrets.jpeg',
+        altText: 'Harry Potter and the Chamber of Secrets',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/shopgirl.jpeg',
+        altText: 'Shopgirl: A Novella',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/daysatthemorisakibookshop.jpeg',
+        altText: 'Days at the Morisaki Bookshop',
     },
 ];
 
