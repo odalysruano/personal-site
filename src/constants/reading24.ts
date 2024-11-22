@@ -142,6 +142,10 @@ const bookList = [
         title: 'Days at the Morisaki Bookshop',
         author: 'Satoshi Yagisawa',
     },
+    {
+        title: 'Bunny',
+        author: 'Mona Awad',
+    },
 ];
 
 const audiobookList = [
@@ -283,6 +287,10 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/daysatthemorisakibookshop.jpeg',
         altText: 'Days at the Morisaki Bookshop',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/bunny.jpeg',
+        altText: 'Bunny',
     },
 ];
 

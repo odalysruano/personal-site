@@ -1,13 +1,6 @@
 import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, Stack, useDisclosure } from '@chakra-ui/react';
 import { ChevronDownIcon, CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 
-interface Props {
-    children: React.ReactNode;
-    href: string;
-    name: string;
-    onClick?: () => void;
-}
-
 const Links = [
     {name: 'About Me', href: '#about'}, 
     {name: 'Projects', href: '#projects'}, 
@@ -19,33 +12,38 @@ const MoreLinks = [
     {name: 'Reading', href: '/reading'}, // Add future pages here
 ];
 
-const NavLink = (props: Props) => {
-    const { children, href, name, onClick } = props;
+function NavLink({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
+    const isHashLink = href.startsWith('#');
+    const isExternalLink = href.startsWith('http');
 
-    const handleClick = (event: React.MouseEvent) => {
-        if (onClick) {
-            onClick();
-        }
-
-        if (href.startsWith('#')) {
+    const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        if (isHashLink) {
             event.preventDefault();
             const isOnHomePage = window.location.pathname === '/';
-
             if (!isOnHomePage) {
+                // Save the target section in localStorage and redirect to home
                 localStorage.setItem('scrollTarget', href);
                 window.location.href = '/';
             } else {
                 const target = document.querySelector(href);
                 if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 300);
                 }
             }
+        }
+        if (onClick) {
+            onClick();
         }
     };
 
     return (
         <Button
             as='a'
+            href={href}
+            target={isExternalLink ? '_blank' : undefined}
+            onClick={handleClick} 
             bg='#81E6D9'
             px={2}
             py={1}
@@ -54,9 +52,6 @@ const NavLink = (props: Props) => {
                 textDecoration: 'none',
                 bg: '#E9D8FD',
             }}
-            target={name === 'Resume' ? '_blank' : ''}
-            href={href}
-            onClick={handleClick} 
         >
             {children}
         </Button>
@@ -69,6 +64,16 @@ export default function NavBar() {
     const handleLinkClick = () => {
         if (isOpen) {
             onToggle();
+            setTimeout(() => {
+                const scrollTarget = localStorage.getItem('scrollTarget');
+                if (scrollTarget) {
+                    const targetElement = document.querySelector(scrollTarget);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                    localStorage.removeItem('scrollTarget');
+                }
+            }, 200);
         }
     };
 
@@ -107,7 +112,7 @@ export default function NavBar() {
                 <HStack spacing={8} alignItems='center'>
                     <HStack as='nav' spacing={4} display={{ base: 'none', md: 'flex' }}>
                         {Links.map((link) => (
-                            <NavLink key={link.name} href={link.href} name={link.name}>{link.name}</NavLink>
+                            <NavLink key={link.name} href={link.href}>{link.name}</NavLink>
                         ))}
                         <Menu>
                             <MenuButton as={Button} bg='#81E6D9' _hover={{ bg: '#E9D8FD' }}>
@@ -142,7 +147,6 @@ export default function NavBar() {
                             <NavLink 
                                 key={link.name} 
                                 href={link.href} 
-                                name={link.name}
                                 onClick={handleLinkClick}
                             >
                                 {link.name}
@@ -152,7 +156,6 @@ export default function NavBar() {
                             <NavLink
                                 key={link.name}
                                 href={link.href}
-                                name={link.name}
                                 onClick={handleLinkClick}
                             >
                                 {link.name}
