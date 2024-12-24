@@ -5,5 +5,4 @@ In order to push to prod, make sure all commits have been uploaded to upstream, 
 
 Commit this build with "push to prod" and upload those changes to upstream. Run git status to ensure there is nothing else to commit. The changes will be reflected on the live site in 24 hours.
 
-For instant changes, create an invalidation in the AWS CloudFront console by entering the path you want to invalidate 
-(e.g., /index.html or /* for all content).
+For instant changes, check that AWS CodePipeline has run successfully and then create an invalidation in the AWS CloudFront console by entering the path you want to invalidate (e.g., /index.html or /* for all content).

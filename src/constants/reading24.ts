@@ -146,6 +146,22 @@ const bookList = [
         title: 'Bunny',
         author: 'Mona Awad',
     },
+    {
+        title: 'The Girl Who Reads on the Métro',
+        author: 'Christine Féret-Fleury',
+    },
+    {
+        title: 'Lucy by the Sea: A Novel',
+        author: 'Elizabeth Strout',
+    },
+    {
+        title: 'The Great Alone',
+        author: 'Kristin Hannah',
+    },
+    {
+        title: 'Bright Lights, Big Christmas: A Novel',
+        author: 'Mary Kay Andrews',
+    },
 ];
 
 const audiobookList = [
@@ -291,6 +307,22 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/bunny.jpeg',
         altText: 'Bunny',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/girlwhoreads.jpeg',
+        altText: 'The Girl Who Reads on the Métro',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/lucybythesea.jpeg',
+        altText: 'Lucy by the Sea: A Novel',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/thegreatalone.jpeg',
+        altText: 'The Great Alone',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading24/brightlightsbigchristmas.jpeg',
+        altText: 'Bright Lights, Big Christmas: A Novel',
     },
 ];
 
