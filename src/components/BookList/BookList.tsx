@@ -14,7 +14,7 @@ export function BookList({ bookList, audiobookList }: BookListProps) {
     return(
         <Box 
             textAlign='center' 
-            px={{ base: '50px', md: '200px' }} 
+            px={{ base: '20px', md: '200px' }} 
             py='50'
             scrollMarginTop='80px'
         >
@@ -26,12 +26,12 @@ export function BookList({ bookList, audiobookList }: BookListProps) {
                 borderRadius='md'
                 mb={6}
                 mx='auto'
-                maxWidth='800px'
+                maxWidth={{ base: '100%', md: '800px' }}
             >
                 <OrderedList textAlign='left'>
                     {bookList.map(book => {
                         return (
-                            <ListItem fontSize='md' key={book.title}>
+                            <ListItem fontSize={{ base: 'sm', md: 'md' }} key={book.title}>
                                 <b>{book.title}</b> by {book.author}
                             </ListItem>
                         )
@@ -39,14 +39,14 @@ export function BookList({ bookList, audiobookList }: BookListProps) {
                 </OrderedList>
 
                 {/* Audiobooks Section */}
-                <Text fontSize='lg' fontWeight='bold' mt='8' mb='4'>
+                <Text fontSize={{ base: 'md', md: 'lg' }} fontWeight='bold' mt='8' mb='4'>
                     Audiobooks
                 </Text>
 
                 <OrderedList textAlign='left' start={1}>
                     {audiobookList.map(book => {
                         return (
-                            <ListItem fontSize='md' key={book.title}>
+                            <ListItem fontSize={{ base: 'sm', md: 'md' }} key={book.title}>
                                 <b>{book.title}</b> by {book.author}
                             </ListItem>
                             )

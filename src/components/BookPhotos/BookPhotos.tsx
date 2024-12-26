@@ -35,7 +35,7 @@ export function BookPhotos({ bookPhotos }: BookPhotosProps) {
     }, [autoplayInterval, currentIndex]);
 
     return (
-        <Flex justify='center' alignItems='center' maxW='800px' mx='auto' mt='4' mb='4' position='relative'>
+        <Flex justify='center' alignItems='center' maxW='800px' mx='auto' mt='4' mb='4' position='relative' px={{ base: '4', md: '0' }}>
             {/* Previous Button */}
             <IconButton 
                 aria-label='Previous image' 
@@ -46,17 +46,17 @@ export function BookPhotos({ bookPhotos }: BookPhotosProps) {
                 color='white' 
                 _hover={{ bg: 'gray.700', opacity: 1 }} 
                 opacity={0.4} 
-                mr={4} 
+                mr={{ base: '2', md: '4' }} 
             />
 
             {/* Image Container */}
-            <Box position='relative' width='100%' maxWidth='800px' overflow='hidden' borderRadius='lg'>
+            <Box position='relative' width='100%' maxWidth='800px' overflow='hidden' borderRadius='lg' aspectRatio={{ base: '1', md: 'auto' }}>
                 <Image
                     src={bookPhotos[currentIndex].href}
                     alt={bookPhotos[currentIndex].altText}
                     objectFit='cover'
                     width='100%'
-                    height='400px'
+                    height={{ base: '100%', md: '400px' }}
                     borderRadius='25px'
                 />
             </Box>
@@ -71,7 +71,7 @@ export function BookPhotos({ bookPhotos }: BookPhotosProps) {
                 color='white' 
                 _hover={{ bg: 'gray.700', opacity: 1 }} 
                 opacity={0.4} 
-                ml={4} 
+                ml={{ base: '2', md: '4' }} 
             />
         </Flex>
     );
