@@ -1,5 +1,6 @@
-import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, Stack, useDisclosure } from '@chakra-ui/react';
+import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, Stack, useDisclosure, useOutsideClick } from '@chakra-ui/react';
 import { ChevronDownIcon, CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
+import { useRef } from 'react';
 
 const Links = [
     {name: 'About Me', href: '#about'}, 
@@ -60,6 +61,12 @@ function NavLink({ href, children, onClick }: { href: string; children: React.Re
 
 export default function NavBar() {
     const { isOpen, onToggle } = useDisclosure();
+    const ref = useRef<HTMLDivElement>(null);
+    
+    useOutsideClick({
+        ref: ref,
+        handler: () => onToggle(),
+    })
 
     const handleLinkClick = () => {
         if (isOpen) {
@@ -85,6 +92,7 @@ export default function NavBar() {
             top='0'
             zIndex='1000'
             boxShadow='md'
+            ref={ref}
         >
             <Flex h={16} alignItems='center' justifyContent='space-between'>
                 <Flex alignItems='center' gap='5'>
