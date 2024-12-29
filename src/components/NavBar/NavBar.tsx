@@ -65,7 +65,11 @@ export default function NavBar() {
     
     useOutsideClick({
         ref: ref,
-        handler: () => onToggle(),
+        handler: () => {
+            if (isOpen) {
+                onToggle()
+            }
+        },
     })
 
     const handleLinkClick = () => {
