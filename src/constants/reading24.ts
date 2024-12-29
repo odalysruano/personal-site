@@ -15,6 +15,24 @@ const summary = `
     Growing up, I've always loved books—reading, collecting, sharing reviews with anyone who'll listen, and escaping into new worlds. 
     I'm grateful to have found the time and space to devote to reading in 2024. Below is my 2024 reading list, featuring the books 
     I've completed so far this year, in the order I've read them.
+
+    —December 2024 Update—
+
+    I'm thrilled to announce that I've not only met but exceeded my 2024 reading goal! I completed 40 books this year—36 physical 
+    books and 4 audiobooks. While it's challenging to narrow down my favorites, my top five books (in no particular order) were 
+    "Adelaide," "The Measure," "The Most Fun We Ever Had," "The Paper Palace," and "Tomorrow, and Tomorrow, and Tomorrow." 
+    Coming-of-age stories and family sagas particularly resonated with me this year.
+
+    My reading journey took me through various sources and bookstores. In New York City, McNally Jackson Books became a trusted 
+    destination, with their staff recommendations never disappointing. My travels allowed me to explore wonderful bookshops around 
+    the world: Daunt Books and Waterstones in London, Hodges Figgis in Dublin, Livraria Lello in Porto, Livraria Bertrand and Ler 
+    Devagar in Lisbon, Dog Eared Books in San Francisco, and Leigh's Favorite Books in Sunnyvale. Supporting local bookstores, 
+    especially discovering them abroad, has been a dream come true!
+
+    Beyond purchases, I exchanged books with my sister and made great use of the New York Public Library. For audiobooks, I turned 
+    to Audible and Spotify. As I reflect on this year's completed reading list, I'm already eagerly building my 2025 TBR (To Be Read) 
+    list. Though I wish I had time to read even more, I'm grateful for every page turned this year. I hope my list inspires you to 
+    discover your next great read!
 `.trim().split('\n\n');
 
 const bookList = [
