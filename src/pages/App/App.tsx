@@ -6,6 +6,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import NotFoundPage from '../NotFoundPage/NotFoundPage';
 import ReadingPage from '../ReadingPage/ReadingPage';
 import reading24 from '../../constants/reading24';
+import reading25 from '../../constants/reading25';
 import theme from '../../theme';
 import './App.css';
 
@@ -17,7 +18,8 @@ function App() {
         <Box flex ="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/reading" element={<ReadingPage props={reading24} />} />
+            <Route path="/reading2024" element={<ReadingPage props={reading24} />} />
+            <Route path="/reading2025" element={<ReadingPage props={reading25} />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Box>
