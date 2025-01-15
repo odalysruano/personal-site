@@ -29,6 +29,14 @@ const bookPhotos = [
     },
 ];
 
+const tbrSection = [
+    {
+        content: 'My 2025 TBR stack is larger than I expected for the start of the year!',
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/tbrbookstack.jpeg',
+        altText: "2025 TBR Book Stack"
+    },
+];
+
 // should be of ReadingPageProps type
 // see /src/pages/ReadingPage/ReadingPage.tsx
 export default {
@@ -37,4 +45,5 @@ export default {
     bookList, 
     audiobookList,
     bookPhotos,
+    tbrSection,
 };
