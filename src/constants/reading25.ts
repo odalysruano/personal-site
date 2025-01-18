@@ -63,7 +63,17 @@ const bookPhotos = [
 
 const tbrSection = [
     {
-        content: 'My 2025 TBR stack is larger than I expected for the start of the year!',
+        content: `
+            My 2025 TBR stack is larger than I expected for the start of the year! I've collected most of these books over a number 
+            of trips to different bookstores. I'm looking forward to reading my first book by Abby Jimenez (borrowed from my sister!)—I 
+            don't know what's taken me so long! I'm going to continue reading the Harry Potter series; it's my first time reading 
+            the actual books. I'm also looking forward to reading the follow-up to the charming Japanese novel "Days at the Morisaki 
+            Bookshop" by Satoshi Yagisawa, titled "More Days at the Morisaki Bookshop". I picked up "The Vanishing Half" at a NYC 
+            BookTok bus event in December. My friend and I waited over an hour in the freezing cold to snag a free copy of our 
+            choice from a selection of popular books on TikTok! My recent obsession with The Sopranos television drama series, and 
+            my reading of "Central Park West" by James Comey, prompted me to pick up a copy of "The Godfather". I'll be sure to 
+            follow up my reading with a screening of the movies as well. I can't wait to get into these and the other books I've 
+            been collecting!`,
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/tbrbookstack.jpeg',
         altText: "2025 TBR Book Stack"
     },
