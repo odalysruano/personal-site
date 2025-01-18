@@ -29,8 +29,8 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                         <Link 
                             to={`/reading${prevYear}`}
                             style={{ 
-                                color: '#3182ce',
-                                textDecoration: 'none'
+                                fontWeight: 'bold',
+                                textDecoration: 'none',
                             }}
                             onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
                             onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
@@ -45,8 +45,8 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                         <Link 
                             to={`/reading${nextYear}`}
                             style={{ 
-                                color: '#3182ce',
-                                textDecoration: 'none'
+                                fontWeight: 'bold',
+                                textDecoration: 'none',
                             }}
                             onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
                             onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
