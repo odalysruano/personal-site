@@ -41,12 +41,20 @@ const bookList = [
         title: 'The Hunting Party',
         author: 'Lucy Foley',
     },
+    {
+        title: 'The Housemaid is Watching',
+        author: 'Freida McFadden',
+    },
 ];
 
 const audiobookList = [
     {
         title: 'Be Ready When the Luck Happens: A Memoir',
         author: 'Ina Garten',
+    },
+    {
+        title: 'The Woman in Me',
+        author: 'Britney Spears',
     },
 ];
 
@@ -58,6 +66,14 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thehuntingparty.jpeg',
         altText: 'The Hunting Party',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/bereadywhentheluckhappens.jpeg',
+        altText: 'Be Ready When the Luck Happens: A Memoir',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thehousemaidiswatching.jpeg',
+        altText: 'The Housemaid is Watching',
     },
 ];
 
