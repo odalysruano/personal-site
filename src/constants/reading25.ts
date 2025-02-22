@@ -30,6 +30,48 @@ const summary = `
     Up next, I'm about to start reading the third installment in The Housemaid series by Freida McFadden, "The Housemaid is 
     Watching". I just picked up the copy I had on hold at the library. Once I finish this book, maybe I'll finally pick up a book 
     off my TBR stack!
+
+    —February 21, 2025—
+
+    This winter has provided perfect moments where I can settle into my cozy apartment on a snowy day with a book! I closed out 
+    January with mixed feelings about "The Housemaid is Watching." While it provided closure for the characters I'd followed through 
+    the series, the plot was not what I expected for the characters now fifteen years into the future, and I didn't think it was as 
+    thrilling as the first two installments. I also finally completed Britney Spears' memoir, which offered a fascinating glimpse 
+    into her journey and the challenges she's faced in becoming the artist and person she is today.
+
+    February began with a literary classic—Oscar Wilde's "The Picture of Dorian Gray." I purchased this haunting novel during my 
+    travels in Ireland last April. I was intrigued and curious knowing it was Wilde's only full-length novel. The Victorian prose 
+    was challenging to follow at first, but I soon found myself captivated by the dark psychological portrait Wilde paints of vanity 
+    and moral corruption. What struck me most was how timeless the themes remain—our obsession with youth and beauty, and the often 
+    hidden consequences of moral compromise.
+
+    Next, I read "Atomic Habits" by James Clear. It's a book I've had since 2021, and I'm pretty familiar with the concepts of the 
+    book. This was the first time I read it cover-to-cover, and I thoroughly enjoyed it. I think it's nice to pick up a book with 
+    strategies to maintain good habits as we progress through the year. I set plenty of goals at the end of 2024, and I want 
+    reminders and new strategies to consistently keep me on track. Clear's practical approach to building small habits that lead 
+    to remarkable results resonated with me, especially his framework of making habits obvious, attractive, easy, and satisfying.
+
+    In the spirit of February and Valentine's Day, I read "Everything I Know About Love" from my TBR list! This memoir by Dolly 
+    Alderton was funny, heartfelt, and provided insights into friendships over time. Although I cannot even remotely compare my 
+    experiences from my teen years to my late-twenties to those of Alderton, I thoroughly enjoyed learning about her completely 
+    different experiences growing up and navigating love and friendships while realizing that many of the emotions and feelings 
+    she's experienced still resemble mine in navigating the same sort of relationships in life. Her raw honesty about the messiness 
+    of relationships and growing up in the digital age made this a perfect February read.
+
+    To close out this lovey-dovey month, I've started reading "How to End a Love Story" by Yulin Kuang. I found out about this book 
+    seeing that it was a Reese's Book Club pick, and I've always enjoyed the books on that list. I also read that Kuang is both the 
+    adapting writer and director for the 'Beach Read' film and the screenwriter for the 'People We Meet On Vacation' film. Emily 
+    Henry is one of my top contemporary romantic fiction authors, and I could not be more excited to read something from someone 
+    so directly involved in the book-to-screen adaptations of Henry's books. "How to End a Love Story" follows two characters with 
+    a tragic history who end up having to work together in Hollywood. When I read the blurb for the book, it reminded me a little of 
+    "Romantic Comedy" (which I loved!) by Curtis Sittenfeld, in the sense that the story follows TV writers and there's potential 
+    for romance between characters. So far, I'm hooked and I can't wait to see where the story takes our main characters.
+
+    As February draws to a close, I'm delighted to see my 2025 reading challenge progressing nicely with eight books completed in 
+    the first two months. The variety in my selections—from classic literature to self-improvement, from celebrity memoirs to 
+    romantic comedies—reflects exactly what I love about reading: the ability to step into completely different worlds and 
+    perspectives with each new book. I'm looking forward to what March brings to my bookshelf—maybe some picks from the Barnes & 
+    Noble Book Festival?? Wink wink ;) Until next month's update, happy reading!
 `.trim().split('\n\n');
 
 const bookList = [
@@ -44,6 +86,22 @@ const bookList = [
     {
         title: 'The Housemaid is Watching',
         author: 'Freida McFadden',
+    },
+    {
+        title: 'The Picture of Dorian Gray',
+        author: 'Oscar Wilde',
+    },
+    {
+        title: 'Atomic Habits',
+        author: 'James Clear',
+    },
+    {
+        title: 'Everything I Know About Love: A Memoir',
+        author: 'Dolly Alderton',
+    },
+    {
+        title: 'How to End a Love Story: A Novel',
+        author: 'Yulin Kuang',
     },
 ];
 
@@ -74,6 +132,22 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thehousemaidiswatching.jpeg',
         altText: 'The Housemaid is Watching',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thewomaninme.jpeg',
+        altText: 'The Woman in Me',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thepictureofdoriangray.jpeg',
+        altText: 'The Picture of Dorian Gray',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/atomichabits.jpeg',
+        altText: 'Atomic Habits',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/everythingiknowaboutlove.jpeg',
+        altText: 'Everything I Know About Love: A Memoir',
     },
 ];
 

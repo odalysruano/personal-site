@@ -1,4 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 interface ReadingSummaryProps {
@@ -13,6 +14,27 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
     const currentYearIndex = availableYears.indexOf(year);
     const nextYear = currentYearIndex < availableYears.length - 1 ? availableYears[currentYearIndex + 1] : null;
     const prevYear = currentYearIndex > 0 ? availableYears[currentYearIndex - 1] : null;
+
+    useEffect(() => {
+        const scrollTarget = localStorage.getItem('scrollTarget');
+        if (scrollTarget) {
+            const targetElement = document.querySelector(scrollTarget);
+            if (targetElement) {
+                setTimeout(() => {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 200);
+            }
+            localStorage.removeItem('scrollTarget');
+        }
+    }, []);
+
+    const handleJumpToList = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        event.preventDefault();
+        const target = document.querySelector('#booklist');
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
 
     return(
         <Box 
@@ -56,6 +78,22 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                         {' '}→
                     </Text>
                 )}
+            </Box>
+            <Box mb={6}>
+                <Text>
+                    <Link 
+                        to="#booklist" 
+                        onClick={handleJumpToList}
+                        style={{ 
+                            textDecoration: 'none',
+                            fontWeight: 'bold'
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
+                        onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
+                    >
+                        Jump to {year} Reading List
+                    </Link>
+                </Text>
             </Box>
             <Box 
                 bg='white'
