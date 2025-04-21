@@ -168,6 +168,71 @@ const summary = `
     like Keke Palmer does. I've already begun my April reading journey with “Cleopatra and Frankenstein” by Coco Mellors, which 
     promises to be another fascinating exploration of relationships and personal growth. I'm looking forward to sharing my thoughts 
     in my next post!
+
+    —April 19, 2025—
+
+    Earlier this month, I finished reading "Cleopatra and Frankenstein" by Coco Mellors. I really wanted to love this book before I 
+    even began reading it—I'd seen people compare it to Sally Rooney books, which I really enjoy. The story mainly follows two 
+    characters, Cleo and Frank, from the moment they first meet in New York City, and shows us how their story intertwines with the 
+    lives of those around them. Cleo and Frank get married six months after meeting, there is a considerable age gap between them, 
+    and they are both grappling with their own personal issues (trigger warning: this book discusses topics of addiction and 
+    self-harm). We hear about the lives of their closest friends—everyone is going through something—and even the perspectives 
+    these friends have on Cleo and Frank's unlikely and complicated relationship.
+
+    I typically like books with various complicated characters, but I never liked any of the characters in this book. I don't think 
+    we're supposed to like them, anyway; they're all flawed and make questionable and unhealthy choices that make you want to look 
+    away. In spite of this, there also wasn't any focused plot to follow along. The book is made up of snippets of these characters' 
+    lives, moments in time, that show them at their worst. We get a very brief glimpse of what's in store for these characters' 
+    futures in the very last few pages of the book. I love books with character development, but I wasn't given enough time to 
+    see these characters at their best or revelatory phases. Regardless, if you enjoy reading books with complicated characters 
+    where you are also exposed to those various points of view then I'd recommend checking this book out.
+
+    I've also been really into self-help books this month. I listened to the audiobook for "Don't Believe Everything You Think: Why 
+    Your Thinking Is The Beginning & End Of Suffering" by Joseph Nguyen, and I read "How to Stop Trying: An Overachiever's Guide to 
+    Self-Acceptance, Letting Go, and Other Impossible Things" by Kate Williams. I wasn't planning to read “How to Stop Trying”, but 
+    it caught my eye at my local library since I'd already started listening to “Don't Believe Everything You Think” and the themes 
+    seemed aligned at first-glance.
+
+    Listening to "Don't Believe Everything You Think" was very calming and meditative. Nguyen speaks about achieving peace of mind, 
+    in many respects, by stopping our tendency to overthink and instead looking inwards and trusting our intuition. There were many 
+    perspectives that resonated with me or made me think deeper. He says, "Your intuition is the tinge of fear that requires you to 
+    step into the unknown and create a new reality rather than stay in your familiar one. Nothing that grows can stay the same, 
+    especially you."
+
+    I look back and think about the time in my life where I was deciding whether or not to quit my job to pursue a new career. I was 
+    scared to leave a job that I was good at and that provided financial stability, but the job was taking a toll on my health and 
+    also not giving me room to grow professionally no matter how hard I worked. Ultimately, I decided to go with the choice that I 
+    knew would allow me to grow. I decided to invest in myself and planted a seed for my future, not knowing fully what the path to 
+    creating a new reality would entail. The clarity of my intuition at that time propelled me forward with a choice I do not regret, 
+    despite the many moments of doubt that followed.
+
+    In "How to Stop Trying," similar to Nguyen's approach, Williams discusses the tendencies of individuals who are overthinkers, 
+    overachievers, and who don't know when to stop trying. While Nguyen's book is broadly geared toward anyone looking to overcome 
+    anxiety and end personal suffering, Williams shares her experience from the perspective of a woman and mother on learning how to 
+    let go in this day and age of intense hustle culture. She says, "Much like there will be times in your life when quitting isn't 
+    an option and you have to hang in there, there will also be times in your life when you are not able to choose what you sacrifice. 
+    There will be plenty of times when forces outside of your control require you to push through pain and suffering. So why not save 
+    the pain and suffering for those times? You're not on this planet to play a supporting role in your own life. Your emotional and 
+    physical well-being should not be collateral damage. You're not obligated to obliterate yourself for anyone."
+
+    I felt validated hearing this perspective because in my career, I've had to make the decision to end my own suffering for my 
+    well-being rather than stick around for the company I was working for. I was lucky to have had the opportunity to work hard and 
+    then find myself in the position to pivot.
+
+    Another quote from Williams that resonated with me is around the concept of "self-care." She says, "We have also bought whole-hog 
+    into the idea that self-care is not so much a necessity as it is a 'treat' or a 'reward.' ... We have to wrench the idea of 
+    self-care away from luxury marketers and instead start treating it as what it really is: something that cannot be bought. True 
+    self-care is making sure your basic needs (sleep, food, movement) are met on a daily basis. Self-care is setting boundaries, 
+    even when they make people uncomfortable, so that you are not doing more than you can sustain."
+
+    I love that she's calling this out because we live in a society that too often makes us feel bad for needing to take time off to 
+    fulfill our basic needs, rest, or (god forbid!) take a vacation. I think that a company that makes a big deal about giving you 
+    time off for a self-care day needs to re-evaluate why they feel they need to provide this for their employees in the first 
+    place—because I bet those same employees feel like they can't fulfill their basic needs in their 9-to-5.
+
+    Both of these self-help books have made me more introspective. I'm reminded that I'm constantly learning to trust my intuition, 
+    set meaningful boundaries, and prioritize my well-being—and not as an afterthought. Next up on my reading list, I'm looking to 
+    get back into some more fiction picks! 
 `.trim().split('\n\n');
 
 const bookList = [
@@ -215,6 +280,14 @@ const bookList = [
         title: 'Cleopatra and Frankenstein',
         author: 'Coco Mellors',
     },
+    {
+        title: 'How to Stop Trying',
+        author: 'Kate Williams',
+    },
+    {
+        title: 'Jellyfish Have No Ears',
+        author: 'Adèle Rosenfeld',
+    },
 ];
 
 const audiobookList = [
@@ -229,6 +302,10 @@ const audiobookList = [
     {
         title: 'Master of Me',
         author: 'Keke Palmer',
+    },
+    {
+        title: `Don't Believe Everything You Think`,
+        author: 'Joseph Nguyen',
     },
 ];
 
@@ -284,6 +361,22 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/harrypotterandtheprisonerofazkaban.jpeg',
         altText: 'Harry Potter and the Prisoner of Azkaban',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/cleopatraandfrankenstein.jpeg',
+        altText: 'Cleopatra and Frankenstein',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/dontbelieveeverythingyouthink.jpeg',
+        altText: `Don't Believe Everything You Think`,
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/howtostoptrying.jpeg',
+        altText: 'How to Stop Trying',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/jellyfishhavenoears.jpeg',
+        altText: 'Jellyfish Have No Ears',
     },
 ];
 
