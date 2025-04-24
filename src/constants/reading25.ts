@@ -1,11 +1,12 @@
 const year = '2025';
 
 const summary = `
-    —January 18, 2025—
-
     I'm really excited to set my 2025 reading goal at 48 books! I enjoyed picking up so many new books last year, and there are 
-    already so many more books that I know I want to read. You can find my 2025 reading list at the bottom of this page, where 
-    I'll be adding books in the order I complete them.
+    already so many more books that I know I want to read. Check out my 2025 TBR stack, below, I already have a collection of books 
+    I can't wait to read throughout the year. You can find my 2025 reading list at the bottom of this page, where I'll be adding books 
+    as I finish reading them. What books are you looking forward to reading this year? Let me know if you have any book recommendations!
+
+    —January 18, 2025—
 
     As I'm writing this, I've finished reading "The Christmas Fix" by Lucy Score and "The Hunting Party" by Lucy Foley. "The 
     Christmas Fix" was gifted to me for Christmas. I'd never read a book by Lucy Score and did not have any idea what I was in 
@@ -287,6 +288,10 @@ const bookList = [
     {
         title: 'Jellyfish Have No Ears',
         author: 'Adèle Rosenfeld',
+    },
+    {
+        title: 'Verity',
+        author: 'Colleen Hoover',
     },
 ];
 

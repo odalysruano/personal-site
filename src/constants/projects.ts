@@ -17,7 +17,7 @@ export const projects: Project[] = [
             I also learned to utilize AWS services, including AWS CodeBuild, AWS CodePipeline, AWS EC2, and AWS Elastic Beanstalk, 
             to automate deployment of the app, ensuring reliable and scalable operation in the cloud.`,
         gitHubLink: "https://github.com/odalysruano/mysouschef",
-        appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
+        // appLink: "http://prod.eba-zjpd9z52.us-east-1.elasticbeanstalk.com/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/MySousChef.mp4",
         poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/myssouschef-thumbnail.png",
     },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
             The app was deployed using AWS Elastic Beanstalk and the same CI/CD framework I utilized for MySousChef, ensuring smooth 
             deployment.`,
         gitHubLink: "https://github.com/odalysruano/fithub-app",
-        appLink: "http://fithub.us-east-1.elasticbeanstalk.com/",
+        // appLink: "http://fithub.us-east-1.elasticbeanstalk.com/",
         media: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/FitHub.mp4",
         poster: "https://odalys-ruano-personal-site-media.s3.amazonaws.com/fithub-thumbnail.png",
     },
