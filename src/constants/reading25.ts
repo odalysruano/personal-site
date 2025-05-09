@@ -293,6 +293,14 @@ const bookList = [
         title: 'Verity',
         author: 'Colleen Hoover',
     },
+    {
+        title: 'Severance',
+        author: 'Ling Ma',
+    },
+    {
+        title: 'Oh William!',
+        author: 'Elizabeth Strout',
+    },
 ];
 
 const audiobookList = [
@@ -382,6 +390,18 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/jellyfishhavenoears.jpeg',
         altText: 'Jellyfish Have No Ears',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/verity.jpeg',
+        altText: 'Verity',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/severance.jpeg',
+        altText: 'Severance',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/ohwilliam.jpeg',
+        altText: 'Oh William!',
     },
 ];
 
