@@ -233,7 +233,81 @@ const summary = `
 
     Both of these self-help books have made me more introspective. I'm reminded that I'm constantly learning to trust my intuition, 
     set meaningful boundaries, and prioritize my well-being—and not as an afterthought. Next up on my reading list, I'm looking to 
-    get back into some more fiction picks! 
+    get back into some more fiction picks!
+
+    —May 15, 2025—
+
+    I keep telling myself I have to write down my thoughts immediately after reading a book, so that I don't have so much to recap at 
+    a time in my reading blog entries. Despite telling myself this, I have not been successful in making this happen! After the 
+    self-help books I read at the beginning of April, I was eager to get back to reading fiction. While picking up my library hold on 
+    “Verity” by Colleen Hoover, a slender book named “Jellyfish Have No Ears” caught my eye on the display the library staff curates 
+    at the front of the library. For this blog post, I'm focused on sharing more about one of these books.
+
+    “Jellyfish Have No Ears” by Adèle Rosenfeld, a book translated from French, follows the story of a woman that has been partially 
+    deaf most of her life and now faces a decision that requires a great deal of deliberation. Louise's hearing is rapidly declining, 
+    and she must decide whether or not to get a cochlear implant. Growing up, Louise has never felt a part of either the fully hearing 
+    or deaf community. She's always been somewhere in between. Now, as an adult, there's no denying that her hearing loss is continuing 
+    to decline to the point that it's affecting her relationships with the people around her, work, and her sanity.
+
+    In this book, the reader gets an accurate portrayal of what hearing and observation is like for a person that is hard-of-hearing. 
+    This book caught my attention because I am partially deaf, so I can vouch for the numerous vivid descriptions of sound and 
+    sensations that Louise experiences. For me, my hearing impairment is single-sided, and it was progressive loss at an early age 
+    that left me partially deaf. I was four years old in Kindergarten when the school nurse discovered my hearing loss. It only got 
+    progressively worse over the years. I went through various exams and utilized a series of equipment and hearing aids until 
+    sometime in high school when it was deemed that the hearing in my left ear was essentially gone. Growing up like this, I learned 
+    to adapt over time and eventually relied fully on hearing through my right ear.
+
+    Honestly, I can't remember what it was like to have any hearing in my left ear at all. My single-sided deafness has always been 
+    my norm, and although I have run into some challenging situations, I have not experienced what Louise experiences in this book.
+
+    Although there are many descriptions of what being hard-of-hearing can feel like, this one description that Louise shares as she 
+    contemplates getting the implant resonated with me. She says, “The operation, however, was irreversible: the 'natural' hearing I 
+    currently had would be lost. The few cilia remaining deep in my ear caught high pitches and a few low ones, which barely allowed 
+    me to reconstruct the meaning of what I heard. What I really got was a sense of the warmth of timbres, this soft sheen of wind, 
+    of color, of all sound's snags and snarls.” I have a vivid memory of the audiology appointment I had as a kid where the doctor 
+    explained to my mother and I how the “hearing” I had left was not enough for my brain to reconstruct what I had heard.
+
+    I'll never forget those audiology line graphs, the audiograms, that showed that declining line deepening every visit. I'll 
+    especially never forget that audiometric booth that I was subjected to for testing on numerous occasions. The booth had a 
+    colorful mechanical stuffed monkey mounted in the top corner. The monkey would hauntingly play the drums once the exam was over. 
+    It would taunt me at the end of every exam, supposedly banging the drums as an act of celebration. One day it no longer played 
+    the drums at the end of the exam—a symbol of my lost hearing.
+
+    I also deeply resonate with what Louise frets about losing her "natural" hearing as a result of going through with the implant. 
+    For all of grade school, I wore one hearing aid, and eventually it didn't help at all. My “bad” ear couldn't reconstruct the 
+    sound it was picking up through my hearing aid. The last pair of equipment I ever used was in college. I switched to wearing two 
+    tiny hearing aids. One was worn on my “bad” ear, and the other on my “good” ear. This pair of hearing aids would allow the sound 
+    picked up from the “bad” ear to be sent to the “good” ear. I never adapted to this, it didn't feel right, it felt like all the 
+    sound coming into my “good” ear was through a telephone call.
+
+    Sound that we receive through technology is simply different from the sound our ears pick up directly from another person. I 
+    decided that being able to hear normally through my “good” ear was good enough for me. Like I said, I can't even remember what 
+    it ever was like to have two perfectly hearing ears. I fully rely on my “good” ear, body movement, and spatial positioning to 
+    ensure I've optimized my situation for hearing everything and everyone around me.
+
+    I sincerely cannot think of any other book I've ever read where there is a partially deaf character, or a character with any sort 
+    of hearing impairment. In grade school, I only knew of two other girls in my grade with a hearing impairment. Unfortunately, that 
+    didn’t make us automatic friends. If anything, I'm sure we all had the same idea of trying to fit in with the rest of the kids as 
+    best as we could. When I was younger, there were times that my hearing loss affected my confidence. Larger rooms with more kids, 
+    a presentation, networking for events, that all felt overwhelming and intimidating at times.
+
+    Louise expresses how her loss made her feel; she says: “Orphaned. Yes, that was very much how I'd always felt, this sensation of 
+    not belonging to any community. Not deaf enough to be a part of Deaf culture, not hearing enough to be fully within the hearing 
+    world. It all came down to what I'd convinced myself to be or not be. The collateral damage that had chipped away at my self-worth 
+    and my confidence were, for those soldiers, orphaned issues that they struggled to make sense of.” I can understand where Louise 
+    is coming from, not always feeling fully a part of the hearing world—as time passes and as I've grown up, I've felt less of that, 
+    but I can fully agree that a lot of it comes down to what we convince ourselves to be.
+
+    My hearing loss used to be my greatest weakness growing up, but I'm grateful for the strengths I've developed as a result of my 
+    condition. I will always attribute my strength of being a fantastic listener to how I was forced to exist and adapt to every 
+    hearing situation I've encountered from a very early age—I'm a natural active listener. And, I'm extremely empathetic—it's hard 
+    not to be, especially when you're sensing and feeling so much from within to make up for the sound that can't be processed.
+
+    I highly recommend picking up this quick but deeply fascinating read. Rosenfeld has crafted a story that authentically captures 
+    the nuances of navigating life with hearing loss. The book offers a window into an experience that's rarely represented in 
+    literature, making visible what is often invisible. Everyone can benefit from understanding what it feels like to live with an 
+    invisible disability, whether or not you actually have a hearing impairment. For me, finding Louise's story felt like discovering 
+    a reflection of part of my own experience on the page—a rare and valuable thing indeed.
 `.trim().split('\n\n');
 
 const bookList = [
