@@ -308,6 +308,27 @@ const summary = `
     literature, making visible what is often invisible. Everyone can benefit from understanding what it feels like to live with an 
     invisible disability, whether or not you actually have a hearing impairment. For me, finding Louise's story felt like discovering 
     a reflection of part of my own experience on the page—a rare and valuable thing indeed.
+
+    —May 19, 2025—
+
+    To round out April, I read "Verity" by Colleen Hoover. I read "It Ends with Us" years ago (I haven't watched the movie), and almost 
+    didn't pick up another Hoover book after learning about some author controversies—I've been conflicted about whether or not to 
+    read another book by her. However, multiple friends have talked about "Verity" and have urged me to read it. I'm not kidding! 
+    I was even having dinner one time at La Pecora Bianca in SoHo with a friend who was telling me all about this book, when all of a 
+    sudden, a woman next to us who was clearly on a date abruptly interrupted us (and her date) to back up my friend and try to 
+    convince me to read this book. Apparently, that's how good it was. I've always thought about that interaction, but I was standing 
+    firm about not reading it—that is until I heard who was cast to star in the upcoming movie adaptation (Anne Hathaway, Dakota 
+    Johnson, and more).
+
+    Finally, I've gotten around to reading this book—in three days (and no more)! It has been my quickest read of the year. This 
+    thriller mainly follows Lowen, a struggling writer who takes on a job to be a ghostwriter for well-known author Verity Crawford. 
+    Verity is unable to finish her book series due to an injury, so Lowen relocates to the Crawfords' home, where Verity worked, to 
+    accomplish the ghostwriting job. It doesn't take long for Lowen to realize some things about this family aren't adding up. She 
+    starts to uncover disturbing information through an autobiography that Verity has hidden away, one she's sure no one else has seen.
+
+    This book was an absolute page-turner, I won't deny it. There were twists and turns that I didn't see coming. This thriller is 
+    packed with themes of obsession, grief, and loss. If you're looking for a book to get back into reading that is enticing and 
+    mysterious, then I'd surely recommend this one.
 `.trim().split('\n\n');
 
 const bookList = [
@@ -374,6 +395,14 @@ const bookList = [
     {
         title: 'Oh William!',
         author: 'Elizabeth Strout',
+    },
+    {
+        title: `There's Nothing Wrong with Her`,
+        author: 'Kate Weinberg',
+    },
+    {
+        title: 'Fake It Like You Mean It: A Novel',
+        author: 'Megan Murphy',
     },
 ];
 
@@ -476,6 +505,10 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/ohwilliam.jpeg',
         altText: 'Oh William!',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/theresnothingwrongwithher.jpeg',
+        altText: `There's Nothing Wrong with Her`,
     },
 ];
 
