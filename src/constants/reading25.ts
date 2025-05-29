@@ -329,6 +329,64 @@ const summary = `
     This book was an absolute page-turner, I won't deny it. There were twists and turns that I didn't see coming. This thriller is 
     packed with themes of obsession, grief, and loss. If you're looking for a book to get back into reading that is enticing and 
     mysterious, then I'd surely recommend this one.
+
+    —May 28, 2025—
+
+    I started the month of May by reading “Severance” by Ling Ma. This book has long been sitting on my TBR shelf. I have friends who 
+    have read it, and it's a book that received widespread acclaim. However, with the lack of blurb on the paperback's back cover, 
+    and outstanding reviews listed instead of a typical summary, I was largely mistaken about the book's plot. Because of its title, 
+    I assumed it had to do with an individual getting fired from work and getting a severance package, but I was wrong—kind of. I was 
+    satisfied to discover that this book explores many themes including workplace culture, capitalism, immigrant upbringing, and grief.
+
+    This story is set in a post-apocalyptic period and follows Candace, a NYC transplant, who was working in Bible production at a 
+    publishing company. She becomes nomadic after “Shen Fever”, a fungal infection, wipes out the vast majority of the earth's 
+    population. I recall living and working in NYC at an event marketing company when COVID-19 hit in 2020. Like most people at the 
+    time, I spent every day weighing whether or not to leave the city, and eventually I did—but I also was one of the first to come 
+    back. During this period, I kept working my full-time job despite the pandemic happening around me. Candace does the same for as 
+    long as she can.
+
+    Eventually, her survival depends on joining a group of survivors who are traveling toward "The Facility," a supposed sanctuary 
+    that their leader is guiding them to in order to restart their lives.
+
+    Those that are affected and become fevered are essentially zombie-like; they lose consciousness, and are stuck in a loop of 
+    memories and repetitions. I thought I'd be reading about the type of zombies that appear in movies such as “I Am Legend” or even 
+    “Zombieland”. The deserted cities in those movies are really the only scenes that I could grab from to compare when reading this 
+    book. The fevered in this book are not harmful in the way we may typically think that zombies are dangerous. They're contagious 
+    without being violent. Memories and nostalgia are the true enemy in “Severance”.
+
+    During this journey, readers gain insight into both Candace's present nomadic state and her pre-apocalypse life. We learn about 
+    her Chinese-American immigrant upbringing, her parents' journey starting a new life in America, and the cultural connections 
+    between NYC's Chinatown and her family's origins in China. 
+
+    I was particularly fascinated by her overseas work experience traveling to China where her publishing company has a manufacturing 
+    outpost. We also learn about Candace's career progression in NYC, as well as her experience navigating the friendships and power 
+    struggles in the workplace and later among the group of survivors she's bound to. 
+
+    As a reader based in NYC, I enjoyed hearing her perspective on work culture in the city and her insight on the different 
+    neighborhoods that make up this great city. It's amazing to realize that she is one of the last remaining survivors in NYC 
+    before she joins the group given the city's vast size. The fact that she continues to work long after the fever hits and many 
+    people have left the city, and that those that stayed have mostly become fevered, may give us some insight into why the book is 
+    titled “Severance” to begin with.
+
+    What risks are we willing to take in order to show up in-office? What is the true value of the severance being offered in this 
+    day and age? These are the questions that I pondered when I realized that Candace continues to work for so long because she feels 
+    bound to a contract that is paying her to continue to show up in-office while an infection is spreading worldwide. Does she 
+    benefit from this at all? No spoilers here, so you'll have to read the book to find out.
+
+    In addition to having a fascinating storyline, I thoroughly enjoyed the writing in this book; passages, such as: “A day off meant 
+    we could do things we'd always meant to do. Like go to the Botanical Garden, the Frick Collection, or something. Read some fiction. 
+    Leisure, the problem with the modern condition was the dearth of leisure. And finally, it took a force of nature to interrupt our 
+    routines. We just wanted to hit the reset button. We just wanted to feel flush with time to do things of no quantifiable value, 
+    our hopeful side pursuits like writing or drawing or something, something other than what we did for money.” The author's 
+    examination of seemingly mundane concepts like a day off reveals deeper insights about modern culture. I valued the book's 
+    descriptive language, satirical commentary, and the prose that definitely captured my attention.
+
+    Overall, I found it unnerving that this book was first published in 2018 and we experienced our own pandemic in 2020. Initially, 
+    I wondered if this book was written in response to our recent pandemic, but I was surprised to discover it was published two years 
+    before COVID-19 hit. I found myself entranced by this book, reading it in 2025, and having nightmares—I cannot imagine reading 
+    this during the actual pandemic. This book, although considered a dystopian sci-fi novel, has the type of  introspective story 
+    that I enjoy reading most. I'm glad to have this book in my collection, and I definitely recommend picking it up if you're looking 
+    for a darker satirical read.
 `.trim().split('\n\n');
 
 const bookList = [
@@ -403,6 +461,10 @@ const bookList = [
     {
         title: 'Fake It Like You Mean It: A Novel',
         author: 'Megan Murphy',
+    },
+    {
+        title: 'More Days at the Morisaki Bookshop',
+        author: 'Satoshi Yagisawa',
     },
 ];
 
