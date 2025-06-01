@@ -387,6 +387,43 @@ const summary = `
     this during the actual pandemic. This book, although considered a dystopian sci-fi novel, has the type of  introspective story 
     that I enjoy reading most. I'm glad to have this book in my collection, and I definitely recommend picking it up if you're looking 
     for a darker satirical read.
+
+    —May 31, 2025—
+
+    I love discovering new titles and new authors, but it's always fun when one book leads you to discover another. For me, this 
+    month, I chose to pick up another book from an author that I discovered last year. That author is Elizabeth Strout, whose novel 
+    “Oh William!” caught my attention. Last year, I found “Lucy by the Sea” by the same author at my local library and I enjoyed it 
+    more than I thought I would. Imagine my surprise when I discovered that “Lucy by the Sea” and “Oh William!” feature the exact 
+    same characters!
+
+    Once I got home after picking up “Oh William!” I did further research and found that there was an entire set of books devoted to 
+    these characters. While these books can be read independently, discovering there's an entire series made me even more excited to 
+    dive deeper into these characters' lives.
+
+    These books center on Lucy Barton, and she's such an endearing character that I was immediately drawn to reading more of Strout's
+    work. She captivated me as a character—she's a sixty-something writer and mother living in New York City, originally from 
+    Illinois, whose authentic voice and complex relationships feel remarkably real.
+
+    In this book, Lucy is grappling with the recent death of her second husband. She's working through her grief and in need of 
+    human connection, just as her first husband finds himself equally in need of human connection. William is Lucy's ex-husband 
+    and the father of her children—now adult daughters. Throughout the book, we learn about Lucy and William's relationship. Their 
+    pasts together and apart are so indicative of the people they have become. From lovers to friends, we get an inside look at 
+    everything that's happened in order to get to this point. Their unexpected adventure reveals how people can evolve while the 
+    weight of shared history remains unchanged.
+
+    Strout's prose captures emotional truth with startling precision. Lucy, being a writer, reflects on the moment she realizes she 
+    became a more earnest writer. Shortly after making the decision to leave William, she reflects, “A tulip stem inside me snapped. 
+    This is what I felt. It has stayed snapped, it never grew back. I began to write more truthfully after that.” Love can be so 
+    fragile and Lucy portrays it through this tulip metaphor. Her love for William was so grand at one point in time, it caused her 
+    physical pain, and the outcome made her more honest with herself.
+
+    White tulips prove to be a recurring symbol in this book. We also learn how important it was to Lucy that her second husband 
+    always made sure to give her tulips, they were always in her home, and they even grace the cover of the book. They are Lucy's 
+    favorite flower, but they are also so powerful in showing us how love transforms but endures in different forms.
+
+    There is no shortage of moments where a reader can witness the growth of these characters, and that's exactly why I'll continue 
+    to work my way through the Lucy Barton series. I recommend diving into this series if you enjoy character-driven stories about 
+    complex relationships.
 `.trim().split('\n\n');
 
 const bookList = [
