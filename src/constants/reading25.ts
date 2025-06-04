@@ -609,6 +609,14 @@ const bookPhotos = [
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/theresnothingwrongwithher.jpeg',
         altText: `There's Nothing Wrong with Her`,
     },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/fakeitlikeyoumeanit.jpeg',
+        altText: 'Fake It Like You Mean It: A Novel',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/moredaysatthemorisakibookshop.jpeg',
+        altText: 'More Days at the Morisaki Bookshop',
+    },
 ];
 
 const tbrSection = [

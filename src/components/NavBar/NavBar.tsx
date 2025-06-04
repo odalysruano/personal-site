@@ -10,7 +10,7 @@ const Links = [
 ];
 
 const MoreLinks = [
-    {name: 'Reading', href: '/reading2024'}, // Add future pages here
+    {name: 'Reading', href: '/reading2025'}, // Add future pages here
 ];
 
 function NavLink({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
