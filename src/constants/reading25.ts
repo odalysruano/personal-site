@@ -424,6 +424,76 @@ const summary = `
     There is no shortage of moments where a reader can witness the growth of these characters, and that's exactly why I'll continue 
     to work my way through the Lucy Barton series. I recommend diving into this series if you enjoy character-driven stories about 
     complex relationships.
+
+    —June 20, 2025—
+
+    Welcome to my May reading recap—where I'm finally finishing up the last of my May reads! I have to admit, I'm being a bit 
+    sarcastic here because May turned out to be my biggest reading month yet, and here we are well into June with me still 
+    catching up on blog posts (so much for my promise to stay more current!). I managed to get through five books total, including 
+    the two I already covered in my previous posts. Today I'm sharing thoughts on the final three: "There's Nothing Wrong with Her" 
+    by Kate Weinberg, "Fake It Like You Mean It" by Megan Murphy, and "More Days at the Morisaki Bookshop" by Satoshi Yagisawa. 
+    Let's dive in!
+
+    I picked up "There's Nothing Wrong with Her" at my local library and I was intrigued by the book cover—the woman lying in what 
+    appears to be a human-sized fishbowl with her goldfish, her legs sticking straight up as if she's underwater with her pet, all 
+    resting on colorful aquarium pebbles against a bright blue background. There are also quotes from Sarah Jessica Parker and 
+    Kiley Reid on the cover. I've read "Such a Fun Age" by Reid and remember it to this day, and well, SJP is just a downright 
+    icon in television, fashion, and is known for being a voracious reader.
+
+    The book follows Vita, a woman with a seemingly incurable illness, who sometimes finds herself in "The Pit" during moments 
+    where she no longer feels in control of her body or mind. She has her goldfish, Whitney Houston, to accompany her every day 
+    that she spends in the apartment she shares with her doctor boyfriend, along with the neighbors that inhabit her building. 
+    This is a story that explores themes of love, identity, grief, and mental health.
+
+    The theme of mental health impacted me the most, as Vita so vividly describes the feelings that overcome her when she finds 
+    herself in "The Pit". She says, “I'm back down here, a feeling of extreme weakness like I might dis a p p e a r. Every cell 
+    is squeezed dry leaving just a frail web of nerves, the skeleton of a leaf. An itch on my nose. No energy to lift my hand. 
+    Hard to distinguish weakness from lack of signals from the brain.” I've rarely read such a detailed and almost poetic 
+    description of these feelings of despair and loss. It was fascinating to see how the author found an almost beautiful way to 
+    articulate these experiences.
+
+    It's hard to accept that the people around Vita doubt that there is anything wrong with her when she's processing her past and 
+    present relationships while living through so many emotions. This makes me wonder about the available diagnoses and treatments 
+    in Western medicine, and the lack of modern tools and solutions that support mental health. From exploring the complexity of 
+    invisible illness, I moved on to “Fake It Like You Mean It,” which tackles health challenges from a completely different 
+    angle—through the lens of Alzheimer's and unexpected romance.
+
+    My sister urged me to read "Fake It Like You Mean It" after reading it with her book club. I haven't read many romance novels 
+    this year and was looking forward to a lighter read, but I found that while this book has a fake dating trope and light comedic 
+    moments, it also explores complex relationships and caretaking.
+
+    In this book, Elle leaves behind her Chicago city life and puts her podcast career on pause to take care of her grandmother, 
+    Lovie, as her Alzheimer's diagnosis worsens. Lovie raised Elle, and now the roles are reversed. To her surprise, Elle finds 
+    that there's now a live-in nurse, Adam, who has taken over Lovie's routine and care. It doesn't take long for tensions to rise 
+    around how to best care for Lovie, and to top it all off, she's convinced that Elle and Adam are lovers.
+
+    However, it was the plot around Elle's responsibility to her grandmother—to take care of her through her Alzheimer's 
+    diagnosis—that tugged at my heart the most. I learned so much about Alzheimer's, and I think this story shows why caretakers 
+    are so essential, whether they're family  members or healthcare professionals. Elle is fortunate enough to have a career that 
+    grants her the flexibility to show up for others in their time of need, and that makes me reflect more deeply on the flexibility I 
+    desire in my own career.
+
+    For my final May read, I returned to familiar territory with “More Days at the Morisaki Bookshop,” the sequel to a book I fell 
+    in love with last year. The books are set in Jimbocho, a district in Tokyo known for its many bookshops, and mainly center 
+    around Takako, a young woman who has frequented her favorite secondhand bookshop ever since reconnecting with her 
+    uncle, Satoru, in the first book. The Morisaki Bookshop has been in their family for generations, and it's heartwarming to see 
+    how it plays a role in their lives. Now, despite difficult times, they must remember why they love it so much in the first 
+    place in order to keep it from shuttering.
+
+    In this new story, we meet many of the same familiar friends from the first book—uncle Satoru and his wife, Momoku, and 
+    Takako's friends Tomo and Takano. Through them, we learn about the beauty of friendships and their many phases throughout time. 
+    However, my favorite thing about these books is how much love all these characters have for books. Tomo says, “When I'm sad, I 
+    read. I can go on reading for hours. Reading quiets the turmoil I feel inside and brings me peace. Because when I'm immersed in 
+    the world of a book, no one can get hurt.” She expresses so clearly how books provide comfort and escape. For me, reading can 
+    be so meditative and is always a welcome distraction from the real world.
+
+    There's something so cozy about the world that Takako and Satoru are so attracted to. If the Morisaki Bookshop were a person, 
+    then they'd all be related by blood. They fit so well within it that it's no wonder others are drawn to it despite its humble 
+    nature as a secondhand bookshop.
+
+    Looking ahead to my June reading, I've just finished reading “Wellness” by Nathan Hill. It was a very hefty, lengthy book, 
+    probably the thickest book I've read this year. And while it took me about twenty days to read, I need some more time to gather 
+    my thoughts. Look out for my next update to learn more about what I thought about it!
 `.trim().split('\n\n');
 
 const bookList = [
@@ -502,6 +572,10 @@ const bookList = [
     {
         title: 'More Days at the Morisaki Bookshop',
         author: 'Satoshi Yagisawa',
+    },
+    {
+        title: 'Wellness',
+        author: 'Nathan Hill',
     },
 ];
 
