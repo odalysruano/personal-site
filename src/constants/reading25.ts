@@ -577,6 +577,14 @@ const bookList = [
         title: 'Wellness',
         author: 'Nathan Hill',
     },
+    {
+        title: 'Just for the Summer',
+        author: 'Abby Jimenez',
+    },
+    {
+        title: 'Atmosphere: A Love Story',
+        author: 'Taylor Jenkins Reid',
+    },
 ];
 
 const audiobookList = [
@@ -690,6 +698,14 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/moredaysatthemorisakibookshop.jpeg',
         altText: 'More Days at the Morisaki Bookshop',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/wellness.jpeg',
+        altText: 'Wellness',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/justforthesummer.jpeg',
+        altText: 'Just for the Summer',
     },
 ];
 
