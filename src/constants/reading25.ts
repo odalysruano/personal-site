@@ -707,6 +707,10 @@ const bookPhotos = [
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/justforthesummer.jpeg',
         altText: 'Just for the Summer',
     },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/atmosphere.jpeg',
+        altText: 'Atmosphere',
+    },
 ];
 
 const tbrSection = [
