@@ -585,6 +585,18 @@ const bookList = [
         title: 'Atmosphere: A Love Story',
         author: 'Taylor Jenkins Reid',
     },
+    {
+        title: 'All the Lovers in the Night',
+        author: 'Mieko Kawakami',
+    },
+    {
+        title: 'The Let Them Theory',
+        author: 'Mel Robbins',
+    },
+    {
+        title: 'A Woman Among Wolves',
+        author: 'Diane K. Boyd',
+    },
 ];
 
 const audiobookList = [
