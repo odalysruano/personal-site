@@ -6,7 +6,9 @@ const summary = `
     I can't wait to read throughout the year. You can find my 2025 reading list at the bottom of this page, where I'll be adding books 
     as I finish reading them. What books are you looking forward to reading this year? Let me know if you have any book recommendations!
 
-    —January 18, 2025—
+    —January 18, 2025: Kicking Off 2025 with Thrills and Inspiration—
+
+    [Some thoughts on: "The Christmas Fix", "The Hunting Party", and "Be Ready When the Luck Happens"]
 
     As I'm writing this, I've finished reading "The Christmas Fix" by Lucy Score and "The Hunting Party" by Lucy Foley. "The 
     Christmas Fix" was gifted to me for Christmas. I'd never read a book by Lucy Score and did not have any idea what I was in 
@@ -32,7 +34,9 @@ const summary = `
     Watching". I just picked up the copy I had on hold at the library. Once I finish this book, maybe I'll finally pick up a book 
     off my TBR stack!
 
-    —February 21, 2025—
+    —February 21, 2025: Vanity, Habits, and Modern Love—
+
+    [Some thoughts on: "The Housemaid is Watching", "The Picture of Dorian Gray", "Atomic Habits", "Everything I Know About Love", and "How to End a Love Story"]
 
     This winter has provided perfect moments where I can settle into my cozy apartment on a snowy day with a book! I closed out 
     January with mixed feelings about "The Housemaid is Watching." While it provided closure for the characters I'd followed through 
@@ -74,7 +78,9 @@ const summary = `
     perspectives with each new book. I'm looking forward to what March brings to my bookshelf—maybe some picks from the Barnes & 
     Noble Book Festival?? Wink wink ;) Until next month's update, happy reading!
 
-    —March 31, 2025—
+    —March 31, 2025: From Outer Space to a Time-Slip Romance—
+
+    [Some thoughts on: "How to End a Love Story", "Orbital", "The Seven Year Slip", "Master of Me", "Harry Potter and the Prisoner of Azkaban", and the Barnes & Noble Book Festival]
 
     Looking back at my last blog post, I can see how excited I was to follow the character development of our main characters in 
     “How To End a Love Story”. I'd seen online that this book had an enemies-to-lovers romance trope, and while I usually enjoy 
@@ -170,7 +176,9 @@ const summary = `
     promises to be another fascinating exploration of relationships and personal growth. I'm looking forward to sharing my thoughts 
     in my next post!
 
-    —April 19, 2025—
+    —April 19, 2025: From Complicated Love and Hustle Culture to Inner Peace—
+
+    [Some thoughts on: "Cleopatra and Frankenstein", "Don't Believe Everything You Think", and "How to Stop Trying"]
 
     Earlier this month, I finished reading "Cleopatra and Frankenstein" by Coco Mellors. I really wanted to love this book before I 
     even began reading it—I'd seen people compare it to Sally Rooney books, which I really enjoy. The story mainly follows two 
@@ -235,7 +243,7 @@ const summary = `
     set meaningful boundaries, and prioritize my well-being—and not as an afterthought. Next up on my reading list, I'm looking to 
     get back into some more fiction picks!
 
-    —May 15, 2025—
+    —May 15, 2025: When the Drumming Monkey Went Silent - On Hearing Loss and Jellyfish Have No Ears—
 
     I keep telling myself I have to write down my thoughts immediately after reading a book, so that I don't have so much to recap at 
     a time in my reading blog entries. Despite telling myself this, I have not been successful in making this happen! After the 
@@ -287,7 +295,7 @@ const summary = `
 
     I sincerely cannot think of any other book I've ever read where there is a partially deaf character, or a character with any sort 
     of hearing impairment. In grade school, I only knew of two other girls in my grade with a hearing impairment. Unfortunately, that 
-    didn’t make us automatic friends. If anything, I'm sure we all had the same idea of trying to fit in with the rest of the kids as 
+    didn't make us automatic friends. If anything, I'm sure we all had the same idea of trying to fit in with the rest of the kids as 
     best as we could. When I was younger, there were times that my hearing loss affected my confidence. Larger rooms with more kids, 
     a presentation, networking for events, that all felt overwhelming and intimidating at times.
 
@@ -309,7 +317,7 @@ const summary = `
     invisible disability, whether or not you actually have a hearing impairment. For me, finding Louise's story felt like discovering 
     a reflection of part of my own experience on the page—a rare and valuable thing indeed.
 
-    —May 19, 2025—
+    —May 19, 2025: The Stranger at La Pecora Bianca Was Right - I Finally Read Verity—
 
     To round out April, I read "Verity" by Colleen Hoover. I read "It Ends with Us" years ago (I haven't watched the movie), and almost 
     didn't pick up another Hoover book after learning about some author controversies—I've been conflicted about whether or not to 
@@ -330,7 +338,7 @@ const summary = `
     packed with themes of obsession, grief, and loss. If you're looking for a book to get back into reading that is enticing and 
     mysterious, then I'd surely recommend this one.
 
-    —May 28, 2025—
+    —May 28, 2025: A Pandemic Déjà Vu - Why Ling Ma's Severance Felt Like Reliving 2020—
 
     I started the month of May by reading “Severance” by Ling Ma. This book has long been sitting on my TBR shelf. I have friends who 
     have read it, and it's a book that received widespread acclaim. However, with the lack of blurb on the paperback's back cover, 
@@ -388,7 +396,7 @@ const summary = `
     that I enjoy reading most. I'm glad to have this book in my collection, and I definitely recommend picking it up if you're looking 
     for a darker satirical read.
 
-    —May 31, 2025—
+    —May 31, 2025: On Grief, Friendship, and the Weight of the Past - A Review of Oh William!—
 
     I love discovering new titles and new authors, but it's always fun when one book leads you to discover another. For me, this 
     month, I chose to pick up another book from an author that I discovered last year. That author is Elizabeth Strout, whose novel 
@@ -425,7 +433,9 @@ const summary = `
     to work my way through the Lucy Barton series. I recommend diving into this series if you enjoy character-driven stories about 
     complex relationships.
 
-    —June 20, 2025—
+    —June 20, 2025: On Invisible Illness, Caretaking, and the Healing Power of Books - My May Reads—
+
+    [Some thoughts on: "There's Nothing Wrong with Her", "Fake It Like You Mean It", and "More Days at the Morisaki Bookshop"]
 
     Welcome to my May reading recap—where I'm finally finishing up the last of my May reads! I have to admit, I'm being a bit 
     sarcastic here because May turned out to be my biggest reading month yet, and here we are well into June with me still 
@@ -494,6 +504,59 @@ const summary = `
     Looking ahead to my June reading, I've just finished reading “Wellness” by Nathan Hill. It was a very hefty, lengthy book, 
     probably the thickest book I've read this year. And while it took me about twenty days to read, I need some more time to gather 
     my thoughts. Look out for my next update to learn more about what I thought about it!
+
+    —August 4, 2025: More Than Just a Health Fad - A Review of Wellness—
+
+    I've put off writing down my thoughts on “Wellness” by Nathan Hill because the task felt overwhelmingly daunting! Not 
+    because I have negative things to share, but because this enormous book covers so many topics across a lengthy, intricate 
+    storyline. I kept thinking to myself: “Where do I even begin with this book?”. Then, I realized I don't have to cover it all. 
+    I can write about whatever I want—and that's exactly what I'll do here. 
+
+    To start, I learned about this book from an online influencer and was motivated to pick it up when I heard that one of its main 
+    themes is a questioning of modern wellness culture. I found that rather intriguing because we live in an age where “wellness” 
+    culture is thrown at us from every direction. Topics like manifestation and the placebo effect are explored, and at times, even 
+    mocked. Beyond wellness, the book also delves into the complexities of technology, the struggles of parenthood and marriage, and 
+    the profound ways family history shapes us as individuals.
+
+    I absolutely loved the book's opening, which tells the beautifully descriptive story of how our two main characters, Jack and 
+    Elizabeth, meet and fall in love in 1993 Chicago. In fact, Hill's talent for painting scenes with words is a highlight 
+    throughout the entire novel. He does not disappoint when it comes to describing people, places, or things. For example, 
+    describing a Wicker Park night from Jack's point of view: “He loves the noise of the city because there's something reassuring 
+    about it—the evidence of other people, neighbors, compatriots. And also there's something grand about becoming insusceptible to 
+    the noise, sleeping peacefully through the urban night without flinching at the beeps and voices and car alarms and police sirens 
+    outside—it's an important marker of transcendence.” Whether detailing a feeling, a setting, or even a famous painting like Grant 
+    Wood's “American Gothic”, I always felt fully immersed, visualizing exactly what I think Hill intended.
+
+    The story introduces us to Jack and Elizabeth as young, free-spirited college students. Fast forward twenty years, and they are 
+    married parents to their eight-year-old son, Toby, planning a move to a new suburban condo development called the Shipworks. 
+    These are condos that “have it all”, and Jack and Elizabeth are customizing their unit to the max, hoping to create their 
+    “forever home”.
+
+    The contrast between their past and present selves is stark. Jack is now an adjunct art professor teaching classes at the 
+    university, and Elizabeth works at an institute called, fittingly, Wellness. They have done well for themselves. Back in their 
+    student days, they could be found “culture-jamming” with friends—pulling pranks at a retail mall as “a way to resist [the] 
+    homogenizing, Earth-destroying corporate capitalist machine, but with a sense of humor.” They believed the system and those 
+    complicit in it were “plainly immoral”, which justified their antics. Now, on the verge of moving into a luxury condo, Elizabeth 
+    reflects on their youthful arrogance, realizing they were naive idealists who would eventually have to join the very economy they 
+    once scorned in order to build a life. Elizabeth realizes that, like her friends who had already had children and moved on from 
+    the city, it's okay for people to change their minds on what they want in life or how to raise a family.
+
+    Throughout the novel, we move between the characters' past and present, even delving into the lives of their ancestors. Jack grew 
+    up in the rural Flint Hills of Kansas, where life was quiet and leaving for the city was a big deal. Elizabeth, by contrast, grew 
+    up in an affluent family that moved frequently, placing high expectations on her. These histories play a crucial role in how they 
+    navigate the world and make choices for their family today. Both had difficult childhoods, and their pasts heavily influence 
+    their parenting as they strive to do better by Toby.
+
+    It's particularly interesting to see how technology shapes the family's life. Toby is socially awkward but thrives in the online 
+    worlds of Minecraft and gaming streams, an obsession that enthralls him and baffles his parents. Technology's impact is also 
+    felt by Jack, whose job security is threatened by university metrics judging his value as a professor, and whose relationship 
+    with his father is strained by the Facebook algorithm on top of their already complicated history. His dad becomes susceptible 
+    to online misinformation, creating a rift that Jack struggles to bridge.
+
+    Overall, I found “Wellness” to be a brilliant book, chock-full of timely topics and amazing storytelling. From youthful optimism 
+    to the ever-changing dynamics of a family growing up, I think readers will walk away feeling like they've learned something, with 
+    a gentle nudge to reconsider how they are living their own lives in this modern world. I certainly finished it thinking about my 
+    own future and the choices I once thought were set in stone.
 `.trim().split('\n\n');
 
 const bookList = [
