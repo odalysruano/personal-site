@@ -786,6 +786,14 @@ const bookPhotos = [
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/atmosphere.jpeg',
         altText: 'Atmosphere',
     },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/alltheloversinthenight.jpeg',
+        altText: 'All the Lovers in the Night',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/theletthemtheory.jpeg',
+        altText: 'The Let Them Theory',
+    },
 ];
 
 const tbrSection = [
