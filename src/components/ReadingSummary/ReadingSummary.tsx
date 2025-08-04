@@ -45,64 +45,72 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
         }
     };
 
-    // Parse the summary text to group by date posts
+    // Parse the summary text to group by posts and format headers
     const blogPosts = useMemo(() => {
-        const posts: Array<{date: string, paragraphs: string[]}> = [];
-        let currentPost = {
-            date: '',
+        // Step 1: Group paragraphs under their raw header string
+        const groupedPosts: Array<{header: string, paragraphs: string[]}> = [];
+        let tempPost = {
+            header: '',
             paragraphs: [] as string[]
         };
 
         for (const paragraph of summary) {
-            // Check if the paragraph is a date header
-            // Match both "—Month Day, Year—" and "—Month Year Update—" formats
-            if (paragraph.trim().match(/^—[A-Za-z]+ \d+, \d{4}—$/) ||
-                paragraph.trim().match(/^—[A-Za-z]+ \d{4} Update—$/)) {
-                // If we have an existing post with content, add it to our posts array
-                if (currentPost.date && currentPost.paragraphs.length > 0) {
-                    posts.push({...currentPost});
+            const trimmedParagraph = paragraph.trim();
+            // Check if the paragraph is a header
+            if (trimmedParagraph.startsWith('—') && trimmedParagraph.endsWith('—')) {
+                if (tempPost.header) {
+                    groupedPosts.push({...tempPost});
                 }
-
-                // Start a new post with this date
-                currentPost = {
-                    date: paragraph.trim(),
+                // Start a new post with this raw header
+                tempPost = {
+                    header: trimmedParagraph,
                     paragraphs: []
                 };
-            } else if (currentPost.date) {
-                // Add this paragraph to the current post
-                currentPost.paragraphs.push(paragraph);
+            } else if (tempPost.header) {
+                // Add paragraph to the current post
+                tempPost.paragraphs.push(paragraph);
             } else {
-                // Handle paragraphs before the first date header if any
-                if (!currentPost.date) {
-                    currentPost.date = 'My Reading Goal';
-                }
-                currentPost.paragraphs.push(paragraph);
+                // Handle content before the first header ("My Reading Goal")
+                tempPost.header = 'My Reading Goal';
+                tempPost.paragraphs.push(paragraph);
             }
         }
-
-        // Add the final post if it has content
-        if (currentPost.date && currentPost.paragraphs.length > 0) {
-            posts.push(currentPost);
+        // Add the final post
+        if (tempPost.header) {
+            groupedPosts.push(tempPost);
         }
 
-        return posts;
-    }, [summary]);
+        // Step 2: Process each grouped post to create final display labels
+        return groupedPosts.map(post => {
+            if (post.header === 'My Reading Goal') {
+                return {
+                    buttonLabel: 'My Reading Goal',
+                    panelHeader: 'My Reading Goal',
+                    paragraphs: post.paragraphs
+                };
+            }
 
-    // Function to extract a cleaner date from the full date header
-    const getCleanDate = (dateHeader: string) => {
-        if (dateHeader === 'My Reading Goal') return 'My Reading Goal';
-        
-        // Try to match the format "—Month Day, Year—"
-        let match = dateHeader.match(/—([A-Za-z]+ \d+), \d{4}—/);
-        if (match) return match[1];
-        
-        // Try to match the format "—Month Year Update—"
-        match = dateHeader.match(/—([A-Za-z]+ \d{4}) Update—/);
-        if (match) return match[1];
-        
-        // If no pattern matches, return the original
-        return dateHeader;
-    };
+            // Extract content from within the "—...—"
+            const headerContent = post.header.substring(1, post.header.length - 1);
+            
+            // Split the content into a date part and an optional title part
+            const [fullDate, ...titleParts] = headerContent.split(': ');
+            const title = titleParts.length > 0 ? titleParts.join(': ') : null;
+
+            // Create the button label (e.g., "August 4: The Title")
+            const dateForButton = fullDate.replace(/, \d{4}/, ''); // Removes the year
+            const buttonLabel = title ? `${dateForButton}: ${title}` : fullDate;
+
+            // Create the panel header (e.g., "—August 4, 2025—")
+            const panelHeader = `—${fullDate}—`;
+
+            return {
+                buttonLabel,
+                panelHeader,
+                paragraphs: post.paragraphs
+            };
+        });
+    }, [summary]);
     
     return(
         <Box 
@@ -207,7 +215,7 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                             borderRadius='md'
                         >
                             <Box flex='1' textAlign='left' fontWeight='bold'>
-                                {getCleanDate(post.date)}
+                                {post.buttonLabel}
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -216,14 +224,14 @@ export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
                             px={{ base: '6', md: '10' }}
                             textAlign={{ base: 'left', md: 'left' }}
                         >
-                            {/* Add the full date header */}
+                            {/* Use the new panelHeader property */}
                             <Text
                                 fontWeight='bold' 
                                 fontSize={{ base: 'md', md: 'lg' }} 
                                 mb={4}
                                 textAlign='center'
                             >
-                                {post.date}
+                                {post.panelHeader}
                             </Text>
 
                             {/* Display all paragraphs for this post */}
