@@ -557,6 +557,37 @@ const summary = `
     to the ever-changing dynamics of a family growing up, I think readers will walk away feeling like they've learned something, with 
     a gentle nudge to reconsider how they are living their own lives in this modern world. I certainly finished it thinking about my 
     own future and the choices I once thought were set in stone.
+
+    —August 5, 2025: Not Your Average Beach Read - My Thoughts on Just for the Summer—
+
+    To kick off the summertime, I wanted to dive into some beach reads! A book that's been on my reading list for a while now is 
+    “Just for the Summer” by Abby Jimenez, and with summer underway, it felt like the perfect time to finally pick it up. I borrowed 
+    my copy from my sister (@fromthelibraryofana on Instagram!) and was super excited to jump in!
+
+    The book features the popular “fake dating” trope and follows Emma and Justin, who connect—of all places—on a Reddit thread. 
+    They're both convinced they're cursed: every person they've ever dated has found their soulmate immediately after breaking up with 
+    them. Their plan? Date each other and break up, theoretically launching them both into the arms of their future soulmates. After 
+    agreeing on a set of dating rules for their temporary relationship, their experiment begins.
+
+    However, their personalities present an immediate challenge. Emma is a free-spirited traveling nurse with no permanent home, 
+    though she's secretly hoping to fall in love someday. Justin is a family-oriented engineer who is ready to settle down. As they 
+    navigate their fake relationship, their fundamental differences in values and life goals become a central source of tension. The 
+    narrative is also enriched by a cast of compelling side characters, including Emma's best friend, her on-the-go mother, and 
+    Justin's close-knit family, all of whom play vital roles in shaping the couple's journey.
+
+    I went into this book expecting a light, romantic read, but it wasn't exactly that. Instead, it thoughtfully explored heavier 
+    topics like depression, mental health struggles, and toxic family dynamics. I thoroughly appreciated the author's content warning 
+    at the beginning of the book, which prepared me for the emotional depth to come.
+
+    Overall, I found this to be a much richer and more complex book than I initially expected. While I went in thinking it would be a 
+    light beach read, the depth of the storytelling—particularly around Emma's character and her past—made it far more engaging than 
+    your typical lighthearted romance. The heavier topics added layers that made me more invested in the characters' journeys. I was 
+    especially satisfied with how Emma's story arc resolves, and I found myself genuinely rooting for her growth and happiness. 
+    Without giving anything away, I'll just say that her journey of self-discovery felt genuine and earned.
+
+    If you're looking for a romance with real depth and emotional weight alongside the romantic tension, then I definitely recommend 
+    this one. Despite tackling heavier themes, it still kept me turning the pages and never felt overwhelming. It's much more 
+    substantial than the typical beach read—which, in my opinion, made it even better!
 `.trim().split('\n\n');
 
 const bookList = [
