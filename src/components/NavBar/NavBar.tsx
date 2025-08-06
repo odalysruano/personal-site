@@ -1,59 +1,77 @@
 import { Box, Button, Collapse, Flex, HStack, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, Stack, useDisclosure, useOutsideClick } from '@chakra-ui/react';
 import { ChevronDownIcon, CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 import { useRef } from 'react';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 
 const Links = [
-    {name: 'About Me', href: '#about'}, 
-    {name: 'Projects', href: '#projects'}, 
-    {name: 'Resume', href: 'https://drive.google.com/file/d/1rKGamG9KabGKRMNc0fNrmIKE2Proa9OR/view?usp=sharing'}, 
+    // {name: 'Memify', href: '/memify'},
+    // {name: 'My Career', href: '/career'},
+    {name: 'My Work', href: '/work'},
     {name: 'Contact', href: '#contact'},
 ];
 
 const MoreLinks = [
-    {name: 'Reading', href: '/reading2025'}, // Add future pages here
+    {name: 'Reading Blog', href: '/reading2025'},
 ];
 
 function NavLink({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
+    const isInternal = href.startsWith('/');
     const isHashLink = href.startsWith('#');
-    const isExternalLink = href.startsWith('http');
+    const navigate = useNavigate(); // Use the navigate hook for routing
 
-    const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-        if (isHashLink) {
-            event.preventDefault();
-            const isOnHomePage = window.location.pathname === '/';
-            if (!isOnHomePage) {
-                // Save the target section in localStorage and redirect to home
-                localStorage.setItem('scrollTarget', href);
-                window.location.href = '/';
-            } else {
-                const target = document.querySelector(href);
-                if (target) {
-                    setTimeout(() => {
-                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    }, 300);
-                }
-            }
-        }
-        if (onClick) {
-            onClick();
-        }
+    // Base button styles, separated from the click handler to prevent conflicts
+    const buttonStyleProps = {
+        bg: '#81E6D9',
+        px: 2,
+        py: 1,
+        rounded: 'md',
+        _hover: {
+            textDecoration: 'none',
+            bg: '#E9D8FD',
+        },
     };
 
+    // Use React Router's Link for internal navigation to prevent page reloads
+    if (isInternal) {
+        return (
+            <Button as={RouterLink} to={href} onClick={onClick} {...buttonStyleProps}>
+                {children}
+            </Button>
+        );
+    }
+    
+    // Handle hash links for smooth scrolling or navigating home first
+    if (isHashLink) {
+        const handleHashClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+            e.preventDefault();
+            const isOnHomePage = window.location.pathname === '/';
+
+            if (isOnHomePage) {
+                // If on the homepage, just scroll
+                const id = href.substring(1);
+                const element = document.getElementById(id);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            } else {
+                // If on another page, save target and navigate to homepage
+                localStorage.setItem('scrollTarget', href);
+                navigate('/');
+            }
+
+            if (onClick) onClick(); // Close mobile menu if open
+        };
+        
+        return (
+            <Button as='a' href={href} onClick={handleHashClick} {...buttonStyleProps}>
+                {children}
+            </Button>
+        );
+    }
+
+    // Default to a standard external link
     return (
-        <Button
-            as='a'
-            href={href}
-            target={isExternalLink ? '_blank' : undefined}
-            onClick={handleClick} 
-            bg='#81E6D9'
-            px={2}
-            py={1}
-            rounded={'md'}
-            _hover={{
-                textDecoration: 'none',
-                bg: '#E9D8FD',
-            }}
-        >
+        <Button as='a' href={href} target='_blank' onClick={onClick} {...buttonStyleProps}>
             {children}
         </Button>
     );
@@ -67,24 +85,14 @@ export default function NavBar() {
         ref: ref,
         handler: () => {
             if (isOpen) {
-                onToggle()
+                onToggle();
             }
         },
-    })
+    });
 
     const handleLinkClick = () => {
         if (isOpen) {
             onToggle();
-            setTimeout(() => {
-                const scrollTarget = localStorage.getItem('scrollTarget');
-                if (scrollTarget) {
-                    const targetElement = document.querySelector(scrollTarget);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    }
-                    localStorage.removeItem('scrollTarget');
-                }
-            }, 200);
         }
     };
 
@@ -101,11 +109,11 @@ export default function NavBar() {
             <Flex h={16} alignItems='center' justifyContent='space-between'>
                 <Flex alignItems='center' gap='5'>
                     <Box 
-                        as='a'
+                        as={RouterLink} // Use RouterLink for the home button
+                        to='/'
                         _hover={{
                             textDecoration: 'none',
                         }}
-                        href='/'
                     >
                         <HStack as='nav' spacing={4}>
                             <Image
@@ -135,7 +143,7 @@ export default function NavBar() {
                             </MenuButton>
                             <MenuList minWidth='150px'>
                                 {MoreLinks.map((link) => (
-                                    <MenuItem as='a' href={link.href} key={link.name}>
+                                    <MenuItem as={RouterLink} to={link.href} key={link.name}>
                                         {link.name}
                                     </MenuItem>
                                 ))}
