@@ -5,7 +5,7 @@ import { Link as RouterLink, useNavigate } from 'react-router-dom';
 
 const Links = [
     // {name: 'Memify', href: '/memify'},
-    // {name: 'My Career', href: '/career'},
+    {name: 'My Career', href: '/career'},
     {name: 'My Work', href: '/work'},
     {name: 'Contact', href: '#contact'},
 ];
