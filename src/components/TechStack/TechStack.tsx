@@ -31,19 +31,19 @@ export default function TechStack() {
                     fontSize={{ base: 'sm', md: 'md' }}
                     mb={{ base: 3, md: 2 }}
                 >
-                    <b>Frameworks:</b> Django, React.js, Express.js, EJS, Node.js, Jquery
+                    <b>Frameworks:</b> FastAPI, Next.js, AWS CDK, Django, React.js, Express.js, EJS, Node.js, Jquery
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
                     mb={{ base: 3, md: 2 }}
                 >
-                    <b>UI Frameworks:</b> Bootstrap, Materialize, Material UI, Chakra UI
+                    <b>UI Frameworks:</b> shadcn/ui, Tailwind CSS, Bootstrap, Materialize, Material UI, Chakra UI
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
                     mb={{ base: 3, md: 2 }}
                 >
-                    <b>Databases:</b> AWS RDS (PostgreSQL), MongoDB (NoSQL)
+                    <b>Databases:</b> AWS Aurora/RDS (PostgreSQL), AWS Neptune, MongoDB (NoSQL)
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
@@ -55,13 +55,19 @@ export default function TechStack() {
                     fontSize={{ base: 'sm', md: 'md' }}
                     mb={{ base: 3, md: 2 }}
                 >
-                    <b>Cloud:</b> AWS EC2, AWS Elastic Beanstalk, AWS IAM, AWS S3, AWS Route 53, AWS CloudFront, AWS Certificate Manager
+                    <b>Cloud:</b> AWS EC2, AWS Elastic Beanstalk, AWS IAM, AWS S3, AWS Route 53, AWS CloudFront, AWS Lambda, AWS ECS
+                </Text>
+                <Text 
+                    fontSize={{ base: 'sm', md: 'md' }}
+                    mb={{ base: 3, md: 2 }}
+                >
+                    <b>APIs:</b> AWS Bedrock, Clerk (Auth), Google OAuth, Google Cloud APIs
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
                     mb={0}
                 >
-                    <b>Other:</b> REST APIs, JSON, Git, Jira, Confluence, Salesforce, Trello, Airtable, JWT, OAuth, SSL Certificates
+                    <b>Other:</b> REST APIs, JSON, Git, Jira, Confluence, Salesforce, Trello, Airtable, JWT, AWS Certificate Manager, Postman, Docker
                 </Text>
             </Box>
         </Box>
