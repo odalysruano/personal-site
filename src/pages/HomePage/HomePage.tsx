@@ -3,9 +3,7 @@ import { useEffect } from 'react';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Contact from '../../components/Contact/Contact';
-import Projects from '../../components/Projects/Projects';
-import { projects } from '../../constants/projects';
-import ResumeButton from '../../components/ResumeButton/ResumeButton';
+import CTASection from '../../components/CTASection/CTASection';
 import TechStack from '../../components/TechStack/TechStack';
 
 export default function HomePage() {
@@ -75,10 +73,7 @@ export default function HomePage() {
             <GridItem colSpan={4} bg='#FAC589'>
                 <Box textAlign='center' p={4}>
                     <Stack divider={<StackDivider />} spacing='4'>
-                        <Projects projects={projects} />
-                        <Box py='4'>
-                            <ResumeButton />
-                        </Box>
+                        <CTASection />
                         <Contact />
                     </Stack>
                 </Box>
