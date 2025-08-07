@@ -1,5 +1,6 @@
 import { ChakraProvider, Box } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
+import CareerPage from '../MyCareerPage/MyCareerPage';
 import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
 import NavBar from '../../components/NavBar/NavBar';
@@ -21,6 +22,7 @@ function App() {
         <Box flex ="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/career" element={<CareerPage />} />
             <Route path="/work" element={<MyWorkPage />} />
             <Route path="/reading2024" element={<ReadingPage props={reading24} />} />
             <Route path="/reading2025" element={<ReadingPage props={reading25} />} />
