@@ -39,7 +39,7 @@ export default function AboutMe() {
                     lineHeight={{ base: '1.6', md: '1.7' }}
                     mb='4'
                 >
-                    In 2024, I pivoted my career, completing a coding bootcamp with <b>General Assembly</b>. Since then, I've been building <b>Memify.ai</b>, an AI-powered memory platform that enhances client relationship management—the exact tool I wish I had in my previous roles. Memify represents my vision for responsible AI that genuinely serves people, with a custom memory engine that augments traditional chat while ensuring data is fully isolated, encrypted, and never used for model training.
+                    In 2024, I pivoted my career, completing a coding bootcamp with <b>General Assembly</b>. Since then, I&apos;ve been building <b>Memify.ai</b>, an AI-powered memory platform that enhances client relationship management—the exact tool I wish I had in my previous roles. Memify represents my vision for responsible AI that genuinely serves people, with a custom memory engine that augments traditional chat while ensuring data is fully isolated, encrypted, and never used for model training.
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
@@ -53,7 +53,7 @@ export default function AboutMe() {
                     lineHeight={{ base: '1.6', md: '1.7' }}
                     mb='4'
                 >
-                    Now, I'm seeking a <b>full-stack software engineering opportunity</b> where I can leverage my <b>customer-centric</b> point of view to collaborate with a forward-thinking team and <b>ship innovative products</b>.
+                    Now, I&apos;m seeking a <b>full-stack software engineering opportunity</b> where I can leverage my <b>customer-centric</b> point of view to collaborate with a forward-thinking team and <b>ship innovative products</b>.
                 </Text>
                 <Text 
                     fontSize={{ base: 'sm', md: 'md' }}
