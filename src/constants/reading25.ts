@@ -691,6 +691,14 @@ const bookList = [
         title: 'A Woman Among Wolves',
         author: 'Diane K. Boyd',
     },
+    {
+        title: 'One Golden Summer',
+        author: 'Carley Fortune',
+    },
+    {
+        title: 'That Summer',
+        author: 'Jennifer Weiner',
+    },
 ];
 
 const audiobookList = [
@@ -828,6 +836,14 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/awomanamongwolves.jpeg',
         altText: 'A Woman Among Wolves',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/onegoldensummer.jpeg',
+        altText: 'One Golden Summer',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thatsummer.jpeg',
+        altText: 'That Summer',
     },
 ];
 
