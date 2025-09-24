@@ -588,6 +588,60 @@ const summary = `
     If you're looking for a romance with real depth and emotional weight alongside the romantic tension, then I definitely recommend 
     this one. Despite tackling heavier themes, it still kept me turning the pages and never felt overwhelming. It's much more 
     substantial than the typical beach read—which, in my opinion, made it even better!
+
+    —September 24, 2025: Summer Reading Extravaganza, Part 1 - Beach Reads and Breakthroughs—
+
+    Welcome to Part 1 of 2 of my summer reading extravaganza series where I catch you up on all the books I read this summer! I love 
+    reading books all year round, but there's something about picking up some romantic or mysterious beach reads on a sunny day that 
+    set the perfect tone for a hot day at the beach. “One Golden Summer” by Carley Fortune and “That Summer” by Jennifer Weiner were 
+    my quintessential beach read picks this year. And while I love some classic beach reads, I also got to read some books that have 
+    caught my eye recently, including “All the Lovers in the Night” by Mieko Kawakami and “The Let Them Theory” by Mel Robbins. This 
+    lineup of traditional summer reads and stories on personal growth was a perfect mix.
+
+    Last year, I read Carley Fortune's “Meet Me at the Lake” and “This Summer Will Be Different”, and the year prior I read “Every 
+    Summer After”, so I was so excited to dive into “One Golden Summer” this year. The worlds that Fortune creates for the characters 
+    of her books are so magical and instantly transport me to the shores of Kamaniskeg Lake in Barry's Bay of Ontario, Canada. I've 
+    never been, but I can imagine living out a perfect summer in this setting. This book follows Alice Everly, a 33-year-old 
+    photographer from the city of Toronto, to Barry's Bay where she spent a single summer as a teen. She chooses to return to spend 
+    her summer here as she takes on the responsibility of taking care of her grandmother who is recovering from hip surgery. It's here 
+    that she collides with Charlie Florek, the boy (now man) she unknowingly captured in her most revered photograph taken as a teen 
+    when she first spent a summer at Barry's Bay. It's the photo he's in that ultimately got her into her career in the first place. 
+    Alice spends the summer getting back her passion for photography, reconnecting with her grandmother, and unexpectedly forming a 
+    new friendship. I would be remiss not to mention that I loved hearing more of Charlie's story and seeing his personality shine in 
+    this book (he is a secondary character in “Every Summer After”). This book was an escape to a summer on the lake and gives readers 
+    a look into the complicated but heartwarming experience of chasing nostalgia, finding oneself, and giving love a second chance.
+
+    While “One Golden Summer” was the perfect escape into lakeside romance, my next beach read, “That Summer” by Jennifer Weiner, took 
+    a more mysterious and complex turn. Beyond its mystery-like plot, this book explored serious topics such as the #MeToo movement, 
+    trauma, and revenge. This story follows two women, Daisy and Diana, who meet due to misdirected emails when their email addresses 
+    are slight variations of each other's. As a reader, we get to see the perspective of each of these women in a back-and-forth as we 
+    learn about their pasts and also the kindling of their friendship over this unexpected mix-up. Very quickly we learn about the 
+    stark contrast in their lives—in their family life, professions, and their pasts. On top of the obvious differences in their lives, 
+    as time goes on, a web of secrets unravels as we learn more and more about each of their pasts. I'd recommend this book to anyone 
+    looking for a page-turning “beach read” that is also a mystery with intrigue and a story about friendship—all taking place on the 
+    Cape.
+
+    Moving from a story of interconnected secrets on the Cape, you'll find a shorter, solitary, but highly introspective read in Mieko 
+    Kawakami's “All the Lovers in the Night”. I was drawn to this book because the staff recommendation card at McNally Jackson Books said 
+    that this was “for people who cry on their birthday”. I laughed when I saw that because I am actually the type to get emotional on 
+    my birthday—it's a super reflective time for me. Ultimately, this book did make me reflect heavily. At a glance, it would seem that 
+    Fuyuko, our heroine, is simply figuring life out in bustling Tokyo, Japan. She's grappling with her career as a proofreader, 
+    interested in learning new things, and putting herself in a vulnerable position when meeting new people and building relationships. 
+    The writing demonstrates the profound aspects and realities of living with a great sense of loneliness in a very loud world. In 
+    some ways, this book felt like a quick read and in other ways it felt heavy and left me pondering the realities women experience 
+    in this world.
+
+    That feeling of deep reflection carried right into my next read, Mel Robbins's “The Let Them Theory”, which offered a more direct 
+    approach to navigating life's challenges. I've listened to some of Mel Robbins' podcast episodes and her newest title intrigued me. 
+    This book teaches how to take control of your life and stop letting the actions and opinions of others impact you negatively. 
+    Through a series of stories from Mel's own life journey, she proves how a simple change in your mindset (from “let them” to 
+    “let me”) can transform your life. It was a good reminder on how to protect your peace and how to focus on your own personal 
+    journey.
+
+    Whether it was escaping to a lakeside summer, unraveling a seaside mystery, navigating loneliness in a bustling city, or learning 
+    to protect my peace, all of these books touched on personal reflection and finding your way. They were the perfect companions for 
+    these long summer days. Be sure to check back for Part 2, where I'll be discussing some of the more thrilling and at times darker 
+    sides of my summer reading.
 `.trim().split('\n\n');
 
 const bookList = [
