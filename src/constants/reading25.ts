@@ -699,6 +699,14 @@ const bookList = [
         title: 'That Summer',
         author: 'Jennifer Weiner',
     },
+    {
+        title: 'The Godfather',
+        author: 'Mario Puzo',
+    },
+    {
+        title: 'Trees: An Illustrated Celebration',
+        author: 'Kelsey Oseid',
+    },
 ];
 
 const audiobookList = [
