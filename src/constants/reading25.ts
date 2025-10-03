@@ -911,6 +911,10 @@ const bookPhotos = [
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thegodfather.jpeg',
         altText: 'The Godfather',
     },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/trees.jpeg',
+        altText: 'Trees',
+    },
 ];
 
 const tbrSection = [
