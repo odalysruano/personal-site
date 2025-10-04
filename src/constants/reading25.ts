@@ -591,6 +591,8 @@ const summary = `
 
     —September 24, 2025: Summer Reading Extravaganza, Part 1 - Beach Reads and Breakthroughs—
 
+    [Some thoughts on: “One Golden Summer”, “That Summer”, “All the Lovers in the Night”, and “The Let Them Theory”]
+
     Welcome to Part 1 of 2 of my summer reading extravaganza series where I catch you up on all the books I read this summer! I love 
     reading books all year round, but there's something about picking up some romantic or mysterious beach reads on a sunny day that 
     set the perfect tone for a hot day at the beach. “One Golden Summer” by Carley Fortune and “That Summer” by Jennifer Weiner were 
@@ -642,6 +644,85 @@ const summary = `
     to protect my peace, all of these books touched on personal reflection and finding your way. They were the perfect companions for 
     these long summer days. Be sure to check back for Part 2, where I'll be discussing some of the more thrilling and at times darker 
     sides of my summer reading.
+
+    —October 3, 2025: Summer Reading Extravaganza, Part 2 - Thrills, Power, and Wolves—
+
+    [Some thoughts on: “Atmosphere: A Love Story”, “The Godfather”, and “A Woman Among Wolves”]
+
+    Welcome back to part 2 of my summer reading extravaganza series where I catch you up on all the books I read this summer! I'll 
+    cover some darker and thrilling summer reads filled with stories of power dynamics and survival. I'll share my thoughts on 
+    “Atmosphere: A Love Story” by Taylor Jenkins Reid, “The Godfather” by Mario Puzo, and “A Woman Among Wolves” by Diane K. Boyd. 
+    This reading blog post covers an unexpected range: a love story, a crime story, and even nature non-fiction.
+
+    Back in June, I attended a very special book talk at Symphony Space in NYC in collaboration with Barnes & Noble Union Square for 
+    Taylor Jenkins Reid's newest book: “Atmosphere: A Love Story”. I have loved reading some of her other works including “The Seven 
+    Husbands of Evelyn Hugo” and “Daisy Jones & the Six”. I received my signed copy of the book at the event and had a chance to hear 
+    her discuss this new book before even reading it myself. It was so cool to hear about the process behind writing it—especially 
+    because there was a lot of research that went into writing a book that is partially set in outer space. 
+
+    This story follows our heroine, Joan Goodwin, one of the few women who are selected for NASA's space shuttle program in the 1980s. 
+    We learn about her unique experience training in the NASA program, and about how this monumental opportunity impacts her 
+    relationships with her family, friends, and colleagues (and potentially love interests?) I felt impacted by the moments where 
+    Joan and her female colleagues' actions and roles contributed to a larger discussion on the experience of women in STEM. Her 
+    close relationship with her niece, Frances, is unique and truly exhibits her empathetic side—a quality required to be an astronaut. 
+    To Frances, a little girl with dreams, Joan is a hero. She was also a kid with a big dream, and now she's turning that dream 
+    into a reality. Joan remembers the wonder of space as a kid and she thinks about that often as an adult. Reid captures Joan's 
+    profound sense of wonder: “Humans had gone to the moon. And sure, they were all Americans in that shuttle at that very moment. 
+    But for the space shuttle program to be an American victory felt so small compared to the victory that it could be, should be. 
+    Look what we humans had done. We had looked at the world around us—the dirt under our feet, the stars in the sky, the speed of 
+    a feather falling from the top of a building—and we had taught ourselves to fly. It was as beautiful an achievement to Joan as 
+    anything Rachmaninoff had written, as Leonardo da Vinci's Vitruvian Man, as monumental to her as the Great Wall of China or the 
+    pyramids of Egypt. Space belonged to no one, but Earth belonged to all of them.” The way that Reid allows the reader to experience 
+    space through Joan is dreamy and truly poetic. This heroine is thought-provoking, brave, and insightful. And all of these qualities 
+    prove to be essential in the most thrilling space mission that Reid takes us on. If you're looking for an emotional read that gets 
+    you in your feelings, then this is it. This story brought me to tears and I did not want to put it down even once I got to the last 
+    page.
+
+    From reading about Joan's journey to get to outer space, this next read brings us down to Earth and tells the story of the 
+    power-hungry mafiosi of New York City in Mario Puzo's “The Godfather”. I've been meaning to read this book since I finished 
+    watching the television drama series “The Sopranos”. And, I couldn't watch “The Godfather” movie until I read the book. What 
+    can I say? I've been really into mob stories for the drama, thrill, and this idea of a lovable gangster that the reader or viewer 
+    is surprisingly, at times, rooting for. This book follows the Corleone family, a coveted Mafia family in New York, as they 
+    struggle for power amongst other prominent families in the Mafia. Things are thrown out of order when Don Corleone, the Godfather, 
+    refuses to go into the drug business. This is a story about power struggles, crime, succession, and ultimately family. I enjoyed 
+    the colorful descriptions of each member of the Corleone family and learning about the role that each member plays in trying to 
+    restore the respect and prominence of the family as a result of a business deal gone bad. There were also scenes in the book that 
+    made me wince—after all, this is a crime novel that does not shy away from describing violence and brutality so vividly. After 
+    finishing this lengthy book, I followed up my reading with a screening of “The Godfather: Part 1”, and although I enjoyed watching 
+    it, you'd be remiss to skip reading the book. There is so much you'd be missing, from the characters, to the plot, and the additional 
+    side quests and storylines that the book delves into. I'm happy to say that I've finally read this “classic” and that I will 
+    finally understand all “The Godfather” references ever made in pop culture (including all of the references made in my favorite 
+    television series “Gilmore Girls”). While the Corleones fought for dominance in a concrete jungle, this other summer read explored 
+    the dynamics of a very different kind of family struggling for survival in the wild: a wolf pack in Diane K. Boyd's “A Woman Among 
+    Wolves”.
+
+    I usually stick to reading fiction, aside from the occasional memoir or self-help book, but I'm so grateful to have uncovered 
+    nature non-fiction as a genre I thoroughly enjoy reading. This summer, I started volunteering with the Riverside Park Conservancy, 
+    and I also joined their seasonal book club. I've always wanted to learn how to garden, so in an effort to make more time to spend 
+    outside and also learn something new, joining the volunteers at Riverside Park was a perfect match. However, it came as a 
+    surprise to find that as a NYC-based organization, we'd be reading “A Woman Among Wolves” for the summer book club pick—only 
+    because there are no wolves in NYC. I was doubtful I'd enjoy this book, at first, and was thoroughly surprised only a third of 
+    the way into the book. This book is a compilation of Boyd's forty-year-long journey studying wolves in Montana. We hear about her 
+    experiences as a pioneer in wolf research, management, and recovery. As for its relevance, and how it relates to nature, this book 
+    undoubtedly covers animal research and conservation, wilderness survival, environmental regulations, the effect of the human 
+    population, technological advancements in aid of animal protection, and more. I didn't realize how much I enjoyed learning about 
+    nature until I read this book. On top of all of the new knowledge I gained, Boyd discusses the career challenges in this space as 
+    it relates to being a woman and even more generally. She describes the fierce pushback that she and her colleagues were met with 
+    at an event where many locals were campaigning for the reduction of wolf populations. She says, “The rhetoric I heard in Trout 
+    Creek felt like something out of the Dark Ages. It was disturbing to realize that some things don't change, no matter how much 
+    effort you put in. When there are firmly entrenched prejudices perpetuated in isolated communities, it's an uphill battle to get 
+    anyone to see things differently, and after so many years of work, it's supremely frustrating to see that you're getting nowhere. 
+    And yet, in the larger picture, wolves are winning their recovery battle.” I found Boyd's experience in Trout Creek, with trying 
+    to educate locals about the biology of wolves, to be very emotional. Imagine trying to educate others about your life's work, 
+    only for it to be contested by individuals who aren't willing to budge on their firmly ingrained beliefs and who want to 
+    passionately reduce wolf populations. This book showed me just how thrilling and dramatic this important and real-world work 
+    can be. Overall, this book sparked my interest in picking up more nature non-fiction books in the future.
+
+    Despite having very different storylines, all three of these books explored power dynamics and survival in one way or another. 
+    Whether it was through the high-pressure environment of NASA, the violent underworld of the Mafia, or the raw wilderness of 
+    Montana—the characters in all of these books came across similar feelings and emotions when dealing with the environments that 
+    surround them. That's all for my summer reading extravaganza catch-up! Stay tuned for some Fall book reviews, where I'll be 
+    discussing the books I've already started crossing off my Fall TBR list.
 `.trim().split('\n\n');
 
 const bookList = [
