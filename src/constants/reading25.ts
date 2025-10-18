@@ -842,6 +842,14 @@ const bookList = [
         title: 'Trees: An Illustrated Celebration',
         author: 'Kelsey Oseid',
     },
+    {
+        title: 'Night Magic: Adventures Among Glowworms, Moon Gardens, and Other Marvels of the Dark',
+        author: 'Leigh Ann Henion',
+    },
+    {
+        title: 'Harry Potter and the Goblet of Fire',
+        author: 'J. K. Rowling',
+    },
 ];
 
 const audiobookList = [
