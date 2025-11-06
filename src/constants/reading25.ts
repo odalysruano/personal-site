@@ -850,6 +850,18 @@ const bookList = [
         title: 'Harry Potter and the Goblet of Fire',
         author: 'J. K. Rowling',
     },
+    {
+        title: 'If Cats Disappeared from the World',
+        author: 'Genki Kawamura',
+    },
+    {
+        title: 'The Dead Romantics',
+        author: 'Ashley Poston',
+    },
+    {
+        title: 'The Uncommon Reader',
+        author: 'Alan Bennett',
+    },
 ];
 
 const audiobookList = [
@@ -1003,6 +1015,22 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/trees.jpeg',
         altText: 'Trees',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/nightmagic.jpeg',
+        altText: 'Night Magic',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/harrypotterandthegobletoffire.jpeg',
+        altText: 'Harry Potter and the Goblet of Fire',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/ifcatsdisappearedfromtheworld.jpeg',
+        altText: 'If Cats Disappeared from the World',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thedeadromantics.jpeg',
+        altText: 'The Dead Romantics',
     },
 ];
 
