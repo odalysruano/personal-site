@@ -862,6 +862,14 @@ const bookList = [
         title: 'The Uncommon Reader',
         author: 'Alan Bennett',
     },
+    {
+        title: 'Assembly',
+        author: 'Natasha Brown',
+    },
+    {
+        title: 'My Name Is Lucy Barton',
+        author: 'Elizabeth Strout',
+    },
 ];
 
 const audiobookList = [
@@ -1031,6 +1039,18 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thedeadromantics.jpeg',
         altText: 'The Dead Romantics',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/theuncommonreader.jpeg',
+        altText: 'The Uncommon Reader',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/assembly.jpeg',
+        altText: 'Assembly',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/mynameislucybarton.jpeg',
+        altText: 'My Name Is Lucy Barton',
     },
 ];
 
