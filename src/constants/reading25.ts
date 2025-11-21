@@ -870,6 +870,18 @@ const bookList = [
         title: 'My Name Is Lucy Barton',
         author: 'Elizabeth Strout',
     },
+    {
+        title: 'The Dogs of Venice',
+        author: 'Steven Rowley',
+    },
+    {
+        title: 'What Does It Feel Like?',
+        author: 'Sophie Kinsella',
+    },
+    {
+        title: 'The Bookshop',
+        author: 'Penelope Fitzgerald',
+    },
 ];
 
 const audiobookList = [
@@ -1051,6 +1063,18 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/mynameislucybarton.jpeg',
         altText: 'My Name Is Lucy Barton',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thedogsofvenice.jpeg',
+        altText: 'The Dogs of Venice',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/whatdoesitfeellike.jpeg',
+        altText: 'What Does It Feel Like?',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thebookshop.jpeg',
+        altText: 'The Bookshop',
     },
 ];
 
