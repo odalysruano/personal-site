@@ -882,6 +882,26 @@ const bookList = [
         title: 'The Bookshop',
         author: 'Penelope Fitzgerald',
     },
+    {
+        title: 'From the Sea',
+        author: 'Dan Saladino',
+    },
+    {
+        title: 'And Every Morning the Way Home Gets Longer and Longer: A Novella',
+        author: 'Fredrik Backman',
+    },
+    {
+        title: 'Tokyo Ueno Station',
+        author: 'Miri Yu',
+    },
+    {
+        title: 'I Know How This Ends: A Novel',
+        author: 'Holly Smale',
+    },
+    {
+        title: 'Deep Work',
+        author: 'Cal Newport',
+    },
 ];
 
 const audiobookList = [
@@ -1075,6 +1095,18 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thebookshop.jpeg',
         altText: 'The Bookshop',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/fromthesea.jpeg',
+        altText: 'From the Sea',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/andeverymorning.jpeg',
+        altText: 'And Every Morning the Way Home Gets Longer and Longer: A Novella',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/tokyouenostation.jpeg',
+        altText: 'Tokyo Ueno Station',
     },
 ];
 
