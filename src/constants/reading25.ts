@@ -902,6 +902,10 @@ const bookList = [
         title: 'Deep Work',
         author: 'Cal Newport',
     },
+    {
+        title: 'The Vanishing Half',
+        author: 'Brit Bennett',
+    },
 ];
 
 const audiobookList = [
@@ -1107,6 +1111,14 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/tokyouenostation.jpeg',
         altText: 'Tokyo Ueno Station',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/iknowhowthisends.jpeg',
+        altText: 'I Know How This Ends',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/deepwork.jpeg',
+        altText: 'Deep Work',
     },
 ];
 
