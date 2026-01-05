@@ -906,6 +906,10 @@ const bookList = [
         title: 'The Vanishing Half',
         author: 'Brit Bennett',
     },
+    {
+        title: 'Good Spirits: A Novel',
+        author: 'B.K. Borison',
+    },
 ];
 
 const audiobookList = [
@@ -1119,6 +1123,14 @@ const bookPhotos = [
     {
         href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/deepwork.jpeg',
         altText: 'Deep Work',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/thevanishinghalf.jpeg',
+        altText: 'The Vanishing Half',
+    },
+    {
+        href: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading25/goodspirits.jpeg',
+        altText: 'Good Spirits',
     },
 ];
 
