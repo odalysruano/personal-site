@@ -10,7 +10,7 @@ export default function Footer() {
             boxShadow='md'
         >
             <Flex alignItems='center' h="100%" justifyContent='flex-end'>
-                <Text>© 2025 Odalys Ruano. All Rights Reserved.</Text>
+                <Text>© 2026 Odalys Ruano. All Rights Reserved.</Text>
             </Flex>
         </Box>
     );
