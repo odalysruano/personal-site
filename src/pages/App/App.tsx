@@ -1,5 +1,6 @@
 import { ChakraProvider, Box } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
+import ArticlePage from '../ArticlePage/ArticlePage';
 import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
 import NavBar from '../../components/NavBar/NavBar';
@@ -20,7 +21,7 @@ function App() {
       <ScrollToTop />
       <Box minHeight="100vh" display="flex" flexDirection="column">
         <NavBar />
-        <Box flex ="1">
+        <Box flex="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/memify" element={<MemifyPage />} />
@@ -28,6 +29,7 @@ function App() {
             <Route path="/work" element={<MyWorkPage />} />
             <Route path="/reading2024" element={<ReadingPage props={reading24} />} />
             <Route path="/reading2025" element={<ReadingPage props={reading25} />} />
+            <Route path="/deep-dives/:slug" element={<ArticlePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Box>
