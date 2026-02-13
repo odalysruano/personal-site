@@ -2,9 +2,9 @@ import { Box, SimpleGrid, Text, VStack } from "@chakra-ui/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 
 const LessonsLearned = () => (
-    <Box py={20}>
+    <Box py={10}>
         <SectionHeading>Engineering Post-Mortems</SectionHeading>
-        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} mb={20}>
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} mb={10}>
             {/* 1. Planning/Integration Lesson */}
             <VStack align="start" p={6} borderLeft="2px solid" borderColor="red.400" bg="white" _dark={{ bg: 'gray.800' }} shadow="sm">
                 <Text fontWeight="bold" fontSize="lg">The Integration &quot;Iceberg&quot;</Text>

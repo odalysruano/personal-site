@@ -83,9 +83,9 @@ const TimelineItem = ({ date, title, description, icon, color, isLast }: Timelin
 
 const FounderTimeline = () => {
     return (
-        <Box py={16} maxW="3xl" mx="auto">
+        <Box py={10} maxW="3xl" mx="auto">
             <VStack spacing={0} align="stretch">
-                <VStack spacing={2} textAlign="center" mb={12}>
+                <VStack spacing={2} textAlign="center" mb={8}>
                     <Badge colorScheme="purple" variant="outline">Founder&apos;s Highlights</Badge>
                     <Heading as="h2" size="xl">
                         Engineering Retrospective
