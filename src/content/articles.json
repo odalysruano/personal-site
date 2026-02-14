@@ -6,7 +6,7 @@
     "description": "Laying a hermetic foundation for a multi-language AI system using Bazel and a monorepo architecture to manage interconnected services.",
     "icon": "MdSettings",
     "color": "blue.400",
-    "colors": [
+    "tags": [
       "Bazel",
       "Monorepo",
       "Protobuf"
@@ -21,7 +21,7 @@
     "description": "A solo founder's guide to managing cloud infrastructure costs and scalability with AWS CDK and serverless event-driven pipelines.",
     "icon": "MdCloud",
     "color": "orange.400",
-    "colors": [
+    "tags": [
       "AWS CDK",
       "Serverless",
       "Fargate"

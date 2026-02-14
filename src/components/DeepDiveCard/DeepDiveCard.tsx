@@ -33,6 +33,9 @@ const DeepDiveCard = ({ title, description, tags, icon: Icon, color, slug }: {
             {description}
         </Text>
         <Box mt="auto">
+            <Text color={color} fontWeight="bold" fontSize="sm" mb={4} display="flex" alignItems="center">
+                Read Deep Dive &rarr;
+            </Text>
             <Divider mb={4} />
             <SimpleGrid columns={2} spacing={2}>
                 {tags && tags.map(tag => (

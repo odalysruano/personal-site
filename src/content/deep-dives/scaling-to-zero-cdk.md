@@ -3,7 +3,7 @@ title: "Scaling to Zero"
 description: "A solo founder's guide to managing cloud infrastructure costs and scalability with AWS CDK and serverless event-driven pipelines."
 icon: "MdCloud"
 color: "orange.400"
-colors: ["AWS CDK", "Serverless", "Fargate"]
+tags: ["AWS CDK", "Serverless", "Fargate"]
 order: 2
 ---
 # Scaling to Zero: A Solo Founder's Guide to AWS CDK
