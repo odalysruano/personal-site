@@ -4,6 +4,7 @@ description: "Evolving core intelligence from simple search into a graph-powered
 icon: "MdCode"
 color: "purple.400"
 tags: ["Graph-RAG", "Gremlin", "Prompt Eng"]
+order: 4
 ---
 # Building Memify.ai: From Simple Search to Intelligent Agent – A Journey in Graph-Powered AI
 
@@ -65,5 +66,3 @@ We also had to tackle **User Experience**. The agent uses a `<think>` block to o
 Today, Memify.ai can gracefully handle those multi-hop queries. If you ask about a project timeline, it doesn't just keyword-match "project"; it finds the kickoff, traces the `FOLLOWS_UP_ON` edges to the status checks, and builds you a complete history.
 
 This journey highlighted that building "AI" isn't just about the model—it's about the data structure (Graph), the access mechanism (Tools), and the extensive engineering glue that holds it all together.
-
-Stay tuned for more updates!

@@ -36,7 +36,7 @@ function getArticles() {
             };
         });
 
-    return articles;
+    return articles.sort((a, b) => (a.order || 99) - (b.order || 99));
 }
 
 try {

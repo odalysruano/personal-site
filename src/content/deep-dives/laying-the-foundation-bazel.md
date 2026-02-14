@@ -3,9 +3,12 @@ title: "Laying the Foundation"
 description: "Laying a hermetic foundation for a multi-language AI system using Bazel and a monorepo architecture to manage interconnected services."
 icon: "MdSettings"
 color: "blue.400"
-tags: ["Bazel", "Monorepo", "Protobuf"]
+colors: ["Bazel", "Monorepo", "Protobuf"]
+order: 1
 ---
 # Laying the Foundation: Building Memify.ai with Bazel and a Monorepo
+
+Hello everyone! Welcome to the first post in the Memify.ai build series.
 
 ## Introduction: The Vision Demands a Strong Foundation
 

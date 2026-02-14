@@ -4,6 +4,7 @@ description: "A multi-layered troubleshooting journey through networking, schema
 icon: "MdTimeline"
 color: "red.400"
 tags: ["FastAPI", "PostgreSQL", "IAM"]
+order: 3
 ---
 # Building Memify.ai: Debugging the Data Pipeline – From Network to Code
 
