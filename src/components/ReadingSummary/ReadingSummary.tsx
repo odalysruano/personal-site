@@ -17,7 +17,7 @@ interface ReadingSummaryProps {
 }
 
 export default function ReadingSummary({ year, summary }: ReadingSummaryProps) {
-    const availableYears = ["2024", "2025"];
+    const availableYears = ["2024", "2025", "2026"];
 
     // Find the next and previous years that are available
     const currentYearIndex = availableYears.indexOf(year);

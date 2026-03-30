@@ -9,9 +9,11 @@ import MemifyPage from '../MemifyPage/MemifyPage';
 import MyCareerPage from '../MyCareerPage/MyCareerPage';
 import MyWorkPage from '../MyWorkPage/MyWorkPage';
 import ReadingPage from '../ReadingPage/ReadingPage';
+import ReadingPageV2 from '../ReadingPageV2/ReadingPageV2';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import reading24 from '../../constants/reading24';
 import reading25 from '../../constants/reading25';
+import reading26 from '../../constants/reading26';
 import theme from '../../theme';
 import './App.css';
 
@@ -29,6 +31,7 @@ function App() {
             <Route path="/work" element={<MyWorkPage />} />
             <Route path="/reading2024" element={<ReadingPage props={reading24} />} />
             <Route path="/reading2025" element={<ReadingPage props={reading25} />} />
+            <Route path="/reading2026" element={<ReadingPageV2 props={reading26} />} />
             <Route path="/deep-dives/:slug" element={<ArticlePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
