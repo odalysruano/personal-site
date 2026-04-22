@@ -19,22 +19,24 @@ export default function ReadingPageV2({ props }: ReadingPageV2Props) {
     const { year, bookGallery } = props;
 
     return (
-        <Box minHeight='100vh' display='flex' flexDirection='column' p={4}>
+        <Box minHeight='100vh' display='flex' flexDirection='column'>
             <Grid
                 templateRows='auto auto 1fr'
+                templateColumns='repeat(4, 1fr)'
                 gap={4}
+                p={{ base: 2, md: 4 }}
                 flex='1'
             >
                 <GridItem colSpan={4} bg='#FC6A80'>
                     <ReadingSummaryV2 year={year} />
                 </GridItem>
 
-                <GridItem colSpan={4} bg='#FCE9A3' p={4} textAlign="center">
+                <GridItem colSpan={4} bg='#FCE9A3' p={{ base: 2, md: 4 }} textAlign="center">
                     <Heading as="h2" size="lg" mb={6}>My {year} Book Gallery</Heading>
                     <BookGallery books={bookGallery} activeFilter={activeFilter} />
                 </GridItem>
 
-                <GridItem colSpan={4} bg='#E6E6FA' p={4}>
+                <GridItem colSpan={4} bg='#E6E6FA' p={{ base: 2, md: 4 }}>
                     <FilterControls activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
                 </GridItem>
             </Grid>

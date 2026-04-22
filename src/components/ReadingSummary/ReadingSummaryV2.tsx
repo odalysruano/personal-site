@@ -1,5 +1,4 @@
-
-import { Box, Heading, Button, HStack, Text } from "@chakra-ui/react";
+import { Box, Heading, Button, Text, Stack } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 interface ReadingSummaryV2Props {
@@ -17,7 +16,7 @@ export default function ReadingSummaryV2({ year }: ReadingSummaryV2Props) {
             py='50'
         >
             <Heading mb={4} size={{ base: 'lg', md: 'xl' }}>Odalys&apos; {year} Reading List</Heading>
-            <HStack justify="center" spacing={4} mt={4}>
+            <Stack direction={{ base: 'column', md: 'row' }} justify="center" spacing={4} mt={4}>
                 {otherYears.map(otherYear => (
                     <Button
                         key={otherYear}
@@ -29,13 +28,14 @@ export default function ReadingSummaryV2({ year }: ReadingSummaryV2Props) {
                         borderRadius='md'
                         color="black"
                         _hover={{ bg: '#E67C64' }} // Darken on hover for feedback
+                        w={{ base: '100%', md: 'auto' }} // Make buttons full width on mobile
                     >
                         <Text as="span">Check out my&nbsp;</Text>
                         <Text as="span" fontWeight="bold">{otherYear}</Text>
                         <Text as="span">&nbsp;Reading List</Text>
                     </Button>
                 ))}
-            </HStack>
+            </Stack>
         </Box>
     );
 }
