@@ -1,4 +1,5 @@
-import { Box, Image, Text, VStack, Heading } from '@chakra-ui/react';
+import { useState } from 'react';
+import { Box, Image, Text, VStack, Heading, useBreakpointValue } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { BookGalleryItem } from '../../constants/reading26';
 
@@ -8,26 +9,40 @@ interface BookCardProps {
     book: BookGalleryItem;
 }
 
-// const StarRating = ({ rating }: { rating: number }) => {
-//     return (
-//         <Box color="yellow.400">
-//             {'★'.repeat(rating)}
-//             {'☆'.repeat(5 - rating)}
-//         </Box>
-//     );
-// };
-
 export default function BookCard({ book }: BookCardProps) {
+    const [isRevealed, setIsRevealed] = useState(false);
+    const isMobile = useBreakpointValue({ base: true, md: false });
+
+    const handleTap = () => {
+        if (isMobile) {
+            setIsRevealed(!isRevealed);
+        }
+    };
+
+    const handleHoverStart = () => {
+        if (!isMobile) {
+            setIsRevealed(true);
+        }
+    };
+
+    const handleHoverEnd = () => {
+        if (!isMobile) {
+            setIsRevealed(false);
+        }
+    };
+
     return (
         <MotionBox
             position="relative"
             borderRadius="lg"
             overflow="hidden"
             boxShadow="lg"
-            whileHover="hover"
             initial="rest"
-            animate="rest"
+            animate={isRevealed ? "hover" : "rest"}
             layoutId={`card-${book.title}`}
+            onTap={handleTap}
+            onHoverStart={handleHoverStart}
+            onHoverEnd={handleHoverEnd}
         >
             <Image src={book.coverUrl} alt={`${book.title} cover`} w="100%" h="auto" objectFit="cover" />
 
@@ -47,7 +62,6 @@ export default function BookCard({ book }: BookCardProps) {
                 <VStack spacing={1} align="start" color="white">
                     <Heading size="sm" noOfLines={1}>{book.title}</Heading>
                     <Text fontSize="xs">{book.author}</Text>
-                    {/* <StarRating rating={book.rating} /> */}
                 </VStack>
             </MotionBox>
         </MotionBox>
