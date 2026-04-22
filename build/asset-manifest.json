@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://odalysruano.com/static/css/main.115bd163.css",
-    "main.js": "https://odalysruano.com/static/js/main.8084b5f1.js",
+    "main.js": "https://odalysruano.com/static/js/main.aebc0b4a.js",
     "static/js/448.68b542dd.chunk.js": "https://odalysruano.com/static/js/448.68b542dd.chunk.js",
     "static/js/550.e61e6e89.chunk.js": "https://odalysruano.com/static/js/550.e61e6e89.chunk.js",
     "static/js/841.816ab75b.chunk.js": "https://odalysruano.com/static/js/841.816ab75b.chunk.js",
@@ -57,7 +57,7 @@
     "static/media/dm-sans-latin-ext-wght-normal.woff2": "https://odalysruano.com/static/media/dm-sans-latin-ext-wght-normal.bb6f669e38a0f6b97a50.woff2",
     "index.html": "https://odalysruano.com/index.html",
     "main.115bd163.css.map": "https://odalysruano.com/static/css/main.115bd163.css.map",
-    "main.8084b5f1.js.map": "https://odalysruano.com/static/js/main.8084b5f1.js.map",
+    "main.aebc0b4a.js.map": "https://odalysruano.com/static/js/main.aebc0b4a.js.map",
     "448.68b542dd.chunk.js.map": "https://odalysruano.com/static/js/448.68b542dd.chunk.js.map",
     "550.e61e6e89.chunk.js.map": "https://odalysruano.com/static/js/550.e61e6e89.chunk.js.map",
     "841.816ab75b.chunk.js.map": "https://odalysruano.com/static/js/841.816ab75b.chunk.js.map",
@@ -97,6 +97,6 @@
   },
   "entrypoints": [
     "static/css/main.115bd163.css",
-    "static/js/main.8084b5f1.js"
+    "static/js/main.aebc0b4a.js"
   ]
 }
