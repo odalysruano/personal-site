@@ -115,6 +115,38 @@ export const bookGallery: BookGalleryItem[] = [
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/projecthailmary.jpeg',
         dateRead: '2026-03-25',
     },
+    {
+        title: 'Funny Story',
+        author: 'Emily Henry',
+        genre: 'Contemporary Romance',
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/funnystory.jpeg',
+        dateRead: '2026-04-01',
+    },
+    {
+        title: 'Lost Lambs',
+        author: 'Madeline Cash',
+        genre: 'Literary Fiction',
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/lostlambs.jpeg',
+        dateRead: '2026-04-09',
+    },
+    {
+        title: 'The Happy Couple',
+        author: 'Naoise Dolan',
+        genre: 'Literary Fiction',
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thehappycouple.jpeg',
+        dateRead: '2026-04-15',
+    },
+    {
+        title: 'The Hearing Test: A Novel',
+        author: 'Eliza Barry Callahan',
+        genre: 'Literary Fiction',
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thehearingtest.jpeg',
+        dateRead: '2026-04-17',
+    },
 ];
 
 
