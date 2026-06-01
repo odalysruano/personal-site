@@ -1,7 +1,7 @@
 
 import { SimpleGrid, Box } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
-import { BookGalleryItem } from '../../constants/reading26';
+import { BookGalleryItem, Genre } from '../../constants/reading26';
 import BookCard from '../BookCard/BookCard';
 import { Filter } from '../FilterControls/FilterControls';
 
@@ -18,7 +18,7 @@ export default function BookGallery({ books, activeFilter }: BookGalleryProps) {
         if (activeFilter === 'Physical' || activeFilter === 'Audiobook') {
             return book.format === activeFilter;
         }
-        return book.genre === activeFilter;
+        return book.genre.includes(activeFilter as Genre);
     });
 
     return (

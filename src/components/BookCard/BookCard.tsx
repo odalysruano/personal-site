@@ -60,7 +60,7 @@ export default function BookCard({ book }: BookCardProps) {
                 transition={{ type: 'tween', duration: 0.3 }}
             >
                 <VStack spacing={1} align="start" color="white">
-                    <Heading size="sm" noOfLines={1}>{book.title}</Heading>
+                    <Heading size="sm" noOfLines={2}>{book.title}</Heading>
                     <Text fontSize="xs">{book.author}</Text>
                 </VStack>
             </MotionBox>
