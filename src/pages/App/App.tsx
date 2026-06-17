@@ -1,5 +1,5 @@
 import { ChakraProvider, Box } from '@chakra-ui/react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import ArticlePage from '../ArticlePage/ArticlePage';
 import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
@@ -25,6 +25,7 @@ function App() {
         <NavBar />
         <Box flex="1">
           <Routes>
+            <Route path="/index.html" element={<Navigate to="/" replace />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/memify" element={<MemifyPage />} />
             <Route path="/career" element={<MyCareerPage />} />
