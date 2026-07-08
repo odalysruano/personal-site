@@ -1,7 +1,7 @@
 
 import { Button, HStack, VStack, Text } from '@chakra-ui/react';
 
-export type Filter = 'All' | 'Physical' | 'Audiobook' | 'Literary Fiction' | 'Historical Fiction' | 'Surrealist Fiction' | 'Sci-Fi' | 'Non-Fiction' | 'Thriller' | 'Contemporary Romance' | 'Fantasy' | 'Romantic Comedy' | 'Magical Realism' | 'Family Drama';
+export type Filter = 'All' | 'Physical' | 'Audiobook' | 'Contemporary Fiction' | 'Literary Fiction' | 'Historical Fiction' | 'Surrealist Fiction' | 'Sci-Fi' | 'Non-Fiction' | 'Thriller' | 'Contemporary Romance' | 'Fantasy' | 'Romantic Comedy' | 'Magical Realism' | 'Family Drama' | 'Memoir';
 
 interface FilterControlsProps {
     activeFilter: Filter;
@@ -9,7 +9,7 @@ interface FilterControlsProps {
 }
 
 const formats: Filter[] = ['All', 'Physical', 'Audiobook'];
-const genres: Filter[] = ['Literary Fiction', 'Historical Fiction', 'Surrealist Fiction', 'Sci-Fi', 'Non-Fiction', 'Thriller', 'Contemporary Romance', 'Fantasy', 'Romantic Comedy', 'Magical Realism', 'Family Drama'];
+const genres: Filter[] = ['Contemporary Fiction', 'Literary Fiction', 'Historical Fiction', 'Surrealist Fiction', 'Sci-Fi', 'Non-Fiction', 'Thriller', 'Contemporary Romance', 'Fantasy', 'Romantic Comedy', 'Magical Realism', 'Family Drama', 'Memoir'];
 
 export default function FilterControls({ activeFilter, setActiveFilter }: FilterControlsProps) {
     return (

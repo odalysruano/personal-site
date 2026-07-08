@@ -9,6 +9,7 @@ const summary = [
 ];
 
 export type Genre =
+    | 'Contemporary Fiction'
     | 'Literary Fiction'
     | 'Historical Fiction'
     | 'Surrealist Fiction'
@@ -19,7 +20,8 @@ export type Genre =
     | 'Romantic Comedy'
     | 'Fantasy'
     | 'Magical Realism'
-    | 'Family Drama';
+    | 'Family Drama'
+    | 'Memoir';
 
 export interface BookGalleryItem {
     title: string;
@@ -179,7 +181,7 @@ export const bookGallery: BookGalleryItem[] = [
     {
         title: `Margo's Got Money Troubles`,
         author: 'Rufi Thorpe',
-        genre: ['Literary Fiction'],
+        genre: ['Literary Fiction', 'Contemporary Fiction'],
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/margosgotmoneytroubles.jpeg',
         dateRead: '2026-05-13',
@@ -215,6 +217,54 @@ export const bookGallery: BookGalleryItem[] = [
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/mostardentlyyours.jpeg',
         dateRead: '2026-05-31',
+    },
+    {
+        title: 'The Wedding People',
+        author: 'Alison Espach',
+        genre: ['Contemporary Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/theweddingpeople.jpeg',
+        dateRead: '2026-06-07',
+    },
+    {
+        title: 'Picking Daisies on Sundays',
+        author: 'Liana Cincotti',
+        genre: ['Romantic Comedy', 'Contemporary Romance'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/pickingdaisiesonsundays.jpeg',
+        dateRead: '2026-06-13',
+    },
+    {
+        title: 'The Push',
+        author: 'Ashley Audrain',
+        genre: ['Thriller'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thepush.jpeg',
+        dateRead: '2026-06-17',
+    },
+    {
+        title: 'These Summer Storms',
+        author: 'Sarah MacLean',
+        genre: ['Contemporary Fiction', 'Literary Fiction', 'Family Drama', 'Contemporary Romance'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thesesummerstorms.jpeg',
+        dateRead: '2026-06-24',
+    },
+    {
+        title: 'This Is Me: A Reckoning',
+        author: 'Hayden Panettiere',
+        genre: ['Memoir'],
+        format: 'Audiobook',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thisisme.jpeg',
+        dateRead: '2026-06-25',
+    },
+    {
+        title: 'The Summer Pact',
+        author: 'Emily Giffin',
+        genre: ['Contemporary Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thesummerpact.jpeg',
+        dateRead: '2026-06-28',
     },
 ];
 
