@@ -147,7 +147,7 @@ export default function Career() {
             <VStack spacing={4} py={8}>
                 <Button
                     as="a"
-                    href="https://drive.google.com/file/d/1m6-o_HGHxKMtwcMB4VHq-7LFpiSqVWqs/view?usp=sharing"
+                    href="https://drive.google.com/file/d/15c4EGXaxvR-v_OHAgWtrrUp7aKahEmG3/view?usp=sharing"
                     target="_blank"
                     size="lg"
                     bg='#FC6A80'
