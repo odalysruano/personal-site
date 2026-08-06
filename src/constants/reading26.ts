@@ -13,6 +13,7 @@ export type Genre =
     | 'Literary Fiction'
     | 'Historical Fiction'
     | 'Surrealist Fiction'
+    | 'Cozy Fiction'
     | 'Sci-Fi'
     | 'Non-Fiction'
     | 'Thriller'
@@ -265,6 +266,46 @@ export const bookGallery: BookGalleryItem[] = [
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thesummerpact.jpeg',
         dateRead: '2026-06-28',
+    },
+    {
+        title: 'Intermezzo',
+        author: 'Sally Rooney',
+        genre: ['Literary Fiction', 'Contemporary Fiction', 'Family Drama'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/intermezzo.jpg',
+        dateRead: '2026-07-10',
+    },
+    {
+        title: 'The Summer Girlfriend',
+        author: 'Kristina Forest',
+        genre: ['Contemporary Romance', 'Romantic Comedy'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thesummergirlfriend.jpg',
+        dateRead: '2026-07-18',
+    },
+    {
+        title: `We'll Prescribe You a Cat`,
+        author: 'Syou Ishida',
+        genre: ['Contemporary Fiction', 'Magical Realism', 'Cozy Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/wellprescribeyouacat.jpg',
+        dateRead: '2026-07-21',
+    },
+    {
+        title: 'Salty',
+        author: 'Kate Myers',
+        genre: ['Contemporary Fiction', 'Thriller'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/salty.jpg',
+        dateRead: '2026-07-28',
+    },
+    {
+        title: 'Summer in the City',
+        author: 'Alex Aster',
+        genre: ['Contemporary Romance', 'Romantic Comedy'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/summerinthecity.jpg',
+        dateRead: '2026-08-01',
     },
 ];
 
