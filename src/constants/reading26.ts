@@ -17,6 +17,7 @@ export type Genre =
     | 'Sci-Fi'
     | 'Non-Fiction'
     | 'Thriller'
+    | 'Mystery'
     | 'Contemporary Romance'
     | 'Romantic Comedy'
     | 'Fantasy'
@@ -38,7 +39,7 @@ export const bookGallery: BookGalleryItem[] = [
     {
         title: 'Westport',
         author: 'James Comey',
-        genre: ['Thriller'],
+        genre: ['Thriller', 'Mystery'],
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/westport.jpeg',
         dateRead: '2026-01-11',
@@ -294,7 +295,7 @@ export const bookGallery: BookGalleryItem[] = [
     {
         title: 'Salty',
         author: 'Kate Myers',
-        genre: ['Contemporary Fiction', 'Thriller'],
+        genre: ['Contemporary Fiction', 'Thriller', 'Mystery'],
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/salty.jpg',
         dateRead: '2026-07-28',
@@ -306,6 +307,54 @@ export const bookGallery: BookGalleryItem[] = [
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/summerinthecity.jpg',
         dateRead: '2026-08-01',
+    },
+    {
+        title: 'The Hunting Wives',
+        author: 'May Cobb',
+        genre: ['Thriller', 'Mystery'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thehuntingwives.jpg',
+        dateRead: '2026-08-07',
+    },
+    {
+        title: `Phoebe Berman's Gonna Lose It`,
+        author: 'Brooke Averick',
+        genre: ['Contemporary Romance', 'Romantic Comedy'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/phoebeberman.jpg',
+        dateRead: '2026-08-11',
+    },
+    {
+        title: 'Kitchen Confidential: Adventures in the Culinary Underbelly',
+        author: 'Anthony Bourdain',
+        genre: ['Memoir', 'Non-Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/kitchenconfidential.jpg',
+        dateRead: '2026-08-18',
+    },
+    {
+        title: 'Harry Potter and the Half-Blood Prince',
+        author: 'J. K. Rowling',
+        genre: ['Fantasy'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/harrypotterandthehalfbloodprince.jpg',
+        dateRead: '2026-08-26',
+    },
+    {
+        title: 'Tell Me Everything',
+        author: 'Elizabeth Strout',
+        genre: ['Literary Fiction', 'Contemporary Fiction', 'Mystery'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/tellmeeverything.jpg',
+        dateRead: '2026-09-04',
+    },
+    {
+        title: 'I Want to Die but I Want to Eat Tteokbokki',
+        author: 'Baek Sehee',
+        genre: ['Memoir'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/iwanttodiebutiwanttoeatt.JPG',
+        dateRead: '2026-09-08',
     },
 ];
 
