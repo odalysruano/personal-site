@@ -356,6 +356,30 @@ export const bookGallery: BookGalleryItem[] = [
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/iwanttodiebutiwanttoeatt.JPG',
         dateRead: '2026-09-08',
     },
+    {
+        title: 'The Light Eaters',
+        author: 'Zoë Schlanger',
+        genre: ['Non-Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/thelighteaters.jpeg',
+        dateRead: '2026-09-18',
+    },
+    {
+        title: 'Human Acts',
+        author: 'Han Kang',
+        genre: ['Historical Fiction', 'Literary Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/humanacts.jpeg',
+        dateRead: '2026-09-25',
+    },
+    {
+        title: 'Home Is Where the Bodies Are',
+        author: 'Jeneva Rose',
+        genre: ['Thriller', 'Mystery'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/homeiswherethebodiesare.jpeg',
+        dateRead: '2026-09-29',
+    },
 ];
 
 
