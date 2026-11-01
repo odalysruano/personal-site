@@ -23,7 +23,8 @@ export type Genre =
     | 'Fantasy'
     | 'Magical Realism'
     | 'Family Drama'
-    | 'Memoir';
+    | 'Memoir'
+    | 'Spiritual Realism';
 
 export interface BookGalleryItem {
     title: string;
@@ -379,6 +380,46 @@ export const bookGallery: BookGalleryItem[] = [
         format: 'Physical',
         coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/homeiswherethebodiesare.jpeg',
         dateRead: '2026-09-29',
+    },
+    {
+        title: 'Sense and Sensibility',
+        author: 'Jane Austen',
+        genre: ['Literary Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/senseandsensibility.jpeg',
+        dateRead: '2026-10-14',
+    },
+    {
+        title: 'The Very Secret Society of Irregular Witches',
+        author: 'Sangu Mandanna',
+        genre: ['Cozy Fiction', 'Fantasy'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/theverysecretsociety.jpeg',
+        dateRead: '2026-10-22',
+    },
+    {
+        title: 'Anything Is Possible',
+        author: 'Elizabeth Strout',
+        genre: ['Literary Fiction', 'Contemporary Fiction'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/anythingispossible.jpeg',
+        dateRead: '2026-10-24',
+    },
+    {
+        title: 'Sometimes I Scare Myself: A Collection of Horror',
+        author: 'Jeneva Rose',
+        genre: ['Thriller', 'Mystery'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/sometimesiscaremyself.jpeg',
+        dateRead: '2026-10-28',
+    },
+    {
+        title: 'Naoyak: A Novel',
+        author: 'Norma Dunning',
+        genre: ['Contemporary Fiction', 'Spiritual Realism'],
+        format: 'Physical',
+        coverUrl: 'https://odalys-ruano-personal-site-media.s3.us-east-1.amazonaws.com/reading26/naoyak.jpeg',
+        dateRead: '2026-10-30',
     },
 ];
 
